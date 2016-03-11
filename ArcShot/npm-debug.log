@@ -1,0 +1,2360 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'bcrypt-nodejs',
+1 verbose cli   'body-parser',
+1 verbose cli   'cookie-parser',
+1 verbose cli   'debug',
+1 verbose cli   'express',
+1 verbose cli   'jade',
+1 verbose cli   'method-override',
+1 verbose cli   'mongoose',
+1 verbose cli   'morgan',
+1 verbose cli   'passport',
+1 verbose cli   'passport-facebook',
+1 verbose cli   'passport-local',
+1 verbose cli   'serve-favicon' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ 'bcrypt-nodejs', null ]
+6 verbose cache add name=undefined spec="bcrypt-nodejs" args=["bcrypt-nodejs",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'bcrypt-nodejs',
+7 verbose parsed url   path: 'bcrypt-nodejs',
+7 verbose parsed url   href: 'bcrypt-nodejs' }
+8 verbose cache add [ 'body-parser@~1.12.0', null ]
+9 verbose cache add name=undefined spec="body-parser@~1.12.0" args=["body-parser@~1.12.0",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'body-parser@~1.12.0',
+10 verbose parsed url   path: 'body-parser@~1.12.0',
+10 verbose parsed url   href: 'body-parser@~1.12.0' }
+11 verbose cache add name="body-parser" spec="~1.12.0" args=["body-parser","~1.12.0"]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: '~1.12.0',
+12 verbose parsed url   path: '~1.12.0',
+12 verbose parsed url   href: '~1.12.0' }
+13 verbose addNamed [ 'body-parser', '~1.12.0' ]
+14 verbose addNamed [ null, '>=1.12.0-0 <1.13.0-0' ]
+15 verbose cache add [ 'cookie-parser@~1.3.4', null ]
+16 verbose cache add name=undefined spec="cookie-parser@~1.3.4" args=["cookie-parser@~1.3.4",null]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: 'cookie-parser@~1.3.4',
+17 verbose parsed url   path: 'cookie-parser@~1.3.4',
+17 verbose parsed url   href: 'cookie-parser@~1.3.4' }
+18 verbose cache add name="cookie-parser" spec="~1.3.4" args=["cookie-parser","~1.3.4"]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: '~1.3.4',
+19 verbose parsed url   path: '~1.3.4',
+19 verbose parsed url   href: '~1.3.4' }
+20 verbose addNamed [ 'cookie-parser', '~1.3.4' ]
+21 verbose addNamed [ null, '>=1.3.4-0 <1.4.0-0' ]
+22 verbose cache add [ 'debug@~2.1.1', null ]
+23 verbose cache add name=undefined spec="debug@~2.1.1" args=["debug@~2.1.1",null]
+24 verbose parsed url { protocol: null,
+24 verbose parsed url   slashes: null,
+24 verbose parsed url   auth: null,
+24 verbose parsed url   host: null,
+24 verbose parsed url   port: null,
+24 verbose parsed url   hostname: null,
+24 verbose parsed url   hash: null,
+24 verbose parsed url   search: null,
+24 verbose parsed url   query: null,
+24 verbose parsed url   pathname: 'debug@~2.1.1',
+24 verbose parsed url   path: 'debug@~2.1.1',
+24 verbose parsed url   href: 'debug@~2.1.1' }
+25 verbose cache add name="debug" spec="~2.1.1" args=["debug","~2.1.1"]
+26 verbose parsed url { protocol: null,
+26 verbose parsed url   slashes: null,
+26 verbose parsed url   auth: null,
+26 verbose parsed url   host: null,
+26 verbose parsed url   port: null,
+26 verbose parsed url   hostname: null,
+26 verbose parsed url   hash: null,
+26 verbose parsed url   search: null,
+26 verbose parsed url   query: null,
+26 verbose parsed url   pathname: '~2.1.1',
+26 verbose parsed url   path: '~2.1.1',
+26 verbose parsed url   href: '~2.1.1' }
+27 verbose addNamed [ 'debug', '~2.1.1' ]
+28 verbose addNamed [ null, '>=2.1.1-0 <2.2.0-0' ]
+29 verbose cache add [ 'express@~4.12.2', null ]
+30 verbose cache add name=undefined spec="express@~4.12.2" args=["express@~4.12.2",null]
+31 verbose parsed url { protocol: null,
+31 verbose parsed url   slashes: null,
+31 verbose parsed url   auth: null,
+31 verbose parsed url   host: null,
+31 verbose parsed url   port: null,
+31 verbose parsed url   hostname: null,
+31 verbose parsed url   hash: null,
+31 verbose parsed url   search: null,
+31 verbose parsed url   query: null,
+31 verbose parsed url   pathname: 'express@~4.12.2',
+31 verbose parsed url   path: 'express@~4.12.2',
+31 verbose parsed url   href: 'express@~4.12.2' }
+32 verbose cache add name="express" spec="~4.12.2" args=["express","~4.12.2"]
+33 verbose parsed url { protocol: null,
+33 verbose parsed url   slashes: null,
+33 verbose parsed url   auth: null,
+33 verbose parsed url   host: null,
+33 verbose parsed url   port: null,
+33 verbose parsed url   hostname: null,
+33 verbose parsed url   hash: null,
+33 verbose parsed url   search: null,
+33 verbose parsed url   query: null,
+33 verbose parsed url   pathname: '~4.12.2',
+33 verbose parsed url   path: '~4.12.2',
+33 verbose parsed url   href: '~4.12.2' }
+34 verbose addNamed [ 'express', '~4.12.2' ]
+35 verbose addNamed [ null, '>=4.12.2-0 <4.13.0-0' ]
+36 verbose cache add [ 'jade@~1.9.2', null ]
+37 verbose cache add name=undefined spec="jade@~1.9.2" args=["jade@~1.9.2",null]
+38 verbose parsed url { protocol: null,
+38 verbose parsed url   slashes: null,
+38 verbose parsed url   auth: null,
+38 verbose parsed url   host: null,
+38 verbose parsed url   port: null,
+38 verbose parsed url   hostname: null,
+38 verbose parsed url   hash: null,
+38 verbose parsed url   search: null,
+38 verbose parsed url   query: null,
+38 verbose parsed url   pathname: 'jade@~1.9.2',
+38 verbose parsed url   path: 'jade@~1.9.2',
+38 verbose parsed url   href: 'jade@~1.9.2' }
+39 verbose cache add name="jade" spec="~1.9.2" args=["jade","~1.9.2"]
+40 verbose parsed url { protocol: null,
+40 verbose parsed url   slashes: null,
+40 verbose parsed url   auth: null,
+40 verbose parsed url   host: null,
+40 verbose parsed url   port: null,
+40 verbose parsed url   hostname: null,
+40 verbose parsed url   hash: null,
+40 verbose parsed url   search: null,
+40 verbose parsed url   query: null,
+40 verbose parsed url   pathname: '~1.9.2',
+40 verbose parsed url   path: '~1.9.2',
+40 verbose parsed url   href: '~1.9.2' }
+41 verbose addNamed [ 'jade', '~1.9.2' ]
+42 verbose addNamed [ null, '>=1.9.2-0 <1.10.0-0' ]
+43 verbose cache add [ 'method-override@~2.3.5', null ]
+44 verbose cache add name=undefined spec="method-override@~2.3.5" args=["method-override@~2.3.5",null]
+45 verbose parsed url { protocol: null,
+45 verbose parsed url   slashes: null,
+45 verbose parsed url   auth: null,
+45 verbose parsed url   host: null,
+45 verbose parsed url   port: null,
+45 verbose parsed url   hostname: null,
+45 verbose parsed url   hash: null,
+45 verbose parsed url   search: null,
+45 verbose parsed url   query: null,
+45 verbose parsed url   pathname: 'method-override@~2.3.5',
+45 verbose parsed url   path: 'method-override@~2.3.5',
+45 verbose parsed url   href: 'method-override@~2.3.5' }
+46 verbose cache add name="method-override" spec="~2.3.5" args=["method-override","~2.3.5"]
+47 verbose parsed url { protocol: null,
+47 verbose parsed url   slashes: null,
+47 verbose parsed url   auth: null,
+47 verbose parsed url   host: null,
+47 verbose parsed url   port: null,
+47 verbose parsed url   hostname: null,
+47 verbose parsed url   hash: null,
+47 verbose parsed url   search: null,
+47 verbose parsed url   query: null,
+47 verbose parsed url   pathname: '~2.3.5',
+47 verbose parsed url   path: '~2.3.5',
+47 verbose parsed url   href: '~2.3.5' }
+48 verbose addNamed [ 'method-override', '~2.3.5' ]
+49 verbose addNamed [ null, '>=2.3.5-0 <2.4.0-0' ]
+50 verbose cache add [ 'mongoose@~3.6.2', null ]
+51 verbose cache add name=undefined spec="mongoose@~3.6.2" args=["mongoose@~3.6.2",null]
+52 verbose parsed url { protocol: null,
+52 verbose parsed url   slashes: null,
+52 verbose parsed url   auth: null,
+52 verbose parsed url   host: null,
+52 verbose parsed url   port: null,
+52 verbose parsed url   hostname: null,
+52 verbose parsed url   hash: null,
+52 verbose parsed url   search: null,
+52 verbose parsed url   query: null,
+52 verbose parsed url   pathname: 'mongoose@~3.6.2',
+52 verbose parsed url   path: 'mongoose@~3.6.2',
+52 verbose parsed url   href: 'mongoose@~3.6.2' }
+53 verbose cache add name="mongoose" spec="~3.6.2" args=["mongoose","~3.6.2"]
+54 verbose parsed url { protocol: null,
+54 verbose parsed url   slashes: null,
+54 verbose parsed url   auth: null,
+54 verbose parsed url   host: null,
+54 verbose parsed url   port: null,
+54 verbose parsed url   hostname: null,
+54 verbose parsed url   hash: null,
+54 verbose parsed url   search: null,
+54 verbose parsed url   query: null,
+54 verbose parsed url   pathname: '~3.6.2',
+54 verbose parsed url   path: '~3.6.2',
+54 verbose parsed url   href: '~3.6.2' }
+55 verbose addNamed [ 'mongoose', '~3.6.2' ]
+56 verbose addNamed [ null, '>=3.6.2-0 <3.7.0-0' ]
+57 verbose cache add [ 'morgan@~1.5.1', null ]
+58 verbose cache add name=undefined spec="morgan@~1.5.1" args=["morgan@~1.5.1",null]
+59 verbose parsed url { protocol: null,
+59 verbose parsed url   slashes: null,
+59 verbose parsed url   auth: null,
+59 verbose parsed url   host: null,
+59 verbose parsed url   port: null,
+59 verbose parsed url   hostname: null,
+59 verbose parsed url   hash: null,
+59 verbose parsed url   search: null,
+59 verbose parsed url   query: null,
+59 verbose parsed url   pathname: 'morgan@~1.5.1',
+59 verbose parsed url   path: 'morgan@~1.5.1',
+59 verbose parsed url   href: 'morgan@~1.5.1' }
+60 verbose cache add name="morgan" spec="~1.5.1" args=["morgan","~1.5.1"]
+61 verbose parsed url { protocol: null,
+61 verbose parsed url   slashes: null,
+61 verbose parsed url   auth: null,
+61 verbose parsed url   host: null,
+61 verbose parsed url   port: null,
+61 verbose parsed url   hostname: null,
+61 verbose parsed url   hash: null,
+61 verbose parsed url   search: null,
+61 verbose parsed url   query: null,
+61 verbose parsed url   pathname: '~1.5.1',
+61 verbose parsed url   path: '~1.5.1',
+61 verbose parsed url   href: '~1.5.1' }
+62 verbose addNamed [ 'morgan', '~1.5.1' ]
+63 verbose addNamed [ null, '>=1.5.1-0 <1.6.0-0' ]
+64 verbose cache add [ 'passport', null ]
+65 verbose cache add name=undefined spec="passport" args=["passport",null]
+66 verbose parsed url { protocol: null,
+66 verbose parsed url   slashes: null,
+66 verbose parsed url   auth: null,
+66 verbose parsed url   host: null,
+66 verbose parsed url   port: null,
+66 verbose parsed url   hostname: null,
+66 verbose parsed url   hash: null,
+66 verbose parsed url   search: null,
+66 verbose parsed url   query: null,
+66 verbose parsed url   pathname: 'passport',
+66 verbose parsed url   path: 'passport',
+66 verbose parsed url   href: 'passport' }
+67 verbose cache add [ 'passport-facebook', null ]
+68 verbose cache add name=undefined spec="passport-facebook" args=["passport-facebook",null]
+69 verbose parsed url { protocol: null,
+69 verbose parsed url   slashes: null,
+69 verbose parsed url   auth: null,
+69 verbose parsed url   host: null,
+69 verbose parsed url   port: null,
+69 verbose parsed url   hostname: null,
+69 verbose parsed url   hash: null,
+69 verbose parsed url   search: null,
+69 verbose parsed url   query: null,
+69 verbose parsed url   pathname: 'passport-facebook',
+69 verbose parsed url   path: 'passport-facebook',
+69 verbose parsed url   href: 'passport-facebook' }
+70 verbose cache add [ 'passport-local', null ]
+71 verbose cache add name=undefined spec="passport-local" args=["passport-local",null]
+72 verbose parsed url { protocol: null,
+72 verbose parsed url   slashes: null,
+72 verbose parsed url   auth: null,
+72 verbose parsed url   host: null,
+72 verbose parsed url   port: null,
+72 verbose parsed url   hostname: null,
+72 verbose parsed url   hash: null,
+72 verbose parsed url   search: null,
+72 verbose parsed url   query: null,
+72 verbose parsed url   pathname: 'passport-local',
+72 verbose parsed url   path: 'passport-local',
+72 verbose parsed url   href: 'passport-local' }
+73 verbose cache add [ 'serve-favicon@~2.2.0', null ]
+74 verbose cache add name=undefined spec="serve-favicon@~2.2.0" args=["serve-favicon@~2.2.0",null]
+75 verbose parsed url { protocol: null,
+75 verbose parsed url   slashes: null,
+75 verbose parsed url   auth: null,
+75 verbose parsed url   host: null,
+75 verbose parsed url   port: null,
+75 verbose parsed url   hostname: null,
+75 verbose parsed url   hash: null,
+75 verbose parsed url   search: null,
+75 verbose parsed url   query: null,
+75 verbose parsed url   pathname: 'serve-favicon@~2.2.0',
+75 verbose parsed url   path: 'serve-favicon@~2.2.0',
+75 verbose parsed url   href: 'serve-favicon@~2.2.0' }
+76 verbose cache add name="serve-favicon" spec="~2.2.0" args=["serve-favicon","~2.2.0"]
+77 verbose parsed url { protocol: null,
+77 verbose parsed url   slashes: null,
+77 verbose parsed url   auth: null,
+77 verbose parsed url   host: null,
+77 verbose parsed url   port: null,
+77 verbose parsed url   hostname: null,
+77 verbose parsed url   hash: null,
+77 verbose parsed url   search: null,
+77 verbose parsed url   query: null,
+77 verbose parsed url   pathname: '~2.2.0',
+77 verbose parsed url   path: '~2.2.0',
+77 verbose parsed url   href: '~2.2.0' }
+78 verbose addNamed [ 'serve-favicon', '~2.2.0' ]
+79 verbose addNamed [ null, '>=2.2.0-0 <2.3.0-0' ]
+80 silly lockFile 6c6947cd-bcrypt-nodejs bcrypt-nodejs
+81 verbose lock bcrypt-nodejs /home/jordan/.npm/6c6947cd-bcrypt-nodejs.lock
+82 silly lockFile 6121e062-body-parser-1-12-0 body-parser@~1.12.0
+83 verbose lock body-parser@~1.12.0 /home/jordan/.npm/6121e062-body-parser-1-12-0.lock
+84 silly lockFile bb69fa92-cookie-parser-1-3-4 cookie-parser@~1.3.4
+85 verbose lock cookie-parser@~1.3.4 /home/jordan/.npm/bb69fa92-cookie-parser-1-3-4.lock
+86 silly lockFile 09d11068-debug-2-1-1 debug@~2.1.1
+87 verbose lock debug@~2.1.1 /home/jordan/.npm/09d11068-debug-2-1-1.lock
+88 silly lockFile 702f5120-express-4-12-2 express@~4.12.2
+89 verbose lock express@~4.12.2 /home/jordan/.npm/702f5120-express-4-12-2.lock
+90 silly lockFile ee522cbd-jade-1-9-2 jade@~1.9.2
+91 verbose lock jade@~1.9.2 /home/jordan/.npm/ee522cbd-jade-1-9-2.lock
+92 silly lockFile 99488f6d-method-override-2-3-5 method-override@~2.3.5
+93 verbose lock method-override@~2.3.5 /home/jordan/.npm/99488f6d-method-override-2-3-5.lock
+94 silly lockFile 96ad86c1-mongoose-3-6-2 mongoose@~3.6.2
+95 verbose lock mongoose@~3.6.2 /home/jordan/.npm/96ad86c1-mongoose-3-6-2.lock
+96 silly lockFile 66ba047d-morgan-1-5-1 morgan@~1.5.1
+97 verbose lock morgan@~1.5.1 /home/jordan/.npm/66ba047d-morgan-1-5-1.lock
+98 silly lockFile a3404013-passport passport
+99 verbose lock passport /home/jordan/.npm/a3404013-passport.lock
+100 silly lockFile 1f112557-passport-facebook passport-facebook
+101 verbose lock passport-facebook /home/jordan/.npm/1f112557-passport-facebook.lock
+102 silly lockFile defa4f15-passport-local passport-local
+103 verbose lock passport-local /home/jordan/.npm/defa4f15-passport-local.lock
+104 silly lockFile 9df5bad7-serve-favicon-2-2-0 serve-favicon@~2.2.0
+105 verbose lock serve-favicon@~2.2.0 /home/jordan/.npm/9df5bad7-serve-favicon-2-2-0.lock
+106 silly addNameRange { name: 'body-parser',
+106 silly addNameRange   range: '>=1.12.0-0 <1.13.0-0',
+106 silly addNameRange   hasData: false }
+107 silly addNameRange { name: 'cookie-parser',
+107 silly addNameRange   range: '>=1.3.4-0 <1.4.0-0',
+107 silly addNameRange   hasData: false }
+108 silly addNameRange { name: 'debug', range: '>=2.1.1-0 <2.2.0-0', hasData: false }
+109 silly addNameRange { name: 'express',
+109 silly addNameRange   range: '>=4.12.2-0 <4.13.0-0',
+109 silly addNameRange   hasData: false }
+110 silly addNameRange { name: 'jade', range: '>=1.9.2-0 <1.10.0-0', hasData: false }
+111 silly addNameRange { name: 'method-override',
+111 silly addNameRange   range: '>=2.3.5-0 <2.4.0-0',
+111 silly addNameRange   hasData: false }
+112 silly addNameRange { name: 'mongoose', range: '>=3.6.2-0 <3.7.0-0', hasData: false }
+113 silly addNameRange { name: 'morgan', range: '>=1.5.1-0 <1.6.0-0', hasData: false }
+114 silly addNameRange { name: 'serve-favicon',
+114 silly addNameRange   range: '>=2.2.0-0 <2.3.0-0',
+114 silly addNameRange   hasData: false }
+115 silly lockFile 6c6947cd-bcrypt-nodejs bcrypt-nodejs
+116 silly lockFile 6c6947cd-bcrypt-nodejs bcrypt-nodejs
+117 silly lockFile a3404013-passport passport
+118 silly lockFile a3404013-passport passport
+119 silly lockFile 1f112557-passport-facebook passport-facebook
+120 silly lockFile 1f112557-passport-facebook passport-facebook
+121 silly lockFile defa4f15-passport-local passport-local
+122 silly lockFile defa4f15-passport-local passport-local
+123 verbose addNamed [ 'bcrypt-nodejs', '' ]
+124 verbose addNamed [ null, '*' ]
+125 silly lockFile a68af524-bcrypt-nodejs bcrypt-nodejs@
+126 verbose lock bcrypt-nodejs@ /home/jordan/.npm/a68af524-bcrypt-nodejs.lock
+127 verbose addNamed [ 'passport', '' ]
+128 verbose addNamed [ null, '*' ]
+129 silly lockFile d5a254c4-passport passport@
+130 verbose lock passport@ /home/jordan/.npm/d5a254c4-passport.lock
+131 verbose addNamed [ 'passport-facebook', '' ]
+132 verbose addNamed [ null, '*' ]
+133 silly lockFile d48e7760-passport-facebook passport-facebook@
+134 verbose lock passport-facebook@ /home/jordan/.npm/d48e7760-passport-facebook.lock
+135 verbose addNamed [ 'passport-local', '' ]
+136 verbose addNamed [ null, '*' ]
+137 silly lockFile 20688a51-passport-local passport-local@
+138 verbose lock passport-local@ /home/jordan/.npm/20688a51-passport-local.lock
+139 silly addNameRange { name: 'bcrypt-nodejs', range: '*', hasData: false }
+140 silly addNameRange { name: 'passport', range: '*', hasData: false }
+141 silly addNameRange { name: 'passport-facebook', range: '*', hasData: false }
+142 silly addNameRange { name: 'passport-local', range: '*', hasData: false }
+143 verbose url raw body-parser
+144 verbose url resolving [ 'https://registry.npmjs.org/', './body-parser' ]
+145 verbose url resolved https://registry.npmjs.org/body-parser
+146 info trying registry request attempt 1 at 23:49:02
+147 verbose etag "8P4T96M81I85KLN229FJ0WFVJ"
+148 http GET https://registry.npmjs.org/body-parser
+149 verbose url raw cookie-parser
+150 verbose url resolving [ 'https://registry.npmjs.org/', './cookie-parser' ]
+151 verbose url resolved https://registry.npmjs.org/cookie-parser
+152 info trying registry request attempt 1 at 23:49:02
+153 verbose etag "3B19VUZZP8RK4MY4JWOBU0CYH"
+154 http GET https://registry.npmjs.org/cookie-parser
+155 verbose url raw debug
+156 verbose url resolving [ 'https://registry.npmjs.org/', './debug' ]
+157 verbose url resolved https://registry.npmjs.org/debug
+158 info trying registry request attempt 1 at 23:49:02
+159 verbose etag "64W8CZSNCPFG85LSNW37SM9WK"
+160 http GET https://registry.npmjs.org/debug
+161 verbose url raw express
+162 verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+163 verbose url resolved https://registry.npmjs.org/express
+164 info trying registry request attempt 1 at 23:49:03
+165 verbose etag "EAN95V3K9ARLQSCHUW58ES2YW"
+166 http GET https://registry.npmjs.org/express
+167 verbose url raw morgan
+168 verbose url resolving [ 'https://registry.npmjs.org/', './morgan' ]
+169 verbose url resolved https://registry.npmjs.org/morgan
+170 info trying registry request attempt 1 at 23:49:03
+171 verbose etag "103BVSA4FR5ILPE12R7W2DKDT"
+172 http GET https://registry.npmjs.org/morgan
+173 verbose url raw serve-favicon
+174 verbose url resolving [ 'https://registry.npmjs.org/', './serve-favicon' ]
+175 verbose url resolved https://registry.npmjs.org/serve-favicon
+176 info trying registry request attempt 1 at 23:49:03
+177 verbose etag "2JR1VRSB90S7X148M9UFOCAOT"
+178 http GET https://registry.npmjs.org/serve-favicon
+179 verbose url raw jade
+180 verbose url resolving [ 'https://registry.npmjs.org/', './jade' ]
+181 verbose url resolved https://registry.npmjs.org/jade
+182 info trying registry request attempt 1 at 23:49:03
+183 verbose etag "20OZ1YOXDC0HRC445Z8TWD1X7"
+184 http GET https://registry.npmjs.org/jade
+185 verbose url raw bcrypt-nodejs
+186 verbose url resolving [ 'https://registry.npmjs.org/', './bcrypt-nodejs' ]
+187 verbose url resolved https://registry.npmjs.org/bcrypt-nodejs
+188 info trying registry request attempt 1 at 23:49:03
+189 verbose etag "8MGPEQYO8B6LTQELJSNNC2X6T"
+190 http GET https://registry.npmjs.org/bcrypt-nodejs
+191 verbose url raw passport
+192 verbose url resolving [ 'https://registry.npmjs.org/', './passport' ]
+193 verbose url resolved https://registry.npmjs.org/passport
+194 info trying registry request attempt 1 at 23:49:03
+195 verbose etag "19IRY81UIP7PAACUAEGVJY80C"
+196 http GET https://registry.npmjs.org/passport
+197 verbose url raw passport-local
+198 verbose url resolving [ 'https://registry.npmjs.org/', './passport-local' ]
+199 verbose url resolved https://registry.npmjs.org/passport-local
+200 info trying registry request attempt 1 at 23:49:03
+201 verbose etag "E5VCCL6QV8RPFRNTBN6Y6UXLI"
+202 http GET https://registry.npmjs.org/passport-local
+203 verbose url raw passport-facebook
+204 verbose url resolving [ 'https://registry.npmjs.org/', './passport-facebook' ]
+205 verbose url resolved https://registry.npmjs.org/passport-facebook
+206 info trying registry request attempt 1 at 23:49:03
+207 verbose etag "DW4U7MOS15C3WEOCM28ZRHT9A"
+208 http GET https://registry.npmjs.org/passport-facebook
+209 verbose url raw method-override
+210 verbose url resolving [ 'https://registry.npmjs.org/', './method-override' ]
+211 verbose url resolved https://registry.npmjs.org/method-override
+212 info trying registry request attempt 1 at 23:49:03
+213 verbose etag "B5KEM8JMG2Y7LGKUWTIG8QTB9"
+214 http GET https://registry.npmjs.org/method-override
+215 verbose url raw mongoose
+216 verbose url resolving [ 'https://registry.npmjs.org/', './mongoose' ]
+217 verbose url resolved https://registry.npmjs.org/mongoose
+218 info trying registry request attempt 1 at 23:49:03
+219 verbose etag "421AO2C4IJWBX7ZG1PC1LQ63W"
+220 http GET https://registry.npmjs.org/mongoose
+221 http 304 https://registry.npmjs.org/morgan
+222 silly registry.get cb [ 304,
+222 silly registry.get   { date: 'Fri, 11 Mar 2016 06:49:03 GMT',
+222 silly registry.get     via: '1.1 varnish',
+222 silly registry.get     'cache-control': 'max-age=300',
+222 silly registry.get     etag: '"103BVSA4FR5ILPE12R7W2DKDT"',
+222 silly registry.get     age: '197',
+222 silly registry.get     connection: 'keep-alive',
+222 silly registry.get     'x-served-by': 'cache-dfw1833-DFW',
+222 silly registry.get     'x-cache': 'HIT',
+222 silly registry.get     'x-cache-hits': '3',
+222 silly registry.get     'x-timer': 'S1457678943.538251,VS0,VE0',
+222 silly registry.get     vary: 'Accept' } ]
+223 verbose etag morgan from cache
+224 http 304 https://registry.npmjs.org/body-parser
+225 silly registry.get cb [ 304,
+225 silly registry.get   { date: 'Fri, 11 Mar 2016 06:49:03 GMT',
+225 silly registry.get     via: '1.1 varnish',
+225 silly registry.get     'cache-control': 'max-age=300',
+225 silly registry.get     etag: '"8P4T96M81I85KLN229FJ0WFVJ"',
+225 silly registry.get     age: '275',
+225 silly registry.get     connection: 'keep-alive',
+225 silly registry.get     'x-served-by': 'cache-dfw1832-DFW',
+225 silly registry.get     'x-cache': 'HIT',
+225 silly registry.get     'x-cache-hits': '1',
+225 silly registry.get     'x-timer': 'S1457678943.548926,VS0,VE0',
+225 silly registry.get     vary: 'Accept' } ]
+226 verbose etag body-parser from cache
+227 http 304 https://registry.npmjs.org/express
+228 silly registry.get cb [ 304,
+228 silly registry.get   { date: 'Fri, 11 Mar 2016 06:49:03 GMT',
+228 silly registry.get     via: '1.1 varnish',
+228 silly registry.get     'cache-control': 'max-age=300',
+228 silly registry.get     etag: '"EAN95V3K9ARLQSCHUW58ES2YW"',
+228 silly registry.get     age: '54',
+228 silly registry.get     connection: 'keep-alive',
+228 silly registry.get     'x-served-by': 'cache-dfw1839-DFW',
+228 silly registry.get     'x-cache': 'HIT',
+228 silly registry.get     'x-cache-hits': '1',
+228 silly registry.get     'x-timer': 'S1457678943.541362,VS0,VE1',
+228 silly registry.get     vary: 'Accept' } ]
+229 verbose etag express from cache
+230 http 304 https://registry.npmjs.org/cookie-parser
+231 silly registry.get cb [ 304,
+231 silly registry.get   { date: 'Fri, 11 Mar 2016 06:49:03 GMT',
+231 silly registry.get     via: '1.1 varnish',
+231 silly registry.get     'cache-control': 'max-age=300',
+231 silly registry.get     etag: '"3B19VUZZP8RK4MY4JWOBU0CYH"',
+231 silly registry.get     age: '37',
+231 silly registry.get     connection: 'keep-alive',
+231 silly registry.get     'x-served-by': 'cache-dfw1846-DFW',
+231 silly registry.get     'x-cache': 'HIT',
+231 silly registry.get     'x-cache-hits': '1',
+231 silly registry.get     'x-timer': 'S1457678943.549625,VS0,VE0',
+231 silly registry.get     vary: 'Accept' } ]
+232 verbose etag cookie-parser from cache
+233 silly addNameRange number 2 { name: 'morgan', range: '>=1.5.1-0 <1.6.0-0', hasData: true }
+234 silly addNameRange versions [ 'morgan',
+234 silly addNameRange   [ '1.0.0',
+234 silly addNameRange     '1.0.1',
+234 silly addNameRange     '1.1.0',
+234 silly addNameRange     '1.1.1',
+234 silly addNameRange     '1.2.0',
+234 silly addNameRange     '1.2.1',
+234 silly addNameRange     '1.2.2',
+234 silly addNameRange     '1.2.3',
+234 silly addNameRange     '1.3.0',
+234 silly addNameRange     '1.3.1',
+234 silly addNameRange     '1.3.2',
+234 silly addNameRange     '1.4.0',
+234 silly addNameRange     '1.4.1',
+234 silly addNameRange     '1.5.0',
+234 silly addNameRange     '1.5.1',
+234 silly addNameRange     '1.5.2',
+234 silly addNameRange     '1.5.3',
+234 silly addNameRange     '1.6.0',
+234 silly addNameRange     '1.6.1',
+234 silly addNameRange     '1.7.0' ] ]
+235 verbose addNamed [ 'morgan', '1.5.3' ]
+236 verbose addNamed [ '1.5.3', '1.5.3' ]
+237 silly lockFile 012ce855-morgan-1-5-3 morgan@1.5.3
+238 verbose lock morgan@1.5.3 /home/jordan/.npm/012ce855-morgan-1-5-3.lock
+239 silly addNameRange number 2 { name: 'cookie-parser',
+239 silly addNameRange   range: '>=1.3.4-0 <1.4.0-0',
+239 silly addNameRange   hasData: true }
+240 silly addNameRange versions [ 'cookie-parser',
+240 silly addNameRange   [ '1.0.0',
+240 silly addNameRange     '1.0.1',
+240 silly addNameRange     '1.1.0',
+240 silly addNameRange     '1.2.0',
+240 silly addNameRange     '1.3.0',
+240 silly addNameRange     '1.3.1',
+240 silly addNameRange     '1.3.2',
+240 silly addNameRange     '1.3.3',
+240 silly addNameRange     '1.3.4',
+240 silly addNameRange     '1.3.5',
+240 silly addNameRange     '1.4.0',
+240 silly addNameRange     '1.4.1' ] ]
+241 verbose addNamed [ 'cookie-parser', '1.3.5' ]
+242 verbose addNamed [ '1.3.5', '1.3.5' ]
+243 silly lockFile b6f1abc3-cookie-parser-1-3-5 cookie-parser@1.3.5
+244 verbose lock cookie-parser@1.3.5 /home/jordan/.npm/b6f1abc3-cookie-parser-1-3-5.lock
+245 silly addNameRange number 2 { name: 'body-parser',
+245 silly addNameRange   range: '>=1.12.0-0 <1.13.0-0',
+245 silly addNameRange   hasData: true }
+246 silly addNameRange versions [ 'body-parser',
+246 silly addNameRange   [ '1.0.0',
+246 silly addNameRange     '1.0.1',
+246 silly addNameRange     '1.0.2',
+246 silly addNameRange     '1.1.0',
+246 silly addNameRange     '1.1.1',
+246 silly addNameRange     '1.1.2',
+246 silly addNameRange     '1.2.0',
+246 silly addNameRange     '1.2.1',
+246 silly addNameRange     '1.2.2',
+246 silly addNameRange     '1.3.0',
+246 silly addNameRange     '1.3.1',
+246 silly addNameRange     '1.4.0',
+246 silly addNameRange     '1.4.1',
+246 silly addNameRange     '1.4.2',
+246 silly addNameRange     '1.4.3',
+246 silly addNameRange     '1.5.0',
+246 silly addNameRange     '1.5.1',
+246 silly addNameRange     '1.5.2',
+246 silly addNameRange     '1.6.0',
+246 silly addNameRange     '1.6.1',
+246 silly addNameRange     '1.6.2',
+246 silly addNameRange     '1.6.3',
+246 silly addNameRange     '1.6.4',
+246 silly addNameRange     '1.6.5',
+246 silly addNameRange     '1.6.6',
+246 silly addNameRange     '1.6.7',
+246 silly addNameRange     '1.7.0',
+246 silly addNameRange     '1.8.0',
+246 silly addNameRange     '1.8.1',
+246 silly addNameRange     '1.8.2',
+246 silly addNameRange     '1.8.3',
+246 silly addNameRange     '1.8.4',
+246 silly addNameRange     '1.9.0',
+246 silly addNameRange     '1.9.1',
+246 silly addNameRange     '1.9.2',
+246 silly addNameRange     '1.9.3',
+246 silly addNameRange     '1.10.0',
+246 silly addNameRange     '1.10.1',
+246 silly addNameRange     '1.10.2',
+246 silly addNameRange     '1.11.0',
+246 silly addNameRange     '1.12.0',
+246 silly addNameRange     '1.12.1',
+246 silly addNameRange     '1.12.2',
+246 silly addNameRange     '1.12.3',
+246 silly addNameRange     '1.12.4',
+246 silly addNameRange     '1.13.0',
+246 silly addNameRange     '1.13.1',
+246 silly addNameRange     '1.13.2',
+246 silly addNameRange     '1.13.3',
+246 silly addNameRange     '1.14.0',
+246 silly addNameRange     '1.14.1',
+246 silly addNameRange     '1.14.2',
+246 silly addNameRange     '1.15.0' ] ]
+247 verbose addNamed [ 'body-parser', '1.12.4' ]
+248 verbose addNamed [ '1.12.4', '1.12.4' ]
+249 silly lockFile b06c8939-body-parser-1-12-4 body-parser@1.12.4
+250 verbose lock body-parser@1.12.4 /home/jordan/.npm/b06c8939-body-parser-1-12-4.lock
+251 silly addNameRange number 2 { name: 'express', range: '>=4.12.2-0 <4.13.0-0', hasData: true }
+252 silly addNameRange versions [ 'express',
+252 silly addNameRange   [ '0.14.0',
+252 silly addNameRange     '0.14.1',
+252 silly addNameRange     '1.0.0',
+252 silly addNameRange     '1.0.1',
+252 silly addNameRange     '1.0.2',
+252 silly addNameRange     '1.0.3',
+252 silly addNameRange     '1.0.4',
+252 silly addNameRange     '1.0.5',
+252 silly addNameRange     '1.0.6',
+252 silly addNameRange     '1.0.7',
+252 silly addNameRange     '1.0.8',
+252 silly addNameRange     '2.0.0',
+252 silly addNameRange     '2.1.0',
+252 silly addNameRange     '2.1.1',
+252 silly addNameRange     '2.2.0',
+252 silly addNameRange     '2.2.1',
+252 silly addNameRange     '2.2.2',
+252 silly addNameRange     '2.3.0',
+252 silly addNameRange     '2.3.1',
+252 silly addNameRange     '2.3.2',
+252 silly addNameRange     '2.3.3',
+252 silly addNameRange     '2.3.4',
+252 silly addNameRange     '2.3.5',
+252 silly addNameRange     '2.3.6',
+252 silly addNameRange     '2.3.7',
+252 silly addNameRange     '2.3.8',
+252 silly addNameRange     '2.3.9',
+252 silly addNameRange     '2.3.10',
+252 silly addNameRange     '2.3.11',
+252 silly addNameRange     '2.3.12',
+252 silly addNameRange     '2.4.0',
+252 silly addNameRange     '2.4.1',
+252 silly addNameRange     '2.4.2',
+252 silly addNameRange     '2.4.3',
+252 silly addNameRange     '2.4.4',
+252 silly addNameRange     '2.4.5',
+252 silly addNameRange     '2.4.6',
+252 silly addNameRange     '2.4.7',
+252 silly addNameRange     '2.5.0',
+252 silly addNameRange     '2.5.1',
+252 silly addNameRange     '2.5.2',
+252 silly addNameRange     '2.5.3',
+252 silly addNameRange     '2.5.4',
+252 silly addNameRange     '2.5.5',
+252 silly addNameRange     '2.5.6',
+252 silly addNameRange     '2.5.7',
+252 silly addNameRange     '2.5.8',
+252 silly addNameRange     '2.5.9',
+252 silly addNameRange     '2.5.10',
+252 silly addNameRange     '2.5.11',
+252 silly addNameRange     '3.0.0',
+252 silly addNameRange     '3.0.1',
+252 silly addNameRange     '3.0.2',
+252 silly addNameRange     '3.0.3',
+252 silly addNameRange     '3.0.4',
+252 silly addNameRange     '3.0.5',
+252 silly addNameRange     '3.0.6',
+252 silly addNameRange     '3.1.0',
+252 silly addNameRange     '3.1.1',
+252 silly addNameRange     '3.1.2',
+252 silly addNameRange     '3.2.0',
+252 silly addNameRange     '3.2.1',
+252 silly addNameRange     '3.2.2',
+252 silly addNameRange     '3.2.3',
+252 silly addNameRange     '3.2.4',
+252 silly addNameRange     '3.2.5',
+252 silly addNameRange     '3.2.6',
+252 silly addNameRange     '3.3.0',
+252 silly addNameRange     '3.3.1',
+252 silly addNameRange     '3.3.2',
+252 silly addNameRange     '3.3.3',
+252 silly addNameRange     '3.3.4',
+252 silly addNameRange     '3.3.5',
+252 silly addNameRange     '3.3.6',
+252 silly addNameRange     '1.0.0-beta',
+252 silly addNameRange     '1.0.0-beta2',
+252 silly addNameRange     '1.0.0-rc',
+252 silly addNameRange     '1.0.0-rc2',
+252 silly addNameRange     '1.0.0-rc3',
+252 silly addNameRange     '1.0.0-rc4',
+252 silly addNameRange     '2.0.0-beta',
+252 silly addNameRange     '2.0.0-beta2',
+252 silly addNameRange     '2.0.0-beta3',
+252 silly addNameRange     '2.0.0-rc',
+252 silly addNameRange     '2.0.0-rc2',
+252 silly addNameRange     '2.0.0-rc3',
+252 silly addNameRange     '3.0.0-alpha1',
+252 silly addNameRange     '3.0.0-alpha2',
+252 silly addNameRange     '3.0.0-alpha3',
+252 silly addNameRange     '3.0.0-alpha4',
+252 silly addNameRange     '3.0.0-alpha5',
+252 silly addNameRange     '3.0.0-beta1',
+252 silly addNameRange     '3.0.0-beta2',
+252 silly addNameRange     '3.0.0-beta3',
+252 silly addNameRange     '3.0.0-beta4',
+252 silly addNameRange     '3.0.0-beta6',
+252 silly addNameRange     '3.0.0-beta7',
+252 silly addNameRange     '3.0.0-rc1',
+252 silly addNameRange     '3.0.0-rc2',
+252 silly addNameRange     '3.0.0-rc3',
+252 silly addNameRange     '3.0.0-rc4',
+252 silly addNameRange     '3.0.0-rc5',
+252 silly addNameRange     '3.3.7',
+252 silly addNameRange     '3.3.8',
+252 silly addNameRange     '3.4.0',
+252 silly addNameRange     '3.4.1',
+252 silly addNameRange     '3.4.2',
+252 silly addNameRange     '3.4.3',
+252 silly addNameRange     '3.4.4',
+252 silly addNameRange     '3.4.5',
+252 silly addNameRange     '3.4.6',
+252 silly addNameRange     '3.4.7',
+252 silly addNameRange     '3.4.8',
+252 silly addNameRange     '4.0.0-rc1',
+252 silly addNameRange     '4.0.0-rc2',
+252 silly addNameRange     '3.5.0',
+252 silly addNameRange     '4.0.0-rc3',
+252 silly addNameRange     '4.0.0-rc4',
+252 silly addNameRange     '3.5.1',
+252 silly addNameRange     '4.0.0',
+252 silly addNameRange     '3.5.2',
+252 silly addNameRange     '4.1.0',
+252 silly addNameRange     '4.1.1',
+252 silly addNameRange     '3.5.3',
+252 silly addNameRange     '4.1.2',
+252 silly addNameRange     '3.6.0',
+252 silly addNameRange     '4.2.0',
+252 silly addNameRange     '3.7.0',
+252 silly addNameRange     '3.8.0',
+252 silly addNameRange     '4.3.0',
+252 silly addNameRange     '4.3.1',
+252 silly addNameRange     '3.8.1',
+252 silly addNameRange     '4.3.2',
+252 silly addNameRange     '3.9.0',
+252 silly addNameRange     '4.4.0',
+252 silly addNameRange     '4.4.1',
+252 silly addNameRange     '3.10.0',
+252 silly addNameRange     '3.10.1',
+252 silly addNameRange     '3.10.2',
+252 silly addNameRange     '3.10.3',
+252 silly addNameRange     '3.10.4',
+252 silly addNameRange     '4.4.2',
+252 silly addNameRange     '3.10.5',
+252 silly addNameRange     '4.4.3',
+252 silly addNameRange     '3.11.0',
+252 silly addNameRange     '4.4.4',
+252 silly addNameRange     '3.12.0',
+252 silly addNameRange     '3.12.1',
+252 silly addNameRange     '4.4.5',
+252 silly addNameRange     '3.13.0',
+252 silly addNameRange     '4.5.0',
+252 silly addNameRange     '4.5.1',
+252 silly addNameRange     '3.14.0',
+252 silly addNameRange     '4.6.0',
+252 silly addNameRange     '4.6.1',
+252 silly addNameRange     '3.15.0',
+252 silly addNameRange     '4.7.0',
+252 silly addNameRange     '3.15.1',
+252 silly addNameRange     '4.7.1',
+252 silly addNameRange     '3.15.2',
+252 silly addNameRange     '4.7.2',
+252 silly addNameRange     '4.7.3',
+252 silly addNameRange     '3.15.3',
+252 silly addNameRange     '4.7.4',
+252 silly addNameRange     '3.16.0',
+252 silly addNameRange     '4.8.0',
+252 silly addNameRange     '3.16.1',
+252 silly addNameRange     '4.8.1',
+252 silly addNameRange     '3.16.2',
+252 silly addNameRange     '4.8.2',
+252 silly addNameRange     '3.16.3',
+252 silly addNameRange     '3.16.4',
+252 silly addNameRange     '4.8.3',
+252 silly addNameRange     '3.16.5',
+252 silly addNameRange     '3.16.6',
+252 silly addNameRange     '4.8.4',
+252 silly addNameRange     '3.16.7',
+252 silly addNameRange     '4.8.5',
+252 silly addNameRange     '3.16.8',
+252 silly addNameRange     '4.8.6',
+252 silly addNameRange     '3.16.9',
+252 silly addNameRange     '4.8.7',
+252 silly addNameRange     '3.16.10',
+252 silly addNameRange     '4.8.8',
+252 silly addNameRange     '3.17.0',
+252 silly addNameRange     '3.17.1',
+252 silly addNameRange     '4.9.0',
+252 silly addNameRange     '3.17.2',
+252 silly addNameRange     '4.9.1',
+252 silly addNameRange     '4.9.2',
+252 silly addNameRange     '3.17.3',
+252 silly addNameRange     '4.9.3',
+252 silly addNameRange     '3.17.4',
+252 silly addNameRange     '4.9.4',
+252 silly addNameRange     '3.17.5',
+252 silly addNameRange     '4.9.5',
+252 silly addNameRange     '3.17.6',
+252 silly addNameRange     '3.17.7',
+252 silly addNameRange     '4.9.6',
+252 silly addNameRange     '4.9.7',
+252 silly addNameRange     '3.17.8',
+252 silly addNameRange     '4.9.8',
+252 silly addNameRange     '3.18.0',
+252 silly addNameRange     '3.18.1',
+252 silly addNameRange     '4.10.0',
+252 silly addNameRange     '3.18.2',
+252 silly addNameRange     '4.10.1',
+252 silly addNameRange     '5.0.0-alpha.1',
+252 silly addNameRange     '3.18.3',
+252 silly addNameRange     '4.10.2',
+252 silly addNameRange     '3.18.4',
+252 silly addNameRange     '4.10.3',
+252 silly addNameRange     '4.10.4',
+252 silly addNameRange     '4.10.5',
+252 silly addNameRange     '3.18.5',
+252 silly addNameRange     '3.18.6',
+252 silly addNameRange     '4.10.6',
+252 silly addNameRange     '4.10.7',
+252 silly addNameRange     '3.19.0',
+252 silly addNameRange     '4.10.8',
+252 silly addNameRange     '4.11.0',
+252 silly addNameRange     '3.19.1',
+252 silly addNameRange     '4.11.1',
+252 silly addNameRange     '3.19.2',
+252 silly addNameRange     '4.11.2',
+252 silly addNameRange     '3.20.0',
+252 silly addNameRange     '4.12.0',
+252 silly addNameRange     '3.20.1',
+252 silly addNameRange     '4.12.1',
+252 silly addNameRange     '4.12.2',
+252 silly addNameRange     '3.20.2',
+252 silly addNameRange     '4.12.3',
+252 silly addNameRange     '3.20.3',
+252 silly addNameRange     '4.12.4',
+252 silly addNameRange     '3.21.0',
+252 silly addNameRange     '4.13.0',
+252 silly addNameRange     '3.21.1',
+252 silly addNameRange     '4.13.1',
+252 silly addNameRange     '5.0.0-alpha.2',
+252 silly addNameRange     '3.21.2',
+252 silly addNameRange     '4.13.2',
+252 silly addNameRange     '4.13.3',
+252 silly addNameRange     '4.13.4' ] ]
+253 verbose addNamed [ 'express', '4.12.4' ]
+254 verbose addNamed [ '4.12.4', '4.12.4' ]
+255 silly lockFile 3b813118-express-4-12-4 express@4.12.4
+256 verbose lock express@4.12.4 /home/jordan/.npm/3b813118-express-4-12-4.lock
+257 silly lockFile b6f1abc3-cookie-parser-1-3-5 cookie-parser@1.3.5
+258 silly lockFile b6f1abc3-cookie-parser-1-3-5 cookie-parser@1.3.5
+259 silly lockFile bb69fa92-cookie-parser-1-3-4 cookie-parser@~1.3.4
+260 silly lockFile bb69fa92-cookie-parser-1-3-4 cookie-parser@~1.3.4
+261 silly lockFile 3b813118-express-4-12-4 express@4.12.4
+262 silly lockFile 3b813118-express-4-12-4 express@4.12.4
+263 silly lockFile 702f5120-express-4-12-2 express@~4.12.2
+264 silly lockFile 702f5120-express-4-12-2 express@~4.12.2
+265 silly lockFile b06c8939-body-parser-1-12-4 body-parser@1.12.4
+266 silly lockFile b06c8939-body-parser-1-12-4 body-parser@1.12.4
+267 silly lockFile 6121e062-body-parser-1-12-0 body-parser@~1.12.0
+268 silly lockFile 6121e062-body-parser-1-12-0 body-parser@~1.12.0
+269 http 304 https://registry.npmjs.org/serve-favicon
+270 silly registry.get cb [ 304,
+270 silly registry.get   { date: 'Fri, 11 Mar 2016 06:49:03 GMT',
+270 silly registry.get     via: '1.1 varnish',
+270 silly registry.get     'cache-control': 'max-age=300',
+270 silly registry.get     etag: '"2JR1VRSB90S7X148M9UFOCAOT"',
+270 silly registry.get     age: '155',
+270 silly registry.get     connection: 'keep-alive',
+270 silly registry.get     'x-served-by': 'cache-dfw1833-DFW',
+270 silly registry.get     'x-cache': 'HIT',
+270 silly registry.get     'x-cache-hits': '1',
+270 silly registry.get     'x-timer': 'S1457678943.652566,VS0,VE0',
+270 silly registry.get     vary: 'Accept' } ]
+271 verbose etag serve-favicon from cache
+272 http 304 https://registry.npmjs.org/jade
+273 silly registry.get cb [ 304,
+273 silly registry.get   { date: 'Fri, 11 Mar 2016 06:49:03 GMT',
+273 silly registry.get     via: '1.1 varnish',
+273 silly registry.get     'cache-control': 'max-age=300',
+273 silly registry.get     etag: '"20OZ1YOXDC0HRC445Z8TWD1X7"',
+273 silly registry.get     age: '18',
+273 silly registry.get     connection: 'keep-alive',
+273 silly registry.get     'x-served-by': 'cache-dfw1832-DFW',
+273 silly registry.get     'x-cache': 'HIT',
+273 silly registry.get     'x-cache-hits': '1',
+273 silly registry.get     'x-timer': 'S1457678943.661893,VS0,VE0',
+273 silly registry.get     vary: 'Accept' } ]
+274 verbose etag jade from cache
+275 http 304 https://registry.npmjs.org/passport
+276 silly registry.get cb [ 304,
+276 silly registry.get   { date: 'Fri, 11 Mar 2016 06:49:03 GMT',
+276 silly registry.get     via: '1.1 varnish',
+276 silly registry.get     'cache-control': 'max-age=300',
+276 silly registry.get     etag: '"19IRY81UIP7PAACUAEGVJY80C"',
+276 silly registry.get     age: '38',
+276 silly registry.get     connection: 'keep-alive',
+276 silly registry.get     'x-served-by': 'cache-dfw1846-DFW',
+276 silly registry.get     'x-cache': 'HIT',
+276 silly registry.get     'x-cache-hits': '1',
+276 silly registry.get     'x-timer': 'S1457678943.666640,VS0,VE0',
+276 silly registry.get     vary: 'Accept' } ]
+277 verbose etag passport from cache
+278 http 200 https://registry.npmjs.org/debug
+279 silly registry.get cb [ 200,
+279 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+279 silly registry.get     etag: '"7I4PNKVC5069TTYEFYX210Y0M"',
+279 silly registry.get     'content-type': 'application/json',
+279 silly registry.get     'cache-control': 'max-age=300',
+279 silly registry.get     'content-length': '36975',
+279 silly registry.get     'accept-ranges': 'bytes',
+279 silly registry.get     date: 'Fri, 11 Mar 2016 06:49:03 GMT',
+279 silly registry.get     via: '1.1 varnish',
+279 silly registry.get     age: '95',
+279 silly registry.get     connection: 'keep-alive',
+279 silly registry.get     'x-served-by': 'cache-dfw1834-DFW',
+279 silly registry.get     'x-cache': 'HIT',
+279 silly registry.get     'x-cache-hits': '3',
+279 silly registry.get     'x-timer': 'S1457678943.548941,VS0,VE0',
+279 silly registry.get     vary: 'Accept' } ]
+280 silly addNameRange number 2 { name: 'serve-favicon',
+280 silly addNameRange   range: '>=2.2.0-0 <2.3.0-0',
+280 silly addNameRange   hasData: true }
+281 silly addNameRange versions [ 'serve-favicon',
+281 silly addNameRange   [ '2.0.0',
+281 silly addNameRange     '2.0.1',
+281 silly addNameRange     '2.1.0',
+281 silly addNameRange     '2.1.1',
+281 silly addNameRange     '2.1.2',
+281 silly addNameRange     '2.1.3',
+281 silly addNameRange     '2.1.4',
+281 silly addNameRange     '2.1.5',
+281 silly addNameRange     '2.1.6',
+281 silly addNameRange     '2.1.7',
+281 silly addNameRange     '2.2.0',
+281 silly addNameRange     '2.2.1',
+281 silly addNameRange     '2.3.0' ] ]
+282 verbose addNamed [ 'serve-favicon', '2.2.1' ]
+283 verbose addNamed [ '2.2.1', '2.2.1' ]
+284 silly lockFile 6918e89a-serve-favicon-2-2-1 serve-favicon@2.2.1
+285 verbose lock serve-favicon@2.2.1 /home/jordan/.npm/6918e89a-serve-favicon-2-2-1.lock
+286 silly lockFile 012ce855-morgan-1-5-3 morgan@1.5.3
+287 silly lockFile 012ce855-morgan-1-5-3 morgan@1.5.3
+288 silly lockFile 66ba047d-morgan-1-5-1 morgan@~1.5.1
+289 silly lockFile 66ba047d-morgan-1-5-1 morgan@~1.5.1
+290 silly addNameRange number 2 { name: 'jade', range: '>=1.9.2-0 <1.10.0-0', hasData: true }
+291 silly addNameRange versions [ 'jade',
+291 silly addNameRange   [ '0.0.1',
+291 silly addNameRange     '0.0.2',
+291 silly addNameRange     '0.1.0',
+291 silly addNameRange     '0.2.0',
+291 silly addNameRange     '0.2.1',
+291 silly addNameRange     '0.2.2',
+291 silly addNameRange     '0.2.3',
+291 silly addNameRange     '0.2.4',
+291 silly addNameRange     '0.3.0',
+291 silly addNameRange     '0.4.0',
+291 silly addNameRange     '0.4.1',
+291 silly addNameRange     '0.5.0',
+291 silly addNameRange     '0.5.1',
+291 silly addNameRange     '0.5.2',
+291 silly addNameRange     '0.5.3',
+291 silly addNameRange     '0.5.4',
+291 silly addNameRange     '0.5.5',
+291 silly addNameRange     '0.5.6',
+291 silly addNameRange     '0.5.7',
+291 silly addNameRange     '0.6.0',
+291 silly addNameRange     '0.6.1',
+291 silly addNameRange     '0.6.3',
+291 silly addNameRange     '0.7.0',
+291 silly addNameRange     '0.7.1',
+291 silly addNameRange     '0.8.0',
+291 silly addNameRange     '0.8.1',
+291 silly addNameRange     '0.8.2',
+291 silly addNameRange     '0.8.3',
+291 silly addNameRange     '0.8.4',
+291 silly addNameRange     '0.8.5',
+291 silly addNameRange     '0.8.6',
+291 silly addNameRange     '0.8.7',
+291 silly addNameRange     '0.8.8',
+291 silly addNameRange     '0.8.9',
+291 silly addNameRange     '0.9.0',
+291 silly addNameRange     '0.9.1',
+291 silly addNameRange     '0.9.2',
+291 silly addNameRange     '0.9.3',
+291 silly addNameRange     '0.10.0',
+291 silly addNameRange     '0.10.1',
+291 silly addNameRange     '0.10.2',
+291 silly addNameRange     '0.10.3',
+291 silly addNameRange     '0.10.4',
+291 silly addNameRange     '0.10.5',
+291 silly addNameRange     '0.10.6',
+291 silly addNameRange     '0.10.7',
+291 silly addNameRange     '0.11.0',
+291 silly addNameRange     '0.11.1',
+291 silly addNameRange     '0.12.0',
+291 silly addNameRange     '0.12.1',
+291 silly addNameRange     '0.12.2',
+291 silly addNameRange     '0.12.3',
+291 silly addNameRange     '0.12.4',
+291 silly addNameRange     '0.13.0',
+291 silly addNameRange     '0.14.0',
+291 silly addNameRange     '0.14.1',
+291 silly addNameRange     '0.14.2',
+291 silly addNameRange     '0.15.0',
+291 silly addNameRange     '0.15.1',
+291 silly addNameRange     '0.15.2',
+291 silly addNameRange     '0.15.3',
+291 silly addNameRange     '0.15.4',
+291 silly addNameRange     '0.16.0',
+291 silly addNameRange     '0.16.1',
+291 silly addNameRange     '0.16.2',
+291 silly addNameRange     '0.16.3',
+291 silly addNameRange     '0.16.4',
+291 silly addNameRange     '0.17.0',
+291 silly addNameRange     '0.18.0',
+291 silly addNameRange     '0.19.0',
+291 silly addNameRange     '0.20.0',
+291 silly addNameRange     '0.20.1',
+291 silly addNameRange     '0.20.2',
+291 silly addNameRange     '0.20.3',
+291 silly addNameRange     '0.21.0',
+291 silly addNameRange     '0.22.0',
+291 silly addNameRange     '0.22.1',
+291 silly addNameRange     '0.23.0',
+291 silly addNameRange     '0.24.0',
+291 silly addNameRange     '0.25.0',
+291 silly addNameRange     '0.26.0',
+291 silly addNameRange     '0.26.1',
+291 silly addNameRange     '0.26.2',
+291 silly addNameRange     '0.26.3',
+291 silly addNameRange     '0.27.0',
+291 silly addNameRange     '0.27.1',
+291 silly addNameRange     '0.27.2',
+291 silly addNameRange     '0.27.3',
+291 silly addNameRange     '0.27.4',
+291 silly addNameRange     '0.27.5',
+291 silly addNameRange     '0.27.6',
+291 silly addNameRange     '0.27.7',
+291 silly addNameRange     '0.28.0',
+291 silly addNameRange     '0.28.1',
+291 silly addNameRange     '0.28.2',
+291 silly addNameRange     '0.29.0',
+291 silly addNameRange     '0.30.0',
+291 silly addNameRange     '0.31.0',
+291 silly addNameRange     '0.31.1',
+291 silly addNameRange     '0.31.2',
+291 silly addNameRange     '0.32.0',
+291 silly addNameRange     '0.33.0',
+291 silly addNameRange     '0.34.0',
+291 silly addNameRange     '0.34.1',
+291 silly addNameRange     '0.35.0',
+291 silly addNameRange     '1.0.0',
+291 silly addNameRange     '1.0.1',
+291 silly addNameRange     '1.0.2',
+291 silly addNameRange     '1.1.0',
+291 silly addNameRange     '1.1.1',
+291 silly addNameRange     '1.1.2',
+291 silly addNameRange     '1.1.3',
+291 silly addNameRange     '1.1.4',
+291 silly addNameRange     '1.1.5',
+291 silly addNameRange     '1.2.0',
+291 silly addNameRange     '1.3.0',
+291 silly addNameRange     '1.3.1',
+291 silly addNameRange     '1.4.0',
+291 silly addNameRange     '1.4.1',
+291 silly addNameRange     '1.4.2',
+291 silly addNameRange     '1.5.0',
+291 silly addNameRange     '1.6.0',
+291 silly addNameRange     '1.7.0',
+291 silly addNameRange     '1.8.0',
+291 silly addNameRange     '1.8.1',
+291 silly addNameRange     '1.8.2',
+291 silly addNameRange     '1.9.0',
+291 silly addNameRange     '1.9.1',
+291 silly addNameRange     '1.9.2',
+291 silly addNameRange     '1.10.0',
+291 silly addNameRange     '1.11.0' ] ]
+292 verbose addNamed [ 'jade', '1.9.2' ]
+293 verbose addNamed [ '1.9.2', '1.9.2' ]
+294 silly lockFile 20e0e06b-jade-1-9-2 jade@1.9.2
+295 verbose lock jade@1.9.2 /home/jordan/.npm/20e0e06b-jade-1-9-2.lock
+296 silly addNameRange number 2 { name: 'passport', range: '*', hasData: true }
+297 silly addNameRange versions [ 'passport',
+297 silly addNameRange   [ '0.1.0',
+297 silly addNameRange     '0.1.1',
+297 silly addNameRange     '0.1.2',
+297 silly addNameRange     '0.1.3',
+297 silly addNameRange     '0.1.4',
+297 silly addNameRange     '0.1.5',
+297 silly addNameRange     '0.1.6',
+297 silly addNameRange     '0.1.7',
+297 silly addNameRange     '0.1.8',
+297 silly addNameRange     '0.1.9',
+297 silly addNameRange     '0.1.10',
+297 silly addNameRange     '0.1.11',
+297 silly addNameRange     '0.1.12',
+297 silly addNameRange     '0.1.13',
+297 silly addNameRange     '0.1.14',
+297 silly addNameRange     '0.1.15',
+297 silly addNameRange     '0.1.16',
+297 silly addNameRange     '0.1.17',
+297 silly addNameRange     '0.1.18',
+297 silly addNameRange     '0.2.0',
+297 silly addNameRange     '0.2.1',
+297 silly addNameRange     '0.2.2',
+297 silly addNameRange     '0.3.0',
+297 silly addNameRange     '0.3.1',
+297 silly addNameRange     '0.3.2' ] ]
+298 verbose addNamed [ 'passport', '0.3.2' ]
+299 verbose addNamed [ '0.3.2', '0.3.2' ]
+300 silly lockFile 0030c36f-passport-0-3-2 passport@0.3.2
+301 verbose lock passport@0.3.2 /home/jordan/.npm/0030c36f-passport-0-3-2.lock
+302 silly addNameRange number 2 { name: 'debug', range: '>=2.1.1-0 <2.2.0-0', hasData: true }
+303 silly addNameRange versions [ 'debug',
+303 silly addNameRange   [ '0.0.1',
+303 silly addNameRange     '0.1.0',
+303 silly addNameRange     '0.2.0',
+303 silly addNameRange     '0.3.0',
+303 silly addNameRange     '0.4.0',
+303 silly addNameRange     '0.4.1',
+303 silly addNameRange     '0.5.0',
+303 silly addNameRange     '0.6.0',
+303 silly addNameRange     '0.7.0',
+303 silly addNameRange     '0.7.1',
+303 silly addNameRange     '0.7.2',
+303 silly addNameRange     '0.7.3',
+303 silly addNameRange     '0.7.4',
+303 silly addNameRange     '0.8.0',
+303 silly addNameRange     '0.8.1',
+303 silly addNameRange     '1.0.0',
+303 silly addNameRange     '1.0.1',
+303 silly addNameRange     '1.0.2',
+303 silly addNameRange     '1.0.3',
+303 silly addNameRange     '1.0.4',
+303 silly addNameRange     '2.0.0',
+303 silly addNameRange     '2.1.0',
+303 silly addNameRange     '2.1.1',
+303 silly addNameRange     '2.1.2',
+303 silly addNameRange     '2.1.3',
+303 silly addNameRange     '2.2.0' ] ]
+304 verbose addNamed [ 'debug', '2.1.3' ]
+305 verbose addNamed [ '2.1.3', '2.1.3' ]
+306 silly lockFile aef7a5b5-debug-2-1-3 debug@2.1.3
+307 verbose lock debug@2.1.3 /home/jordan/.npm/aef7a5b5-debug-2-1-3.lock
+308 silly lockFile 0030c36f-passport-0-3-2 passport@0.3.2
+309 silly lockFile 0030c36f-passport-0-3-2 passport@0.3.2
+310 silly lockFile d5a254c4-passport passport@
+311 silly lockFile d5a254c4-passport passport@
+312 silly lockFile 6918e89a-serve-favicon-2-2-1 serve-favicon@2.2.1
+313 silly lockFile 6918e89a-serve-favicon-2-2-1 serve-favicon@2.2.1
+314 silly lockFile 9df5bad7-serve-favicon-2-2-0 serve-favicon@~2.2.0
+315 silly lockFile 9df5bad7-serve-favicon-2-2-0 serve-favicon@~2.2.0
+316 silly lockFile 20e0e06b-jade-1-9-2 jade@1.9.2
+317 silly lockFile 20e0e06b-jade-1-9-2 jade@1.9.2
+318 silly lockFile ee522cbd-jade-1-9-2 jade@~1.9.2
+319 silly lockFile ee522cbd-jade-1-9-2 jade@~1.9.2
+320 silly lockFile aef7a5b5-debug-2-1-3 debug@2.1.3
+321 silly lockFile aef7a5b5-debug-2-1-3 debug@2.1.3
+322 http 304 https://registry.npmjs.org/passport-local
+323 silly registry.get cb [ 304,
+323 silly registry.get   { date: 'Fri, 11 Mar 2016 06:49:03 GMT',
+323 silly registry.get     via: '1.1 varnish',
+323 silly registry.get     'cache-control': 'max-age=300',
+323 silly registry.get     etag: '"E5VCCL6QV8RPFRNTBN6Y6UXLI"',
+323 silly registry.get     age: '275',
+323 silly registry.get     connection: 'keep-alive',
+323 silly registry.get     'x-served-by': 'cache-dfw1833-DFW',
+323 silly registry.get     'x-cache': 'HIT',
+323 silly registry.get     'x-cache-hits': '1',
+323 silly registry.get     'x-timer': 'S1457678943.750693,VS0,VE0',
+323 silly registry.get     vary: 'Accept' } ]
+324 verbose etag passport-local from cache
+325 silly lockFile 09d11068-debug-2-1-1 debug@~2.1.1
+326 silly lockFile 09d11068-debug-2-1-1 debug@~2.1.1
+327 silly addNameRange number 2 { name: 'passport-local', range: '*', hasData: true }
+328 silly addNameRange versions [ 'passport-local',
+328 silly addNameRange   [ '0.1.0',
+328 silly addNameRange     '0.1.1',
+328 silly addNameRange     '0.1.2',
+328 silly addNameRange     '0.1.3',
+328 silly addNameRange     '0.1.4',
+328 silly addNameRange     '0.1.5',
+328 silly addNameRange     '0.1.6',
+328 silly addNameRange     '1.0.0' ] ]
+329 verbose addNamed [ 'passport-local', '1.0.0' ]
+330 verbose addNamed [ '1.0.0', '1.0.0' ]
+331 silly lockFile 8defd22e-passport-local-1-0-0 passport-local@1.0.0
+332 verbose lock passport-local@1.0.0 /home/jordan/.npm/8defd22e-passport-local-1-0-0.lock
+333 silly lockFile 8defd22e-passport-local-1-0-0 passport-local@1.0.0
+334 silly lockFile 8defd22e-passport-local-1-0-0 passport-local@1.0.0
+335 silly lockFile 20688a51-passport-local passport-local@
+336 silly lockFile 20688a51-passport-local passport-local@
+337 http 304 https://registry.npmjs.org/method-override
+338 silly registry.get cb [ 304,
+338 silly registry.get   { date: 'Fri, 11 Mar 2016 06:49:03 GMT',
+338 silly registry.get     via: '1.1 varnish',
+338 silly registry.get     'cache-control': 'max-age=300',
+338 silly registry.get     etag: '"B5KEM8JMG2Y7LGKUWTIG8QTB9"',
+338 silly registry.get     age: '161',
+338 silly registry.get     connection: 'keep-alive',
+338 silly registry.get     'x-served-by': 'cache-dfw1846-DFW',
+338 silly registry.get     'x-cache': 'HIT',
+338 silly registry.get     'x-cache-hits': '1',
+338 silly registry.get     'x-timer': 'S1457678943.766690,VS0,VE0',
+338 silly registry.get     vary: 'Accept' } ]
+339 verbose etag method-override from cache
+340 silly addNameRange number 2 { name: 'method-override',
+340 silly addNameRange   range: '>=2.3.5-0 <2.4.0-0',
+340 silly addNameRange   hasData: true }
+341 silly addNameRange versions [ 'method-override',
+341 silly addNameRange   [ '1.0.0',
+341 silly addNameRange     '1.0.1',
+341 silly addNameRange     '1.0.2',
+341 silly addNameRange     '2.0.0',
+341 silly addNameRange     '2.0.1',
+341 silly addNameRange     '2.0.2',
+341 silly addNameRange     '2.1.0',
+341 silly addNameRange     '2.1.1',
+341 silly addNameRange     '2.1.2',
+341 silly addNameRange     '2.1.3',
+341 silly addNameRange     '2.2.0',
+341 silly addNameRange     '2.3.0',
+341 silly addNameRange     '2.3.1',
+341 silly addNameRange     '2.3.2',
+341 silly addNameRange     '2.3.3',
+341 silly addNameRange     '2.3.4',
+341 silly addNameRange     '2.3.5' ] ]
+342 verbose addNamed [ 'method-override', '2.3.5' ]
+343 verbose addNamed [ '2.3.5', '2.3.5' ]
+344 silly lockFile f87bcb61-method-override-2-3-5 method-override@2.3.5
+345 verbose lock method-override@2.3.5 /home/jordan/.npm/f87bcb61-method-override-2-3-5.lock
+346 silly lockFile f87bcb61-method-override-2-3-5 method-override@2.3.5
+347 silly lockFile f87bcb61-method-override-2-3-5 method-override@2.3.5
+348 silly lockFile 99488f6d-method-override-2-3-5 method-override@~2.3.5
+349 silly lockFile 99488f6d-method-override-2-3-5 method-override@~2.3.5
+350 http 304 https://registry.npmjs.org/bcrypt-nodejs
+351 silly registry.get cb [ 304,
+351 silly registry.get   { date: 'Fri, 11 Mar 2016 06:49:03 GMT',
+351 silly registry.get     via: '1.1 varnish',
+351 silly registry.get     'cache-control': 'max-age=300',
+351 silly registry.get     etag: '"8MGPEQYO8B6LTQELJSNNC2X6T"',
+351 silly registry.get     age: '0',
+351 silly registry.get     connection: 'keep-alive',
+351 silly registry.get     'x-served-by': 'cache-dfw1839-DFW',
+351 silly registry.get     'x-cache': 'MISS',
+351 silly registry.get     'x-cache-hits': '0',
+351 silly registry.get     'x-timer': 'S1457678943.658356,VS0,VE208',
+351 silly registry.get     vary: 'Accept' } ]
+352 verbose etag bcrypt-nodejs from cache
+353 silly addNameRange number 2 { name: 'bcrypt-nodejs', range: '*', hasData: true }
+354 silly addNameRange versions [ 'bcrypt-nodejs', [ '0.0.1', '0.0.2', '0.0.3' ] ]
+355 verbose addNamed [ 'bcrypt-nodejs', '0.0.3' ]
+356 verbose addNamed [ '0.0.3', '0.0.3' ]
+357 silly lockFile 30db234c-bcrypt-nodejs-0-0-3 bcrypt-nodejs@0.0.3
+358 verbose lock bcrypt-nodejs@0.0.3 /home/jordan/.npm/30db234c-bcrypt-nodejs-0-0-3.lock
+359 silly lockFile 30db234c-bcrypt-nodejs-0-0-3 bcrypt-nodejs@0.0.3
+360 silly lockFile 30db234c-bcrypt-nodejs-0-0-3 bcrypt-nodejs@0.0.3
+361 silly lockFile a68af524-bcrypt-nodejs bcrypt-nodejs@
+362 silly lockFile a68af524-bcrypt-nodejs bcrypt-nodejs@
+363 http 304 https://registry.npmjs.org/passport-facebook
+364 silly registry.get cb [ 304,
+364 silly registry.get   { date: 'Fri, 11 Mar 2016 06:49:03 GMT',
+364 silly registry.get     via: '1.1 varnish',
+364 silly registry.get     'cache-control': 'max-age=300',
+364 silly registry.get     etag: '"DW4U7MOS15C3WEOCM28ZRHT9A"',
+364 silly registry.get     age: '0',
+364 silly registry.get     connection: 'keep-alive',
+364 silly registry.get     'x-served-by': 'cache-dfw1832-DFW',
+364 silly registry.get     'x-cache': 'MISS',
+364 silly registry.get     'x-cache-hits': '0',
+364 silly registry.get     'x-timer': 'S1457678943.761896,VS0,VE206',
+364 silly registry.get     vary: 'Accept' } ]
+365 verbose etag passport-facebook from cache
+366 silly addNameRange number 2 { name: 'passport-facebook', range: '*', hasData: true }
+367 silly addNameRange versions [ 'passport-facebook',
+367 silly addNameRange   [ '0.1.0',
+367 silly addNameRange     '0.1.1',
+367 silly addNameRange     '0.1.2',
+367 silly addNameRange     '0.1.3',
+367 silly addNameRange     '0.1.4',
+367 silly addNameRange     '0.1.5',
+367 silly addNameRange     '0.1.6',
+367 silly addNameRange     '1.0.0',
+367 silly addNameRange     '1.0.1',
+367 silly addNameRange     '1.0.2',
+367 silly addNameRange     '1.0.3',
+367 silly addNameRange     '2.0.0',
+367 silly addNameRange     '2.1.0' ] ]
+368 verbose addNamed [ 'passport-facebook', '2.1.0' ]
+369 verbose addNamed [ '2.1.0', '2.1.0' ]
+370 silly lockFile 9f316788-passport-facebook-2-1-0 passport-facebook@2.1.0
+371 verbose lock passport-facebook@2.1.0 /home/jordan/.npm/9f316788-passport-facebook-2-1-0.lock
+372 silly lockFile 9f316788-passport-facebook-2-1-0 passport-facebook@2.1.0
+373 silly lockFile 9f316788-passport-facebook-2-1-0 passport-facebook@2.1.0
+374 silly lockFile d48e7760-passport-facebook passport-facebook@
+375 silly lockFile d48e7760-passport-facebook passport-facebook@
+376 http 200 https://registry.npmjs.org/mongoose
+377 silly registry.get cb [ 200,
+377 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+377 silly registry.get     etag: '"8PISG6VUMUJ0RO6LIVICME4Q3"',
+377 silly registry.get     'content-type': 'application/json',
+377 silly registry.get     'cache-control': 'max-age=300',
+377 silly registry.get     'content-length': '437713',
+377 silly registry.get     'accept-ranges': 'bytes',
+377 silly registry.get     date: 'Fri, 11 Mar 2016 06:49:03 GMT',
+377 silly registry.get     via: '1.1 varnish',
+377 silly registry.get     age: '135',
+377 silly registry.get     connection: 'keep-alive',
+377 silly registry.get     'x-served-by': 'cache-dfw1834-DFW',
+377 silly registry.get     'x-cache': 'HIT',
+377 silly registry.get     'x-cache-hits': '1',
+377 silly registry.get     'x-timer': 'S1457678943.770061,VS0,VE0',
+377 silly registry.get     vary: 'Accept' } ]
+378 silly addNameRange number 2 { name: 'mongoose', range: '>=3.6.2-0 <3.7.0-0', hasData: true }
+379 silly addNameRange versions [ 'mongoose',
+379 silly addNameRange   [ '0.0.1',
+379 silly addNameRange     '0.0.2',
+379 silly addNameRange     '0.0.3',
+379 silly addNameRange     '0.0.4',
+379 silly addNameRange     '0.0.5',
+379 silly addNameRange     '1.0.0',
+379 silly addNameRange     '1.0.1',
+379 silly addNameRange     '1.0.2',
+379 silly addNameRange     '0.0.6',
+379 silly addNameRange     '1.0.3',
+379 silly addNameRange     '1.0.4',
+379 silly addNameRange     '1.0.5',
+379 silly addNameRange     '1.0.6',
+379 silly addNameRange     '1.0.7',
+379 silly addNameRange     '1.0.8',
+379 silly addNameRange     '1.0.10',
+379 silly addNameRange     '1.0.11',
+379 silly addNameRange     '1.0.12',
+379 silly addNameRange     '1.0.13',
+379 silly addNameRange     '1.0.14',
+379 silly addNameRange     '1.0.15',
+379 silly addNameRange     '1.0.16',
+379 silly addNameRange     '1.1.0',
+379 silly addNameRange     '1.1.1',
+379 silly addNameRange     '1.1.2',
+379 silly addNameRange     '1.1.3',
+379 silly addNameRange     '1.1.4',
+379 silly addNameRange     '1.1.5',
+379 silly addNameRange     '1.1.6',
+379 silly addNameRange     '1.1.7',
+379 silly addNameRange     '1.1.8',
+379 silly addNameRange     '1.1.9',
+379 silly addNameRange     '1.1.10',
+379 silly addNameRange     '1.1.11',
+379 silly addNameRange     '1.1.12',
+379 silly addNameRange     '1.1.13',
+379 silly addNameRange     '1.1.14',
+379 silly addNameRange     '1.1.15',
+379 silly addNameRange     '1.1.16',
+379 silly addNameRange     '1.1.17',
+379 silly addNameRange     '1.1.18',
+379 silly addNameRange     '1.1.19',
+379 silly addNameRange     '1.1.20',
+379 silly addNameRange     '1.1.21',
+379 silly addNameRange     '1.1.22',
+379 silly addNameRange     '1.1.23',
+379 silly addNameRange     '1.1.24',
+379 silly addNameRange     '1.1.25',
+379 silly addNameRange     '1.2.0',
+379 silly addNameRange     '1.3.0',
+379 silly addNameRange     '1.3.1',
+379 silly addNameRange     '1.3.2',
+379 silly addNameRange     '1.3.3',
+379 silly addNameRange     '1.3.4',
+379 silly addNameRange     '1.3.5',
+379 silly addNameRange     '1.3.6',
+379 silly addNameRange     '1.3.7',
+379 silly addNameRange     '1.4.0',
+379 silly addNameRange     '1.5.0',
+379 silly addNameRange     '1.6.0',
+379 silly addNameRange     '1.7.2',
+379 silly addNameRange     '1.7.3',
+379 silly addNameRange     '1.7.4',
+379 silly addNameRange     '1.8.0',
+379 silly addNameRange     '1.8.1',
+379 silly addNameRange     '1.8.2',
+379 silly addNameRange     '1.8.3',
+379 silly addNameRange     '1.8.4',
+379 silly addNameRange     '2.0.0',
+379 silly addNameRange     '2.0.1',
+379 silly addNameRange     '2.0.2',
+379 silly addNameRange     '2.0.3',
+379 silly addNameRange     '2.0.4',
+379 silly addNameRange     '2.1.0',
+379 silly addNameRange     '2.1.1',
+379 silly addNameRange     '2.1.2',
+379 silly addNameRange     '2.1.3',
+379 silly addNameRange     '2.1.4',
+379 silly addNameRange     '2.2.0',
+379 silly addNameRange     '2.2.1',
+379 silly addNameRange     '2.2.2',
+379 silly addNameRange     '2.2.3',
+379 silly addNameRange     '2.2.4',
+379 silly addNameRange     '2.3.0',
+379 silly addNameRange     '2.3.1',
+379 silly addNameRange     '2.3.2',
+379 silly addNameRange     '2.3.3',
+379 silly addNameRange     '2.3.4',
+379 silly addNameRange     '2.3.5',
+379 silly addNameRange     '2.3.6',
+379 silly addNameRange     '2.3.7',
+379 silly addNameRange     '2.3.8',
+379 silly addNameRange     '2.3.9',
+379 silly addNameRange     '2.3.10',
+379 silly addNameRange     '2.3.11',
+379 silly addNameRange     '2.3.12',
+379 silly addNameRange     '2.3.13',
+379 silly addNameRange     '2.4.0',
+379 silly addNameRange     '2.4.1',
+379 silly addNameRange     '2.4.2',
+379 silly addNameRange     '2.4.3',
+379 silly addNameRange     '2.4.4',
+379 silly addNameRange     '2.4.5',
+379 silly addNameRange     '2.4.6',
+379 silly addNameRange     '2.4.7',
+379 silly addNameRange     '2.4.8',
+379 silly addNameRange     '2.4.9',
+379 silly addNameRange     '2.4.10',
+379 silly addNameRange     '2.5.0',
+379 silly addNameRange     '2.5.1',
+379 silly addNameRange     '2.5.2',
+379 silly addNameRange     '2.5.3',
+379 silly addNameRange     '2.5.4',
+379 silly addNameRange     '2.5.5',
+379 silly addNameRange     '2.5.6',
+379 silly addNameRange     '2.5.7',
+379 silly addNameRange     '2.5.8',
+379 silly addNameRange     '2.5.9',
+379 silly addNameRange     '2.5.10',
+379 silly addNameRange     '2.5.11',
+379 silly addNameRange     '2.5.12',
+379 silly addNameRange     '2.5.13',
+379 silly addNameRange     '2.5.14',
+379 silly addNameRange     '2.6.0',
+379 silly addNameRange     '2.6.1',
+379 silly addNameRange     '2.6.2',
+379 silly addNameRange     '2.6.3',
+379 silly addNameRange     '2.6.4',
+379 silly addNameRange     '2.6.5',
+379 silly addNameRange     '2.6.6',
+379 silly addNameRange     '2.6.7',
+379 silly addNameRange     '2.6.8',
+379 silly addNameRange     '2.7.0',
+379 silly addNameRange     '2.7.1',
+379 silly addNameRange     '2.7.2',
+379 silly addNameRange     '2.7.4',
+379 silly addNameRange     '2.7.3',
+379 silly addNameRange     '3.0.0',
+379 silly addNameRange     '3.0.1',
+379 silly addNameRange     '3.0.2',
+379 silly addNameRange     '2.8.0',
+379 silly addNameRange     '3.0.3',
+379 silly addNameRange     '3.1.0',
+379 silly addNameRange     '2.8.1',
+379 silly addNameRange     '3.1.1',
+379 silly addNameRange     '2.8.2',
+379 silly addNameRange     '2.8.3',
+379 silly addNameRange     '2.9.0',
+379 silly addNameRange     '3.2.0',
+379 silly addNameRange     '2.9.1',
+379 silly addNameRange     '3.2.1',
+379 silly addNameRange     '2.9.2',
+379 silly addNameRange     '3.2.2',
+379 silly addNameRange     '3.3.0',
+379 silly addNameRange     '3.3.1',
+379 silly addNameRange     '2.9.3',
+379 silly addNameRange     '3.4.0',
+379 silly addNameRange     '2.9.4',
+379 silly addNameRange     '2.9.5',
+379 silly addNameRange     '3.5.0',
+379 silly addNameRange     '3.5.1',
+379 silly addNameRange     '3.5.2',
+379 silly addNameRange     '3.5.3',
+379 silly addNameRange     '2.9.6',
+379 silly addNameRange     '2.9.7',
+379 silly addNameRange     '3.5.4',
+379 silly addNameRange     '3.5.5',
+379 silly addNameRange     '2.9.8',
+379 silly addNameRange     '2.9.9',
+379 silly addNameRange     '3.5.6',
+379 silly addNameRange     '3.5.7',
+379 silly addNameRange     '3.5.8',
+379 silly addNameRange     '2.9.10',
+379 silly addNameRange     '3.5.9',
+379 silly addNameRange     '3.6.2',
+379 silly addNameRange     '3.5.10',
+379 silly addNameRange     '3.6.3',
+379 silly addNameRange     '3.5.11',
+379 silly addNameRange     '3.6.4',
+379 silly addNameRange     '3.6.5',
+379 silly addNameRange     '3.6.6',
+379 silly addNameRange     '3.6.7',
+379 silly addNameRange     '3.5.12',
+379 silly addNameRange     '3.6.8',
+379 silly addNameRange     '3.6.9',
+379 silly addNameRange     '3.6.10',
+379 silly addNameRange     '3.5.13',
+379 silly addNameRange     '3.5.14',
+379 silly addNameRange     '3.6.11',
+379 silly addNameRange     '3.6.12',
+379 silly addNameRange     '3.6.13',
+379 silly addNameRange     '3.6.14',
+379 silly addNameRange     '3.6.15',
+379 silly addNameRange     '3.5.15',
+379 silly addNameRange     '3.7.0',
+379 silly addNameRange     '3.6.16',
+379 silly addNameRange     '3.5.16',
+379 silly addNameRange     '3.6.17',
+379 silly addNameRange     '3.7.2',
+379 silly addNameRange     '3.0.0-alpha1',
+379 silly addNameRange     '3.0.0-alpha2',
+379 silly addNameRange     '3.0.0-rc0',
+379 silly addNameRange     '3.6.0-rc0',
+379 silly addNameRange     '3.6.0-rc1',
+379 silly addNameRange     '3.6.18',
+379 silly addNameRange     '3.7.3',
+379 silly addNameRange     '3.6.19',
+379 silly addNameRange     '3.6.20',
+379 silly addNameRange     '3.7.4',
+379 silly addNameRange     '3.8.0',
+379 silly addNameRange     '3.8.1',
+379 silly addNameRange     '3.8.2',
+379 silly addNameRange     '3.8.3',
+379 silly addNameRange     '3.8.4',
+379 silly addNameRange     '3.8.5',
+379 silly addNameRange     '3.8.6',
+379 silly addNameRange     '3.8.7',
+379 silly addNameRange     '3.8.8',
+379 silly addNameRange     '3.8.9',
+379 silly addNameRange     '3.8.10',
+379 silly addNameRange     '3.8.11',
+379 silly addNameRange     '3.9.0',
+379 silly addNameRange     '3.8.12',
+379 silly addNameRange     '3.8.13',
+379 silly addNameRange     '3.8.14',
+379 silly addNameRange     '3.8.15',
+379 silly addNameRange     '3.9.1',
+379 silly addNameRange     '3.8.16',
+379 silly addNameRange     '3.9.2',
+379 silly addNameRange     '3.8.17',
+379 silly addNameRange     '3.9.3',
+379 silly addNameRange     '3.8.18',
+379 silly addNameRange     '3.9.4',
+379 silly addNameRange     '3.8.19',
+379 silly addNameRange     '3.9.5',
+379 silly addNameRange     '3.8.20',
+379 silly addNameRange     '3.9.6',
+379 silly addNameRange     '3.8.21',
+379 silly addNameRange     '3.9.7',
+379 silly addNameRange     '3.8.22',
+379 silly addNameRange     '4.0.0-rc0',
+379 silly addNameRange     '4.0.0-rc1',
+379 silly addNameRange     '3.8.23',
+379 silly addNameRange     '4.0.0-rc2',
+379 silly addNameRange     '3.8.24',
+379 silly addNameRange     '4.0.0-rc3',
+379 silly addNameRange     '3.8.25',
+379 silly addNameRange     '4.0.0-rc4',
+379 silly addNameRange     '4.0.0',
+379 silly addNameRange     '4.0.1',
+379 silly addNameRange     '3.8.26',
+379 silly addNameRange     '3.8.27',
+379 silly addNameRange     '4.0.2',
+379 silly addNameRange     '3.8.28',
+379 silly addNameRange     '4.0.3',
+379 silly addNameRange     '3.8.29',
+379 silly addNameRange     '4.0.4',
+379 silly addNameRange     '3.8.30',
+379 silly addNameRange     '4.0.5',
+379 silly addNameRange     '3.8.31',
+379 silly addNameRange     '4.0.6',
+379 silly addNameRange     '3.8.33',
+379 silly addNameRange     '4.0.7',
+379 silly addNameRange     '3.8.34',
+379 silly addNameRange     '4.0.8',
+379 silly addNameRange     '4.1.0',
+379 silly addNameRange     '4.1.1',
+379 silly addNameRange     '4.1.2',
+379 silly addNameRange     '3.8.35',
+379 silly addNameRange     '4.1.3',
+379 silly addNameRange     '4.1.5',
+379 silly addNameRange     '4.1.6',
+379 silly addNameRange     '4.1.7',
+379 silly addNameRange     '4.1.8',
+379 silly addNameRange     '4.1.9',
+379 silly addNameRange     '4.1.10',
+379 silly addNameRange     '4.1.11',
+379 silly addNameRange     '3.8.36',
+379 silly addNameRange     '4.1.12',
+379 silly addNameRange     '4.2.0',
+379 silly addNameRange     '4.2.1',
+379 silly addNameRange     '4.2.2',
+379 silly addNameRange     '4.2.3',
+379 silly addNameRange     '4.2.4',
+379 silly addNameRange     '4.2.5',
+379 silly addNameRange     '3.8.37',
+379 silly addNameRange     '4.2.6',
+379 silly addNameRange     '4.2.7',
+379 silly addNameRange     '4.2.8',
+379 silly addNameRange     '4.2.9',
+379 silly addNameRange     '4.2.10',
+379 silly addNameRange     '4.3.0',
+379 silly addNameRange     '4.3.1',
+379 silly addNameRange     '4.3.2',
+379 silly addNameRange     '4.3.3',
+379 silly addNameRange     '4.3.4',
+379 silly addNameRange     '3.8.38',
+379 silly addNameRange     '4.3.5',
+379 silly addNameRange     '4.3.6',
+379 silly addNameRange     '3.8.39',
+379 silly addNameRange     '4.3.7',
+379 silly addNameRange     '4.4.0',
+379 silly addNameRange     '4.4.1',
+379 silly addNameRange     '4.4.2',
+379 silly addNameRange     '4.4.3',
+379 silly addNameRange     '4.4.4',
+379 silly addNameRange     '4.4.5',
+379 silly addNameRange     '4.4.6' ] ]
+380 verbose addNamed [ 'mongoose', '3.6.20' ]
+381 verbose addNamed [ '3.6.20', '3.6.20' ]
+382 silly lockFile 9e27220e-mongoose-3-6-20 mongoose@3.6.20
+383 verbose lock mongoose@3.6.20 /home/jordan/.npm/9e27220e-mongoose-3-6-20.lock
+384 silly lockFile 9e27220e-mongoose-3-6-20 mongoose@3.6.20
+385 silly lockFile 9e27220e-mongoose-3-6-20 mongoose@3.6.20
+386 silly lockFile 96ad86c1-mongoose-3-6-2 mongoose@~3.6.2
+387 silly lockFile 96ad86c1-mongoose-3-6-2 mongoose@~3.6.2
+388 silly resolved [ { name: 'cookie-parser',
+388 silly resolved     description: 'cookie parsing with signatures',
+388 silly resolved     version: '1.3.5',
+388 silly resolved     author:
+388 silly resolved      { name: 'TJ Holowaychuk',
+388 silly resolved        email: 'tj@vision-media.ca',
+388 silly resolved        url: 'http://tjholowaychuk.com' },
+388 silly resolved     license: 'MIT',
+388 silly resolved     repository: { type: 'git', url: 'git://github.com/expressjs/cookie-parser' },
+388 silly resolved     keywords: [ 'cookie', 'middleware' ],
+388 silly resolved     dependencies: { cookie: '0.1.3', 'cookie-signature': '1.0.6' },
+388 silly resolved     devDependencies: { istanbul: '0.3.9', mocha: '2.2.5', supertest: '1.0.1' },
+388 silly resolved     files: [ 'lib/', 'LICENSE', 'HISTORY.md', 'index.js' ],
+388 silly resolved     engines: { node: '>= 0.8.0' },
+388 silly resolved     scripts:
+388 silly resolved      { test: 'mocha --reporter spec --bail --check-leaks test/',
+388 silly resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/',
+388 silly resolved        'test-travis': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/' },
+388 silly resolved     readme: '# cookie-parser\n\n[![NPM Version][npm-image]][npm-url]\n[![NPM Downloads][downloads-image]][downloads-url]\n[![Build Status][travis-image]][travis-url]\n[![Test Coverage][coveralls-image]][coveralls-url]\n\nParse `Cookie` header and populate `req.cookies` with an object keyed by the cookie\nnames. Optionally you may enable signed cookie support by passing a `secret` string,\nwhich assigns `req.secret` so it may be used by other middleware.\n\n## Installation\n\n```sh\n$ npm install cookie-parser\n```\n\n## API\n\n```js\nvar express      = require(\'express\')\nvar cookieParser = require(\'cookie-parser\')\n\nvar app = express()\napp.use(cookieParser())\n```\n\n### cookieParser(secret, options)\n\n- `secret` a string used for signing cookies. This is optional and if not specified, will not parse signed cookies.\n- `options` an object that is passed to `cookie.parse` as the second option. See [cookie](https://www.npmjs.org/package/cookie) for more information.\n  - `decode` a function to decode the value of the cookie\n\n### cookieParser.JSONCookie(str)\n\nParse a cookie value as a JSON cookie. This will return the parsed JSON value if it was a JSON cookie, otherwise it will return the passed value.\n\n### cookieParser.JSONCookies(cookies)\n\nGiven an object, this will iterate over the keys and call `JSONCookie` on each value. This will return the same object passed in.\n\n### cookieParser.signedCookie(str, secret)\n\nParse a cookie value as a signed cookie. This will return the parsed unsigned value if it was a signed cookie and the signature was valid, otherwise it will return the passed value.\n\n### cookieParser.signedCookies(cookies, secret)\n\nGiven an object, this will iterate over the keys and check if any value is a signed cookie. If it is a signed cookie and the signature is valid, the key will be deleted from the object and added to the new object that is returned.\n\n## Example\n\n```js\nvar express      = require(\'express\')\nvar cookieParser = require(\'cookie-parser\')\n\nvar app = express()\napp.use(cookieParser())\n\napp.get(\'/\', function(req, res) {\n  console.log("Cookies: ", req.cookies)\n})\n\napp.listen(8080)\n\n// curl command that sends an HTTP request with two cookies\n// curl http://127.0.0.1:8080 --cookie "Cho=Kim;Greet=Hello"\n```\n\n### [MIT Licensed](LICENSE)\n\n[npm-image]: https://img.shields.io/npm/v/cookie-parser.svg\n[npm-url]: https://npmjs.org/package/cookie-parser\n[travis-image]: https://img.shields.io/travis/expressjs/cookie-parser/master.svg\n[travis-url]: https://travis-ci.org/expressjs/cookie-parser\n[coveralls-image]: https://img.shields.io/coveralls/expressjs/cookie-parser/master.svg\n[coveralls-url]: https://coveralls.io/r/expressjs/cookie-parser?branch=master\n[downloads-image]: https://img.shields.io/npm/dm/cookie-parser.svg\n[downloads-url]: https://npmjs.org/package/cookie-parser\n',
+388 silly resolved     readmeFilename: 'README.md',
+388 silly resolved     bugs: { url: 'https://github.com/expressjs/cookie-parser/issues' },
+388 silly resolved     _id: 'cookie-parser@1.3.5',
+388 silly resolved     _from: 'cookie-parser@~1.3.4' },
+388 silly resolved   { name: 'express',
+388 silly resolved     description: 'Fast, unopinionated, minimalist web framework',
+388 silly resolved     version: '4.12.4',
+388 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+388 silly resolved     contributors:
+388 silly resolved      [ [Object],
+388 silly resolved        [Object],
+388 silly resolved        [Object],
+388 silly resolved        [Object],
+388 silly resolved        [Object],
+388 silly resolved        [Object],
+388 silly resolved        [Object] ],
+388 silly resolved     license: 'MIT',
+388 silly resolved     repository: { type: 'git', url: 'git://github.com/strongloop/express' },
+388 silly resolved     homepage: 'http://expressjs.com/',
+388 silly resolved     keywords:
+388 silly resolved      [ 'express',
+388 silly resolved        'framework',
+388 silly resolved        'sinatra',
+388 silly resolved        'web',
+388 silly resolved        'rest',
+388 silly resolved        'restful',
+388 silly resolved        'router',
+388 silly resolved        'app',
+388 silly resolved        'api' ],
+388 silly resolved     dependencies:
+388 silly resolved      { accepts: '~1.2.7',
+388 silly resolved        'content-disposition': '0.5.0',
+388 silly resolved        'content-type': '~1.0.1',
+388 silly resolved        cookie: '0.1.2',
+388 silly resolved        'cookie-signature': '1.0.6',
+388 silly resolved        debug: '~2.2.0',
+388 silly resolved        depd: '~1.0.1',
+388 silly resolved        'escape-html': '1.0.1',
+388 silly resolved        etag: '~1.6.0',
+388 silly resolved        finalhandler: '0.3.6',
+388 silly resolved        fresh: '0.2.4',
+388 silly resolved        'merge-descriptors': '1.0.0',
+388 silly resolved        methods: '~1.1.1',
+388 silly resolved        'on-finished': '~2.2.1',
+388 silly resolved        parseurl: '~1.3.0',
+388 silly resolved        'path-to-regexp': '0.1.3',
+388 silly resolved        'proxy-addr': '~1.0.8',
+388 silly resolved        qs: '2.4.2',
+388 silly resolved        'range-parser': '~1.0.2',
+388 silly resolved        send: '0.12.3',
+388 silly resolved        'serve-static': '~1.9.3',
+388 silly resolved        'type-is': '~1.6.2',
+388 silly resolved        vary: '~1.0.0',
+388 silly resolved        'utils-merge': '1.0.0' },
+388 silly resolved     devDependencies:
+388 silly resolved      { after: '0.8.1',
+388 silly resolved        ejs: '2.3.1',
+388 silly resolved        istanbul: '0.3.9',
+388 silly resolved        marked: '0.3.3',
+388 silly resolved        mocha: '2.2.5',
+388 silly resolved        should: '6.0.1',
+388 silly resolved        supertest: '1.0.1',
+388 silly resolved        'body-parser': '~1.12.4',
+388 silly resolved        'connect-redis': '~2.3.0',
+388 silly resolved        'cookie-parser': '~1.3.4',
+388 silly resolved        'cookie-session': '~1.1.0',
+388 silly resolved        'express-session': '~1.11.2',
+388 silly resolved        jade: '~1.9.2',
+388 silly resolved        'method-override': '~2.3.3',
+388 silly resolved        morgan: '~1.5.3',
+388 silly resolved        multiparty: '~4.1.2',
+388 silly resolved        vhost: '~3.0.0' },
+388 silly resolved     engines: { node: '>= 0.10.0' },
+388 silly resolved     files: [ 'LICENSE', 'History.md', 'Readme.md', 'index.js', 'lib/' ],
+388 silly resolved     scripts:
+388 silly resolved      { test: 'mocha --require test/support/env --reporter spec --bail --check-leaks test/ test/acceptance/',
+388 silly resolved        'test-ci': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --require test/support/env --reporter spec --check-leaks test/ test/acceptance/',
+388 silly resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --require test/support/env --reporter dot --check-leaks test/ test/acceptance/',
+388 silly resolved        'test-tap': 'mocha --require test/support/env --reporter tap --check-leaks test/ test/acceptance/' },
+388 silly resolved     readme: '[![Express Logo](https://i.cloudup.com/zfY6lL7eFa-3000x3000.png)](http://expressjs.com/)\n\n  Fast, unopinionated, minimalist web framework for [node](http://nodejs.org).\n\n  [![NPM Version][npm-image]][npm-url]\n  [![NPM Downloads][downloads-image]][downloads-url]\n  [![Linux Build][travis-image]][travis-url]\n  [![Windows Build][appveyor-image]][appveyor-url]\n  [![Test Coverage][coveralls-image]][coveralls-url]\n\n```js\nvar express = require(\'express\')\nvar app = express()\n\napp.get(\'/\', function (req, res) {\n  res.send(\'Hello World\')\n})\n\napp.listen(3000)\n```\n\n## Installation\n\n```bash\n$ npm install express\n```\n\n## Features\n\n  * Robust routing\n  * Focus on high performance\n  * Super-high test coverage\n  * HTTP helpers (redirection, caching, etc)\n  * View system supporting 14+ template engines\n  * Content negotiation\n  * Executable for generating applications quickly\n\n## Docs & Community\n\n  * [Website and Documentation](http://expressjs.com/) - [[website repo](https://github.com/strongloop/expressjs.com)]\n  * [#express](https://webchat.freenode.net/?channels=express) on freenode IRC\n  * [Github Organization](https://github.com/expressjs) for Official Middleware & Modules\n  * Visit the [Wiki](https://github.com/strongloop/express/wiki)\n  * [Google Group](https://groups.google.com/group/express-js) for discussion\n  * [Русскоязычная документация](http://jsman.ru/express/)\n  * [한국어 문서](http://expressjs.kr) - [[website repo](https://github.com/Hanul/expressjs.kr)]\n\n**PROTIP** Be sure to read [Migrating from 3.x to 4.x](https://github.com/strongloop/express/wiki/Migrating-from-3.x-to-4.x) as well as [New features in 4.x](https://github.com/strongloop/express/wiki/New-features-in-4.x).\n\n## Quick Start\n\n  The quickest way to get started with express is to utilize the executable [`express(1)`](https://github.com/expressjs/generator) to generate an application as shown below:\n\n  Install the executable. The executable\'s major version will match Express\'s:\n\n```bash\n$ npm install -g express-generator@4\n```\n\n  Create the app:\n\n```bash\n$ express /tmp/foo && cd /tmp/foo\n```\n\n  Install dependencies:\n\n```bash\n$ npm install\n```\n\n  Start the server:\n\n```bash\n$ npm start\n```\n\n## Philosophy\n\n  The Express philosophy is to provide small, robust tooling for HTTP servers, making\n  it a great solution for single page applications, web sites, hybrids, or public\n  HTTP APIs.\n\n  Express does not force you to use any specific ORM or template engine. With support for over\n  14 template engines via [Consolidate.js](https://github.com/tj/consolidate.js),\n  you can quickly craft your perfect framework.\n\n## Examples\n\n  To view the examples, clone the Express repo and install the dependencies:\n\n```bash\n$ git clone git://github.com/strongloop/express.git --depth 1\n$ cd express\n$ npm install\n```\n\n  Then run whichever example you want:\n\n```bash\n$ node examples/content-negotiation\n```\n\n## Tests\n\n  To run the test suite, first install the dependencies, then run `npm test`:\n\n```bash\n$ npm install\n$ npm test\n```\n\n## People\n\nThe original author of Express is [TJ Holowaychuk](https://github.com/tj) [![TJ\'s Gratipay][gratipay-image-visionmedia]][gratipay-url-visionmedia]\n\nThe current lead maintainer is [Douglas Christopher Wilson](https://github.com/dougwilson) [![Doug\'s Gratipay][gratipay-image-dougwilson]][gratipay-url-dougwilson]\n\n[List of all contributors](https://github.com/strongloop/express/graphs/contributors)\n\n## License\n\n  [MIT](LICENSE)\n\n[npm-image]: https://img.shields.io/npm/v/express.svg\n[npm-url]: https://npmjs.org/package/express\n[downloads-image]: https://img.shields.io/npm/dm/express.svg\n[downloads-url]: https://npmjs.org/package/express\n[travis-image]: https://img.shields.io/travis/strongloop/express/master.svg?label=linux\n[travis-url]: https://travis-ci.org/strongloop/express\n[appveyor-image]: https://img.shields.io/appveyor/ci/dougwilson/express/master.svg?label=windows\n[appveyor-url]: https://ci.appveyor.com/project/dougwilson/express\n[coveralls-image]: https://img.shields.io/coveralls/strongloop/express/master.svg\n[coveralls-url]: https://coveralls.io/r/strongloop/express?branch=master\n[gratipay-image-visionmedia]: https://img.shields.io/gratipay/visionmedia.svg\n[gratipay-url-visionmedia]: https://gratipay.com/visionmedia/\n[gratipay-image-dougwilson]: https://img.shields.io/gratipay/dougwilson.svg\n[gratipay-url-dougwilson]: https://gratipay.com/dougwilson/\n',
+388 silly resolved     readmeFilename: 'Readme.md',
+388 silly resolved     bugs: { url: 'https://github.com/strongloop/express/issues' },
+388 silly resolved     _id: 'express@4.12.4',
+388 silly resolved     _from: 'express@~4.12.2' },
+388 silly resolved   { name: 'body-parser',
+388 silly resolved     description: 'Node.js body parsing middleware',
+388 silly resolved     version: '1.12.4',
+388 silly resolved     contributors: [ [Object], [Object] ],
+388 silly resolved     license: 'MIT',
+388 silly resolved     repository: { type: 'git', url: 'git://github.com/expressjs/body-parser' },
+388 silly resolved     dependencies:
+388 silly resolved      { bytes: '1.0.0',
+388 silly resolved        'content-type': '~1.0.1',
+388 silly resolved        debug: '~2.2.0',
+388 silly resolved        depd: '~1.0.1',
+388 silly resolved        'iconv-lite': '0.4.8',
+388 silly resolved        'on-finished': '~2.2.1',
+388 silly resolved        qs: '2.4.2',
+388 silly resolved        'raw-body': '~2.0.1',
+388 silly resolved        'type-is': '~1.6.2' },
+388 silly resolved     devDependencies:
+388 silly resolved      { istanbul: '0.3.9',
+388 silly resolved        methods: '~1.1.1',
+388 silly resolved        mocha: '~2.2.4',
+388 silly resolved        supertest: '~0.15.0' },
+388 silly resolved     files: [ 'lib/', 'LICENSE', 'HISTORY.md', 'index.js' ],
+388 silly resolved     engines: { node: '>= 0.8' },
+388 silly resolved     scripts:
+388 silly resolved      { test: 'mocha --require test/support/env --reporter spec --check-leaks --bail test/',
+388 silly resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --require test/support/env --reporter dot --check-leaks test/',
+388 silly resolved        'test-travis': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --require test/support/env --reporter spec --check-leaks test/' },
+388 silly resolved     readme: '# body-parser\n\n[![NPM Version][npm-image]][npm-url]\n[![NPM Downloads][downloads-image]][downloads-url]\n[![Build Status][travis-image]][travis-url]\n[![Test Coverage][coveralls-image]][coveralls-url]\n[![Gratipay][gratipay-image]][gratipay-url]\n\nNode.js body parsing middleware.\n\n_This does not handle multipart bodies_, due to their complex and typically\nlarge nature. For multipart bodies, you may be interested in the following\nmodules:\n\n  * [busboy](https://www.npmjs.org/package/busboy#readme) and\n    [connect-busboy](https://www.npmjs.org/package/connect-busboy#readme)\n  * [multiparty](https://www.npmjs.org/package/multiparty#readme) and\n    [connect-multiparty](https://www.npmjs.org/package/connect-multiparty#readme)\n  * [formidable](https://www.npmjs.org/package/formidable#readme)\n  * [multer](https://www.npmjs.org/package/multer#readme)\n\nThis module provides the following parsers:\n\n  * [JSON body parser](#bodyparserjsonoptions)\n  * [Raw body parser](#bodyparserrawoptions)\n  * [Text body parser](#bodyparsertextoptions)\n  * [URL-encoded form body parser](#bodyparserurlencodedoptions)\n\nOther body parsers you might be interested in:\n\n- [body](https://www.npmjs.org/package/body#readme)\n- [co-body](https://www.npmjs.org/package/co-body#readme)\n\n## Installation\n\n```sh\n$ npm install body-parser\n```\n\n## API\n\n```js\nvar bodyParser = require(\'body-parser\')\n```\n\nThe `bodyParser` object exposes various factories to create middlewares. All\nmiddlewares will populate the `req.body` property with the parsed body or\nprovide an error to the callback. The various errors are described in the\n[errors section](#errors).\n\n### bodyParser.json(options)\n\nReturns middleware that only parses `json`. This parser accepts any Unicode\nencoding of the body and supports automatic inflation of `gzip` and `deflate`\nencodings.\n\nA new `body` object containing the parsed data is populated on the `request`\nobject after the middleware (i.e. `req.body`).\n\n#### Options\n\nThe `json` function takes an option `options` object that may contain any of\nthe following keys:\n\n##### inflate\n\nWhen set to `true`, then deflated (compressed) bodies will be inflated; when\n`false`, deflated bodies are rejected. Defaults to `true`.\n\n##### limit\n\nControls the maximum request body size. If this is a number, then the value\nspecifies the number of bytes; if it is a string, the value is passed to the\n[bytes](https://www.npmjs.com/package/bytes) library for parsing. Defaults\nto `\'100kb\'`.\n\n##### reviver\n\nThe `reviver` option is passed directly to `JSON.parse` as the second\nargument. You can find more information on this argument\n[in the MDN documentation about JSON.parse](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse#Example.3A_Using_the_reviver_parameter).\n\n##### strict\n\nWhen set to `true`, will only accept arrays and objects; when `false` will\naccept anything `JSON.parse` accepts. Defaults to `true`.\n\n##### type\n\nThe `type` option is used to determine what media type the middleware will\nparse. This option can be a function or a string. If a string, `type` option\nis passed directly to the [type-is](https://www.npmjs.org/package/type-is#readme)\nlibrary and this can be an extension name (like `json`), a mime type (like\n`application/json`), or a mime time with a wildcard (like `*/*` or `*/json`).\nIf a function, the `type` option is called as `fn(req)` and the request is\nparsed if it returns a truthy value. Defaults to `json`.\n\n##### verify\n\nThe `verify` option, if supplied, is called as `verify(req, res, buf, encoding)`,\nwhere `buf` is a `Buffer` of the raw request body and `encoding` is the\nencoding of the request. The parsing can be aborted by throwing an error.\n\n### bodyParser.raw(options)\n\nReturns middleware that parses all bodies as a `Buffer`. This parser\nsupports automatic inflation of `gzip` and `deflate` encodings.\n\nA new `body` object containing the parsed data is populated on the `request`\nobject after the middleware (i.e. `req.body`). This will be a `Buffer` object\nof the body.\n\n#### Options\n\nThe `raw` function takes an option `options` object that may contain any of\nthe following keys:\n\n##### inflate\n\nWhen set to `true`, then deflated (compressed) bodies will be inflated; when\n`false`, deflated bodies are rejected. Defaults to `true`.\n\n##### limit\n\nControls the maximum request body size. If this is a number, then the value\nspecifies the number of bytes; if it is a string, the value is passed to the\n[bytes](https://www.npmjs.com/package/bytes) library for parsing. Defaults\nto `\'100kb\'`.\n\n##### type\n\nThe `type` option is used to determine what media type the middleware will\nparse. This option can be a function or a string. If a string, `type` option\nis passed directly to the [type-is](https://www.npmjs.org/package/type-is#readme)\nlibrary and this can be an extension name (like `bin`), a mime type (like\n`application/octet-stream`), or a mime time with a wildcard (like `*/*` or\n`application/*`). If a function, the `type` option is called as `fn(req)`\nand the request is parsed if it returns a truthy value. Defaults to\n`application/octet-stream`.\n\n##### verify\n\nThe `verify` option, if supplied, is called as `verify(req, res, buf, encoding)`,\nwhere `buf` is a `Buffer` of the raw request body and `encoding` is the\nencoding of the request. The parsing can be aborted by throwing an error.\n\n### bodyParser.text(options)\n\nReturns middleware that parses all bodies as a string. This parser supports\nautomatic inflation of `gzip` and `deflate` encodings.\n\nA new `body` string containing the parsed data is populated on the `request`\nobject after the middleware (i.e. `req.body`). This will be a string of the\nbody.\n\n#### Options\n\nThe `text` function takes an option `options` object that may contain any of\nthe following keys:\n\n##### defaultCharset\n\nSpecify the default character set for the text content if the charset is not\nspecified in the `Content-Type` header of the request. Defaults to `utf-8`.\n\n##### inflate\n\nWhen set to `true`, then deflated (compressed) bodies will be inflated; when\n`false`, deflated bodies are rejected. Defaults to `true`.\n\n##### limit\n\nControls the maximum request body size. If this is a number, then the value\nspecifies the number of bytes; if it is a string, the value is passed to the\n[bytes](https://www.npmjs.com/package/bytes) library for parsing. Defaults\nto `\'100kb\'`.\n\n##### type\n\nThe `type` option is used to determine what media type the middleware will\nparse. This option can be a function or a string. If a string, `type` option\nis passed directly to the [type-is](https://www.npmjs.org/package/type-is#readme)\nlibrary and this can be an extension name (like `txt`), a mime type (like\n`text/plain`), or a mime time with a wildcard (like `*/*` or `text/*`).\nIf a function, the `type` option is called as `fn(req)` and the request is\nparsed if it returns a truthy value. Defaults to `text/plain`.\n\n##### verify\n\nThe `verify` option, if supplied, is called as `verify(req, res, buf, encoding)`,\nwhere `buf` is a `Buffer` of the raw request body and `encoding` is the\nencoding of the request. The parsing can be aborted by throwing an error.\n\n### bodyParser.urlencoded(options)\n\nReturns middleware that only parses `urlencoded` bodies. This parser accepts\nonly UTF-8 encoding of the body and supports automatic inflation of `gzip`\nand `deflate` encodings.\n\nA new `body` object containing the parsed data is populated on the `request`\nobject after the middleware (i.e. `req.body`). This object will contain\nkey-value pairs, where the value can be a string or array (when `extended` is\n`false`), or any type (when `extended` is `true`).\n\n#### Options\n\nThe `urlencoded` function takes an option `options` object that may contain\nany of the following keys:\n\n##### extended\n\nThe `extended` option allows to choose between parsing the URL-encoded data\nwith the `querystring` library (when `false`) or the `qs` library (when\n`true`). The "extended" syntax allows for rich objects and arrays to be\nencoded into the URL-encoded format, allowing for a JSON-like experience\nwith URL-encoded. For more information, please\n[see the qs library](https://www.npmjs.org/package/qs#readme).\n\nDefaults to `true`, but using the default has been deprecated. Please\nresearch into the difference between `qs` and `querystring` and choose the\nappropriate setting.\n\n##### inflate\n\nWhen set to `true`, then deflated (compressed) bodies will be inflated; when\n`false`, deflated bodies are rejected. Defaults to `true`.\n\n##### limit\n\nControls the maximum request body size. If this is a number, then the value\nspecifies the number of bytes; if it is a string, the value is passed to the\n[bytes](https://www.npmjs.com/package/bytes) library for parsing. Defaults\nto `\'100kb\'`.\n\n##### parameterLimit\n\nThe `parameterLimit` option controls the maximum number of parameters that\nare allowed in the URL-encoded data. If a request contains more parameters\nthan this value, a 413 will be returned to the client. Defaults to `1000`.\n\n##### type\n\nThe `type` option is used to determine what media type the middleware will\nparse. This option can be a function or a string. If a string, `type` option\nis passed directly to the [type-is](https://www.npmjs.org/package/type-is#readme)\nlibrary and this can be an extension name (like `urlencoded`), a mime type (like\n`application/x-www-form-urlencoded`), or a mime time with a wildcard (like\n`*/x-www-form-urlencoded`). If a function, the `type` option is called as\n`fn(req)` and the request is parsed if it returns a truthy value. Defaults\nto `urlencoded`.\n\n##### verify\n\nThe `verify` option, if supplied, is called as `verify(req, res, buf, encoding)`,\nwhere `buf` is a `Buffer` of the raw request body and `encoding` is the\nencoding of the request. The parsing can be aborted by throwing an error.\n\n## Errors\n\nThe middlewares provided by this module create errors depending on the error\ncondition during parsing. The errors will typically have a `status` property\nthat contains the suggested HTTP response code.\n\nThe following are the common errors emitted, though any error can come through\nfor various reasons.\n\n### content encoding unsupported\n\nThis error will occur when the request had a `Content-Encoding` header that\ncontained an encoding but the "inflation" option was set to `false`. The\n`status` property is set to `415`.\n\n### request aborted\n\nThis error will occur when the request is aborted by the client before reading\nthe body has finished. The `received` property will be set to the number of\nbytes received before the request was aborted and the `expected` property is\nset to the number of expected bytes. The `status` property is set to `400`.\n\n### request entity too large\n\nThis error will occur when the request body\'s size is larger than the "limit"\noption. The `limit` property will be set to the byte limit and the `length`\nproperty will be set to the request body\'s length. The `status` property is\nset to `413`.\n\n### request size did not match content length\n\nThis error will occur when the request\'s length did not match the length from\nthe `Content-Lentgh` header. This typically occurs when the requst is malformed,\ntypically when the `Content-Length` header was calculated based on characters\ninstead of bytes. The `status` property is set to `400`.\n\n### stream encoding should not be set\n\nThis error will occur when something called the `req.setEncoding` method prior\nto this middleware. This module operates directly on bytes only and you cannot\ncall `req.setEncoding` when using this module. The `status` property is set to\n`500`.\n\n### unsupported charset "BOGUS"\n\nThis error will occur when the request had a charset parameter in the\n`Content-Type` header, but the `iconv-lite` module does not support it OR the\nparser does not support it. The charset is contained in the message as well\nas in the `charset` property. The `status` property is set to `415`.\n\n### unsupported content encoding "bogus"\n\nThis error will occur when the request had a `Content-Encoding` header that\ncontained an unsupported encoding. The encoding is contained in the message\nas well as in the `encoding` property. The `status` property is set to `415`.\n\n## Examples\n\n### express/connect top-level generic\n\nThis example demonstrates adding a generic JSON and URL-encoded parser as a\ntop-level middleware, which will parse the bodies of all incoming requests.\nThis is the simplest setup.\n\n```js\nvar express = require(\'express\')\nvar bodyParser = require(\'body-parser\')\n\nvar app = express()\n\n// parse application/x-www-form-urlencoded\napp.use(bodyParser.urlencoded({ extended: false }))\n\n// parse application/json\napp.use(bodyParser.json())\n\napp.use(function (req, res) {\n  res.setHeader(\'Content-Type\', \'text/plain\')\n  res.write(\'you posted:\\n\')\n  res.end(JSON.stringify(req.body, null, 2))\n})\n```\n\n### express route-specific\n\nThis example demonstrates adding body parsers specifically to the routes that\nneed them. In general, this is the most recommend way to use body-parser with\nexpress.\n\n```js\nvar express = require(\'express\')\nvar bodyParser = require(\'body-parser\')\n\nvar app = express()\n\n// create application/json parser\nvar jsonParser = bodyParser.json()\n\n// create application/x-www-form-urlencoded parser\nvar urlencodedParser = bodyParser.urlencoded({ extended: false })\n\n// POST /login gets urlencoded bodies\napp.post(\'/login\', urlencodedParser, function (req, res) {\n  if (!req.body) return res.sendStatus(400)\n  res.send(\'welcome, \' + req.body.username)\n})\n\n// POST /api/users gets JSON bodies\napp.post(\'/api/users\', jsonParser, function (req, res) {\n  if (!req.body) return res.sendStatus(400)\n  // create user in req.body\n})\n```\n\n### change content-type for parsers\n\nAll the parsers accept a `type` option which allows you to change the\n`Content-Type` that the middleware will parse.\n\n```js\n// parse various different custom JSON types as JSON\napp.use(bodyParser.json({ type: \'application/*+json\' }))\n\n// parse some custom thing into a Buffer\napp.use(bodyParser.raw({ type: \'application/vnd.custom-type\' }))\n\n// parse an HTML body into a string\napp.use(bodyParser.text({ type: \'text/html\' }))\n```\n\n## License\n\n[MIT](LICENSE)\n\n[npm-image]: https://img.shields.io/npm/v/body-parser.svg\n[npm-url]: https://npmjs.org/package/body-parser\n[travis-image]: https://img.shields.io/travis/expressjs/body-parser/master.svg\n[travis-url]: https://travis-ci.org/expressjs/body-parser\n[coveralls-image]: https://img.shields.io/coveralls/expressjs/body-parser/master.svg\n[coveralls-url]: https://coveralls.io/r/expressjs/body-parser?branch=master\n[downloads-image]: https://img.shields.io/npm/dm/body-parser.svg\n[downloads-url]: https://npmjs.org/package/body-parser\n[gratipay-image]: https://img.shields.io/gratipay/dougwilson.svg\n[gratipay-url]: https://www.gratipay.com/dougwilson/\n',
+388 silly resolved     readmeFilename: 'README.md',
+388 silly resolved     bugs: { url: 'https://github.com/expressjs/body-parser/issues' },
+388 silly resolved     _id: 'body-parser@1.12.4',
+388 silly resolved     _from: 'body-parser@~1.12.0' },
+388 silly resolved   { name: 'morgan',
+388 silly resolved     description: 'HTTP request logger middleware for node.js',
+388 silly resolved     version: '1.5.3',
+388 silly resolved     contributors: [ [Object], [Object] ],
+388 silly resolved     license: 'MIT',
+388 silly resolved     repository: { type: 'git', url: 'git://github.com/expressjs/morgan' },
+388 silly resolved     dependencies:
+388 silly resolved      { 'basic-auth': '~1.0.1',
+388 silly resolved        debug: '~2.2.0',
+388 silly resolved        depd: '~1.0.1',
+388 silly resolved        'on-finished': '~2.2.1' },
+388 silly resolved     devDependencies: { istanbul: '0.3.9', mocha: '~2.2.4', supertest: '~0.15.0' },
+388 silly resolved     files: [ 'LICENSE', 'HISTORY.md', 'README.md', 'index.js' ],
+388 silly resolved     engines: { node: '>= 0.8.0' },
+388 silly resolved     scripts:
+388 silly resolved      { test: 'mocha --check-leaks --reporter spec --bail',
+388 silly resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --check-leaks --reporter dot',
+388 silly resolved        'test-travis': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --check-leaks --reporter spec' },
+388 silly resolved     readme: '# morgan\n\n[![NPM Version][npm-image]][npm-url]\n[![NPM Downloads][downloads-image]][downloads-url]\n[![Build Status][travis-image]][travis-url]\n[![Test Coverage][coveralls-image]][coveralls-url]\n[![Gratipay][gratipay-image]][gratipay-url]\n\nHTTP request logger middleware for node.js\n\n> Named after [Dexter](http://en.wikipedia.org/wiki/Dexter_Morgan), a show you should not watch until completion.\n\n## API\n\n```js\nvar morgan = require(\'morgan\')\n```\n\n### morgan(format, options)\n\nCreate a new morgan logger middleware function using the given `format` and `options`.\nThe `format` argument may be a string of a predefined name (see below for the names),\na string of a format string, or a function that will produce a log entry.\n\n#### Options\n\nMorgan accepts these properties in the options object.\n\n#### immediate\n\nWrite log line on request instead of response. This means that a requests will\nbe logged even if the server crashes, _but data from the response (like the\nresponse code, content length, etc.) cannot be logged_.\n\n##### skip\n\nFunction to determine if logging is skipped, defaults to `false`. This function\nwill be called as `skip(req, res)`.\n\n```js\n// EXAMPLE: only log error responses\nmorgan(\'combined\', {\n  skip: function (req, res) { return res.statusCode < 400 }\n})\n```\n\n##### stream\n\nOutput stream for writing log lines, defaults to `process.stdout`.\n\n#### Predefined Formats\n\nThere are various pre-defined formats provided:\n\n##### combined\n\nStandard Apache combined log output.\n\n```\n:remote-addr - :remote-user [:date[clf]] ":method :url HTTP/:http-version" :status :res[content-length] ":referrer" ":user-agent"\n```\n\n##### common\n\nStandard Apache common log output.\n\n```\n:remote-addr - :remote-user [:date[clf]] ":method :url HTTP/:http-version" :status :res[content-length]\n```\n\n##### dev\n\nConcise output colored by response status for development use. The `:status`\ntoken will be colored red for server error codes, yellow for client error\ncodes, cyan for redirection codes, and uncolored for all other codes.\n\n```\n:method :url :status :response-time ms - :res[content-length]\n```\n\n##### short\n\nShorter than default, also including response time.\n\n```\n:remote-addr :remote-user :method :url HTTP/:http-version :status :res[content-length] - :response-time ms\n```\n\n##### tiny\n\nThe minimal output.\n\n```\n:method :url :status :res[content-length] - :response-time ms\n```\n\n#### Tokens\n\n##### Creating new tokens\n\nTo define a token, simply invoke `morgan.token()` with the name and a callback function. This callback function is expected to return a string value. The value returned is then available as ":type" in this case:\n```js\nmorgan.token(\'type\', function(req, res){ return req.headers[\'content-type\']; })\n```\n\nCalling `morgan.token()` using the same name as an existing token will overwrite that token definition.\n\n##### :date[format]\n\nThe current date and time in UTC. The available formats are:\n\n  - `clf` for the common log format (`"10/Oct/2000:13:55:36 +0000"`)\n  - `iso` for the common ISO 8601 date time format (`2000-10-10T13:55:36.000Z`)\n  - `web` for the common RFC 1123 date time format (`Tue, 10 Oct 2000 13:55:36 GMT`)\n\nIf no format is given, then the default is `web`.\n\n##### :http-version\n\nThe HTTP version of the request.\n\n##### :method\n\nThe HTTP version of the request.\n\n##### :referrer\n\nThe Referrer header of the request. This will use the standard mis-spelled Referer header if exists, otherwise Referrer.\n\n##### :remote-addr\n\nThe remote address of the request. This will use `req.ip`, otherwise the standard `req.connection.remoteAddress` value (socket address).\n\n##### :remote-user\n\nThe user authenticated as part of Basic auth for the request.\n\n##### :req[header]\n\nThe given `header` of the request.\n\n##### :res[header]\n\nThe given `header` of the response.\n\n##### :response-time\n\nThe time between the request coming into `morgan` and when the response headers are written, in milliseconds.\n\n##### :status\n\nThe status code of the response.\n\n##### :url\n\nThe URL of the request. This will use `req.originalUrl` if exists, otherwise `req.url`.\n\n##### :user-agent\n\nThe contents of the User-Agent header of the request.\n\n## Examples\n\n### express/connect\n\nSimple app that will log all request in the Apache combined format to STDOUT\n\n```js\nvar express = require(\'express\')\nvar morgan = require(\'morgan\')\n\nvar app = express()\n\napp.use(morgan(\'combined\'))\n\napp.get(\'/\', function (req, res) {\n  res.send(\'hello, world!\')\n})\n```\n\n### vanilla http server\n\nSimple app that will log all request in the Apache combined format to STDOUT\n\n```js\nvar finalhandler = require(\'finalhandler\')\nvar http = require(\'http\')\nvar morgan = require(\'morgan\')\n\n// create "middleware"\nvar logger = morgan(\'combined\')\n\nhttp.createServer(function (req, res) {\n  var done = finalhandler(req, res)\n  logger(req, res, function (err) {\n    if (err) return done(err)\n\n    // respond to request\n    res.setHeader(\'content-type\', \'text/plain\')\n    res.end(\'hello, world!\')\n  })\n})\n```\n\n### write logs to a file\n\n#### single file\n\nSimple app that will log all requests in the Apache combined format to the file\n`access.log`.\n\n```js\nvar express = require(\'express\')\nvar fs = require(\'fs\')\nvar morgan = require(\'morgan\')\n\nvar app = express()\n\n// create a write stream (in append mode)\nvar accessLogStream = fs.createWriteStream(__dirname + \'/access.log\', {flags: \'a\'})\n\n// setup the logger\napp.use(morgan(\'combined\', {stream: accessLogStream}))\n\napp.get(\'/\', function (req, res) {\n  res.send(\'hello, world!\')\n})\n```\n\n#### log file rotation\n\nSimple app that will log all requests in the Apache combined format to one log\nfile per date in the `log/` directory using the\n[file-stream-rotator module](https://www.npmjs.com/package/file-stream-rotator).\n\n```js\nvar FileStreamRotator = require(\'file-stream-rotator\')\nvar express = require(\'express\')\nvar fs = require(\'fs\')\nvar morgan = require(\'morgan\')\n\nvar app = express()\nvar logDirectory = __dirname + \'/log\'\n\n// ensure log directory exists\nfs.existsSync(logDirectory) || fs.mkdirSync(logDirectory)\n\n// create a rotating write stream\nvar accessLogStream = FileStreamRotator.getStream({\n  filename: logDirectory + \'/access-%DATE%.log\',\n  frequency: \'daily\',\n  verbose: false\n})\n\n// setup the logger\napp.use(morgan(\'combined\', {stream: accessLogStream}))\n\napp.get(\'/\', function (req, res) {\n  res.send(\'hello, world!\')\n})\n```\n\n### use custom token formats\n\nSample app that will use custom token formats. This adds an ID to all requests and displays it using the `:id` token.\n\n```js\nvar express = require(\'express\')\nvar morgan = require(\'morgan\')\nvar uuid = require(\'node-uuid\')\n\nmorgan.token(\'id\', function getId(req) {\n  return req.id\n})\n\nvar app = express()\n\napp.use(assignId)\napp.use(morgan(\':id :method :url :response-time\'))\n\napp.get(\'/\', function (req, res) {\n  res.send(\'hello, world!\')\n})\n\nfunction assignId(req, res, next) {\n  req.id = uuid.v4()\n  next()\n}\n```\n\n## License\n\n[MIT](LICENSE)\n\n[npm-image]: https://img.shields.io/npm/v/morgan.svg\n[npm-url]: https://npmjs.org/package/morgan\n[travis-image]: https://img.shields.io/travis/expressjs/morgan/master.svg\n[travis-url]: https://travis-ci.org/expressjs/morgan\n[coveralls-image]: https://img.shields.io/coveralls/expressjs/morgan/master.svg\n[coveralls-url]: https://coveralls.io/r/expressjs/morgan?branch=master\n[downloads-image]: https://img.shields.io/npm/dm/morgan.svg\n[downloads-url]: https://npmjs.org/package/morgan\n[gratipay-image]: https://img.shields.io/gratipay/dougwilson.svg\n[gratipay-url]: https://www.gratipay.com/dougwilson/\n',
+388 silly resolved     readmeFilename: 'README.md',
+388 silly resolved     bugs: { url: 'https://github.com/expressjs/morgan/issues' },
+388 silly resolved     _id: 'morgan@1.5.3',
+388 silly resolved     _from: 'morgan@~1.5.1' },
+388 silly resolved   { name: 'passport',
+388 silly resolved     version: '0.3.2',
+388 silly resolved     description: 'Simple, unobtrusive authentication for Node.js.',
+388 silly resolved     keywords: [ 'express', 'connect', 'auth', 'authn', 'authentication' ],
+388 silly resolved     author:
+388 silly resolved      { name: 'Jared Hanson',
+388 silly resolved        email: 'jaredhanson@gmail.com',
+388 silly resolved        url: 'http://www.jaredhanson.net/' },
+388 silly resolved     homepage: 'http://passportjs.org/',
+388 silly resolved     repository:
+388 silly resolved      { type: 'git',
+388 silly resolved        url: 'git://github.com/jaredhanson/passport.git' },
+388 silly resolved     bugs: { url: 'http://github.com/jaredhanson/passport/issues' },
+388 silly resolved     license: 'MIT',
+388 silly resolved     licenses: [ [Object] ],
+388 silly resolved     main: './lib',
+388 silly resolved     dependencies: { 'passport-strategy': '1.x.x', pause: '0.0.1' },
+388 silly resolved     devDependencies:
+388 silly resolved      { mocha: '2.x.x',
+388 silly resolved        chai: '2.x.x',
+388 silly resolved        'chai-connect-middleware': '0.3.x',
+388 silly resolved        'chai-passport-strategy': '0.2.x',
+388 silly resolved        proxyquire: '1.x.x' },
+388 silly resolved     engines: { node: '>= 0.4.0' },
+388 silly resolved     scripts: { test: 'node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js test/**/*.test.js' },
+388 silly resolved     readme: 'ERROR: No README data found!',
+388 silly resolved     _id: 'passport@0.3.2',
+388 silly resolved     _from: 'passport@' },
+388 silly resolved   { name: 'serve-favicon',
+388 silly resolved     description: 'favicon serving middleware with caching',
+388 silly resolved     version: '2.2.1',
+388 silly resolved     author:
+388 silly resolved      { name: 'Douglas Christopher Wilson',
+388 silly resolved        email: 'doug@somethingdoug.com' },
+388 silly resolved     license: 'MIT',
+388 silly resolved     keywords: [ 'express', 'favicon', 'middleware' ],
+388 silly resolved     repository: { type: 'git', url: 'git://github.com/expressjs/serve-favicon' },
+388 silly resolved     dependencies:
+388 silly resolved      { etag: '~1.6.0',
+388 silly resolved        fresh: '0.2.4',
+388 silly resolved        ms: '0.7.1',
+388 silly resolved        parseurl: '~1.3.0' },
+388 silly resolved     devDependencies:
+388 silly resolved      { istanbul: '0.3.9',
+388 silly resolved        mocha: '2.2.4',
+388 silly resolved        proxyquire: '~1.2.0',
+388 silly resolved        supertest: '1.0.1' },
+388 silly resolved     files: [ 'LICENSE', 'HISTORY.md', 'index.js' ],
+388 silly resolved     engines: { node: '>= 0.8.0' },
+388 silly resolved     scripts:
+388 silly resolved      { test: 'mocha --reporter spec --bail --check-leaks test/',
+388 silly resolved        'test-ci': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/',
+388 silly resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/' },
+388 silly resolved     readme: '# serve-favicon\n\n[![NPM Version][npm-image]][npm-url]\n[![NPM Downloads][downloads-image]][downloads-url]\n[![Linux Build][travis-image]][travis-url]\n[![Windows Build][appveyor-image]][appveyor-url]\n[![Test Coverage][coveralls-image]][coveralls-url]\n[![Gittip][gittip-image]][gittip-url]\n\nNode.js middleware for serving a favicon.\n\nA favicon is a visual cue that client software, like browsers, use to identify\na site. For an example and more information, please visit\n[the Wikipedia article on favicons](https://en.wikipedia.org/wiki/Favicon).\n\nWhy use this module?\n\n  - User agents request `favicon.ico` frequently and indiscriminately, so you\n    may wish to exclude these requests from your logs by using this middleware\n    before your logger middleware.\n  - This module caches the icon in memory to improve performance by skipping\n    disk access.\n  - This module provides an `ETag` based on the contents of the icon, rather\n    than file system properties.\n  - This module will serve with the most compatible `Content-Type`.\n\n**Note** This module is exclusively for serving the "default, implicit favicon",\nwhich is `GET /favicon.ico`. For additional vendor-specific icons that require\nHTML markup, additional middleware is required to serve the relevant files, for\nexample [serve-static](https://npmjs.org/package/serve-static).\n\n## Install\n\n```bash\nnpm install serve-favicon\n```\n\n## API\n\n### favicon(path, options)\n\nCreate new middleware to serve a favicon from the given `path` to a favicon file.\n`path` may also be a `Buffer` of the icon to serve.\n\n#### Options\n\nServe favicon accepts these properties in the options object.\n\n##### maxAge\n\nThe `cache-control` `max-age` directive in `ms`, defaulting to 1 year. This can\nalso be a string accepted by the [ms](https://www.npmjs.org/package/ms#readme)\nmodule.\n\n## Examples\n\nTypically this middleware will come very early in your stack (maybe even first)\nto avoid processing any other middleware if we already know the request is for\n`/favicon.ico`.\n\n### express\n\n```javascript\nvar express = require(\'express\');\nvar favicon = require(\'serve-favicon\');\n\nvar app = express();\napp.use(favicon(__dirname + \'/public/favicon.ico\'));\n\n// Add your routes here, etc.\n\napp.listen(3000);\n```\n\n### connect\n\n```javascript\nvar connect = require(\'connect\');\nvar favicon = require(\'serve-favicon\');\n\nvar app = connect();\napp.use(favicon(__dirname + \'/public/favicon.ico\'));\n\n// Add your middleware here, etc.\n\napp.listen(3000);\n```\n\n### vanilla http server\n\nThis middleware can be used anywhere, even outside express/connect. It takes\n`req`, `res`, and `callback`.\n\n```javascript\nvar http = require(\'http\');\nvar favicon = require(\'serve-favicon\');\nvar finalhandler = require(\'finalhandler\');\n\nvar _favicon = favicon(__dirname + \'/public/favicon.ico\');\n\nvar server = http.createServer(function onRequest(req, res) {\n  var done = finalhandler(req, res);\n\n  _favicon(req, res, function onNext(err) {\n    if (err) return done(err);\n\n    // continue to process the request here, etc.\n\n    res.statusCode = 404;\n    res.end(\'oops\');\n  });\n});\n\nserver.listen(3000);\n```\n\n## License\n\n[MIT](LICENSE)\n\n[npm-image]: https://img.shields.io/npm/v/serve-favicon.svg\n[npm-url]: https://npmjs.org/package/serve-favicon\n[travis-image]: https://img.shields.io/travis/expressjs/serve-favicon/master.svg?label=linux\n[travis-url]: https://travis-ci.org/expressjs/serve-favicon\n[appveyor-image]: https://img.shields.io/appveyor/ci/dougwilson/serve-favicon/master.svg?label=windows\n[appveyor-url]: https://ci.appveyor.com/project/dougwilson/serve-favicon\n[coveralls-image]: https://img.shields.io/coveralls/expressjs/serve-favicon.svg\n[coveralls-url]: https://coveralls.io/r/expressjs/serve-favicon?branch=master\n[downloads-image]: https://img.shields.io/npm/dm/serve-favicon.svg\n[downloads-url]: https://npmjs.org/package/serve-favicon\n[gittip-image]: https://img.shields.io/gittip/dougwilson.svg\n[gittip-url]: https://www.gittip.com/dougwilson/\n',
+388 silly resolved     readmeFilename: 'README.md',
+388 silly resolved     bugs: { url: 'https://github.com/expressjs/serve-favicon/issues' },
+388 silly resolved     _id: 'serve-favicon@2.2.1',
+388 silly resolved     _from: 'serve-favicon@~2.2.0' },
+388 silly resolved   { name: 'jade',
+388 silly resolved     description: 'A clean, whitespace-sensitive template language for writing HTML',
+388 silly resolved     version: '1.9.2',
+388 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+388 silly resolved     maintainers:
+388 silly resolved      [ [Object],
+388 silly resolved        [Object],
+388 silly resolved        [Object],
+388 silly resolved        [Object],
+388 silly resolved        [Object],
+388 silly resolved        [Object],
+388 silly resolved        [Object] ],
+388 silly resolved     license: 'MIT',
+388 silly resolved     repository: { type: 'git', url: 'git://github.com/jadejs/jade' },
+388 silly resolved     main: 'lib',
+388 silly resolved     bin: { jade: './bin/jade.js' },
+388 silly resolved     dependencies:
+388 silly resolved      { 'character-parser': '1.2.1',
+388 silly resolved        commander: '~2.6.0',
+388 silly resolved        constantinople: '~3.0.1',
+388 silly resolved        mkdirp: '~0.5.0',
+388 silly resolved        transformers: '2.1.0',
+388 silly resolved        'void-elements': '~2.0.1',
+388 silly resolved        with: '~4.0.0' },
+388 silly resolved     devDependencies:
+388 silly resolved      { 'coffee-script': '*',
+388 silly resolved        coveralls: '^2.11.2',
+388 silly resolved        mocha: '*',
+388 silly resolved        istanbul: '*',
+388 silly resolved        markdown: '*',
+388 silly resolved        stylus: '*',
+388 silly resolved        should: '*',
+388 silly resolved        less: '<2.0.0',
+388 silly resolved        'uglify-js': '*',
+388 silly resolved        browserify: '*',
+388 silly resolved        linify: '*',
+388 silly resolved        'less-file': '0.0.9',
+388 silly resolved        express: '~4.10.4',
+388 silly resolved        'browserify-middleware': '~4.1.0',
+388 silly resolved        twbs: '0.0.6',
+388 silly resolved        'highlight-codemirror': '~4.1.0',
+388 silly resolved        inconsolata: '0.0.2',
+388 silly resolved        'jade-code-mirror': '~1.0.5',
+388 silly resolved        'code-mirror': '~3.22.0',
+388 silly resolved        handle: '~1.0.0',
+388 silly resolved        'jade-highlighter': '~1.0.5',
+388 silly resolved        marked: '~0.3.2',
+388 silly resolved        stop: '^3.0.0-rc1',
+388 silly resolved        opener: '^1.3.0',
+388 silly resolved        'github-basic': '^4.1.2',
+388 silly resolved        'pull-request': '^3.0.0',
+388 silly resolved        lsr: '^1.0.0',
+388 silly resolved        rimraf: '^2.2.8' },
+388 silly resolved     component: { scripts: [Object] },
+388 silly resolved     scripts:
+388 silly resolved      { test: 'mocha -R spec',
+388 silly resolved        precoverage: 'rimraf coverage && rimraf cov-pt*',
+388 silly resolved        coverage: 'istanbul cover --report none --dir cov-pt0 node_modules/mocha/bin/_mocha -- -R dot',
+388 silly resolved        postcoverage: 'istanbul report --include cov-pt\\*/coverage.json && rimraf cov-pt*',
+388 silly resolved        coveralls: 'npm run coverage && cat ./coverage/lcov.info | coveralls',
+388 silly resolved        prepublish: 'npm prune && linify transform bin && npm run build',
+388 silly resolved        build: 'npm run compile',
+388 silly resolved        compile: 'npm run compile-full && npm run compile-runtime',
+388 silly resolved        'compile-full': 'browserify ./lib/index.js --standalone jade -x ./node_modules/transformers > jade.js',
+388 silly resolved        'compile-runtime': 'browserify ./lib/runtime.js --standalone jade > runtime.js' },
+388 silly resolved     browser: { fs: false, './lib/filters.js': './lib/filters-client.js' },
+388 silly resolved     homepage: 'http://jade-lang.com',
+388 silly resolved     readme: '# [![Jade - Node Template Engine](http://jade-lang.com/logos/JadeBlack.svg)](http://jade-lang.com/)\n\nFull documentation is at [jade-lang.com](http://jade-lang.com/)\n\n Jade is a high performance template engine heavily influenced by [Haml](http://haml-lang.com)\n and implemented with JavaScript for [node](http://nodejs.org) and browsers. For bug reports,\n feature requests and questions, [open an issue](https://github.com/jadejs/jade/issues/new).\n For discussion join the [chat room](https://gitter.im/jadejs/jade).\n\n You can test drive Jade online [here](http://naltatis.github.com/jade-syntax-docs).\n\n [![Build Status](https://img.shields.io/travis/jadejs/jade/master.svg?style=flat)](https://travis-ci.org/jadejs/jade)\n [![Coverage Status](https://img.shields.io/coveralls/jadejs/jade/master.svg?style=flat)](https://coveralls.io/r/jadejs/jade?branch=master)\n [![Dependency Status](https://img.shields.io/david/jadejs/jade.svg?style=flat)](https://david-dm.org/jadejs/jade)\n [![devDependencies Status](https://img.shields.io/david/dev/jadejs/jade.svg?style=flat)](https://david-dm.org/jadejs/jade#info=devDependencies)\n [![NPM version](https://img.shields.io/npm/v/jade.svg?style=flat)](http://badge.fury.io/js/jade)\n [![Join Gitter Chat](https://img.shields.io/badge/gitter-join%20chat%20%E2%86%92-brightgreen.svg?style=flat)](https://gitter.im/jadejs/jade?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)\n\n## Installation\n\nvia npm:\n\n```bash\n$ npm install jade\n```\n\n## Syntax\n\nJade is a clean, whitespace sensitive syntax for writing html.  Here is a simple example:\n\n```jade\ndoctype html\nhtml(lang="en")\n  head\n    title= pageTitle\n    script(type=\'text/javascript\').\n      if (foo) bar(1 + 5)\n  body\n    h1 Jade - node template engine\n    #container.col\n      if youAreUsingJade\n        p You are amazing\n      else\n        p Get on it!\n      p.\n        Jade is a terse and simple templating language with a\n        strong focus on performance and powerful features.\n```\n\nbecomes\n\n\n```html\n<!DOCTYPE html>\n<html lang="en">\n  <head>\n    <title>Jade</title>\n    <script type="text/javascript">\n      if (foo) bar(1 + 5)\n    </script>\n  </head>\n  <body>\n    <h1>Jade - node template engine</h1>\n    <div id="container" class="col">\n      <p>You are amazing</p>\n      <p>Jade is a terse and simple templating language with a strong focus on performance and powerful features.</p>\n    </div>\n  </body>\n</html>\n```\n\nThe official [jade tutorial](http://jade-lang.com/tutorial/) is a great place to start.  While that (and the syntax documentation) is being finished, you can view some of the old documentation [here](https://github.com/jadejs/jade/blob/master/jade.md) and [here](https://github.com/jadejs/jade/blob/master/jade-language.md)\n\n## API\n\nFor full API, see [jade-lang.com/api](http://jade-lang.com/api/)\n\n```js\nvar jade = require(\'jade\');\n\n// compile\nvar fn = jade.compile(\'string of jade\', options);\nvar html = fn(locals);\n\n// render\nvar html = jade.render(\'string of jade\', merge(options, locals));\n\n// renderFile\nvar html = jade.renderFile(\'filename.jade\', merge(options, locals));\n```\n\n### Options\n\n - `filename`  Used in exceptions, and required when using includes\n - `compileDebug`  When `false` no debug instrumentation is compiled\n - `pretty`    Add pretty-indentation whitespace to output _(false by default)_\n\n## Browser Support\n\n The latest version of jade can be download for the browser in standalone form from [here](https://github.com/jadejs/jade/raw/master/jade.js).  It only supports the very latest browsers though, and is a large file.  It is recommended that you pre-compile your jade templates to JavaScript and then just use the [runtime.js](https://github.com/jadejs/jade/raw/master/runtime.js) library on the client.\n\n To compile a template for use on the client using the command line, do:\n\n```console\n$ jade --client --no-debug filename.jade\n```\n\nwhich will produce `filename.js` containing the compiled template.\n\n## Command Line\n\nAfter installing the latest version of [node](http://nodejs.org/), install with:\n\n```console\n$ npm install jade -g\n```\n\nand run with\n\n```console\n$ jade --help\n```\n\n## Additional Resources\n\nTutorials:\n\n  - cssdeck interactive [Jade syntax tutorial](http://cssdeck.com/labs/learning-the-jade-templating-engine-syntax)\n  - cssdeck interactive [Jade logic tutorial](http://cssdeck.com/labs/jade-templating-tutorial-codecast-part-2)\n  - [Jade について。](https://gist.github.com/japboy/5402844) (A Japanese Tutorial)\n  - [Jade - 模板引擎](https://github.com/jadejs/jade/blob/master/Readme_zh-cn.md)\n\nImplementations in other languages:\n\n  - [php](http://github.com/everzet/jade.php)\n  - [scala](http://scalate.fusesource.org/versions/snapshot/documentation/scaml-reference.html)\n  - [ruby](https://github.com/slim-template/slim)\n  - [python](https://github.com/SyrusAkbary/pyjade)\n  - [java](https://github.com/neuland/jade4j)\n\nOther:\n\n  - [Emacs Mode](https://github.com/brianc/jade-mode)\n  - [Vim Syntax](https://github.com/digitaltoad/vim-jade)\n  - [TextMate Bundle](http://github.com/miksago/jade-tmbundle)\n  - [Coda/SubEtha syntax Mode](https://github.com/aaronmccall/jade.mode)\n  - [Screencasts](http://tjholowaychuk.com/post/1004255394/jade-screencast-template-engine-for-nodejs)\n  - [html2jade](https://github.com/donpark/html2jade) converter\n  - [Jade Server](https://github.com/ded/jade-server)  Ideal for building local prototypes apart from any application\n\n## License\n\nMIT\n',
+388 silly resolved     readmeFilename: 'README.md',
+388 silly resolved     bugs: { url: 'https://github.com/jadejs/jade/issues' },
+388 silly resolved     _id: 'jade@1.9.2',
+388 silly resolved     _from: 'jade@~1.9.2' },
+388 silly resolved   { name: 'debug',
+388 silly resolved     version: '2.1.3',
+388 silly resolved     repository: { type: 'git', url: 'git://github.com/visionmedia/debug.git' },
+388 silly resolved     description: 'small debugging utility',
+388 silly resolved     keywords: [ 'debug', 'log', 'debugger' ],
+388 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+388 silly resolved     contributors: [ [Object] ],
+388 silly resolved     license: 'MIT',
+388 silly resolved     dependencies: { ms: '0.7.0' },
+388 silly resolved     devDependencies: { browserify: '9.0.3', mocha: '*' },
+388 silly resolved     main: './node.js',
+388 silly resolved     browser: './browser.js',
+388 silly resolved     component: { scripts: [Object] },
+388 silly resolved     readme: '# debug\n\n  tiny node.js debugging utility modelled after node core\'s debugging technique.\n\n## Installation\n\n```bash\n$ npm install debug\n```\n\n## Usage\n\n With `debug` you simply invoke the exported function to generate your debug function, passing it a name which will determine if a noop function is returned, or a decorated `console.error`, so all of the `console` format string goodies you\'re used to work fine. A unique color is selected per-function for visibility.\n\nExample _app.js_:\n\n```js\nvar debug = require(\'debug\')(\'http\')\n  , http = require(\'http\')\n  , name = \'My App\';\n\n// fake app\n\ndebug(\'booting %s\', name);\n\nhttp.createServer(function(req, res){\n  debug(req.method + \' \' + req.url);\n  res.end(\'hello\\n\');\n}).listen(3000, function(){\n  debug(\'listening\');\n});\n\n// fake worker of some kind\n\nrequire(\'./worker\');\n```\n\nExample _worker.js_:\n\n```js\nvar debug = require(\'debug\')(\'worker\');\n\nsetInterval(function(){\n  debug(\'doing some work\');\n}, 1000);\n```\n\n The __DEBUG__ environment variable is then used to enable these based on space or comma-delimited names. Here are some examples:\n\n  ![debug http and worker](http://f.cl.ly/items/18471z1H402O24072r1J/Screenshot.png)\n\n  ![debug worker](http://f.cl.ly/items/1X413v1a3M0d3C2c1E0i/Screenshot.png)\n\n#### Windows note\n\n On Windows the environment variable is set using the `set` command. \n \n ```cmd\n set DEBUG=*,-not_this\n ```\n\nThen, run the program to be debugged as usual.\n\n## Millisecond diff\n\n  When actively developing an application it can be useful to see when the time spent between one `debug()` call and the next. Suppose for example you invoke `debug()` before requesting a resource, and after as well, the "+NNNms" will show you how much time was spent between calls.\n\n  ![](http://f.cl.ly/items/2i3h1d3t121M2Z1A3Q0N/Screenshot.png)\n\n  When stdout is not a TTY, `Date#toUTCString()` is used, making it more useful for logging the debug information as shown below:\n\n  ![](http://f.cl.ly/items/112H3i0e0o0P0a2Q2r11/Screenshot.png)\n\n## Conventions\n\n If you\'re using this in one or more of your libraries, you _should_ use the name of your library so that developers may toggle debugging as desired without guessing names. If you have more than one debuggers you _should_ prefix them with your library name and use ":" to separate features. For example "bodyParser" from Connect would then be "connect:bodyParser".\n\n## Wildcards\n\n  The `*` character may be used as a wildcard. Suppose for example your library has debuggers named "connect:bodyParser", "connect:compress", "connect:session", instead of listing all three with `DEBUG=connect:bodyParser,connect.compress,connect:session`, you may simply do `DEBUG=connect:*`, or to run everything using this module simply use `DEBUG=*`.\n\n  You can also exclude specific debuggers by prefixing them with a "-" character.  For example, `DEBUG=*,-connect:*` would include all debuggers except those starting with "connect:".\n\n## Browser support\n\n  Debug works in the browser as well, currently persisted by `localStorage`. Consider the situation shown below where you have `worker:a` and `worker:b`, and wish to debug both. Somewhere in the code on your page, include:\n\n```js\nwindow.myDebug = require("debug");\n```\n\n  ("debug" is a global object in the browser so we give this object a different name.) When your page is open in the browser, type the following in the console:\n\n```js\nmyDebug.enable("worker:*")\n```\n\n  Refresh the page. Debug output will continue to be sent to the console until it is disabled by typing `myDebug.disable()` in the console.\n\n```js\na = debug(\'worker:a\');\nb = debug(\'worker:b\');\n\nsetInterval(function(){\n  a(\'doing some work\');\n}, 1000);\n\nsetInterval(function(){\n  b(\'doing some work\');\n}, 1200);\n```\n\n#### Web Inspector Colors\n\n  Colors are also enabled on "Web Inspectors" that understand the `%c` formatting\n  option. These are WebKit web inspectors, Firefox ([since version\n  31](https://hacks.mozilla.org/2014/05/editable-box-model-multiple-selection-sublime-text-keys-much-more-firefox-developer-tools-episode-31/))\n  and the Firebug plugin for Firefox (any version).\n\n  Colored output looks something like:\n\n  ![](https://cloud.githubusercontent.com/assets/71256/3139768/b98c5fd8-e8ef-11e3-862a-f7253b6f47c6.png)\n\n### stderr vs stdout\n\nYou can set an alternative logging method per-namespace by overriding the `log` method on a per-namespace or globally:\n\nExample _stdout.js_:\n\n```js\nvar debug = require(\'debug\');\nvar error = debug(\'app:error\');\n\n// by default stderr is used\nerror(\'goes to stderr!\');\n\nvar log = debug(\'app:log\');\n// set this namespace to log via console.log\nlog.log = console.log.bind(console); // don\'t forget to bind to console!\nlog(\'goes to stdout\');\nerror(\'still goes to stderr!\');\n\n// set all output to go via console.info\n// overrides all per-namespace log settings\ndebug.log = console.info.bind(console);\nerror(\'now goes to stdout via console.info\');\nlog(\'still goes to stdout, but via console.info now\');\n```\n\n## Authors\n\n - TJ Holowaychuk\n - Nathan Rajlich\n\n## License\n\n(The MIT License)\n\nCopyright (c) 2014 TJ Holowaychuk &lt;tj@vision-media.ca&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+388 silly resolved     readmeFilename: 'Readme.md',
+388 silly resolved     bugs: { url: 'https://github.com/visionmedia/debug/issues' },
+388 silly resolved     _id: 'debug@2.1.3',
+388 silly resolved     _from: 'debug@~2.1.1' },
+388 silly resolved   { name: 'passport-local',
+388 silly resolved     version: '1.0.0',
+388 silly resolved     description: 'Local username and password authentication strategy for Passport.',
+388 silly resolved     keywords:
+388 silly resolved      [ 'passport',
+388 silly resolved        'local',
+388 silly resolved        'auth',
+388 silly resolved        'authn',
+388 silly resolved        'authentication',
+388 silly resolved        'username',
+388 silly resolved        'password' ],
+388 silly resolved     author:
+388 silly resolved      { name: 'Jared Hanson',
+388 silly resolved        email: 'jaredhanson@gmail.com',
+388 silly resolved        url: 'http://www.jaredhanson.net/' },
+388 silly resolved     repository:
+388 silly resolved      { type: 'git',
+388 silly resolved        url: 'git://github.com/jaredhanson/passport-local.git' },
+388 silly resolved     bugs: { url: 'http://github.com/jaredhanson/passport-local/issues' },
+388 silly resolved     licenses: [ [Object] ],
+388 silly resolved     main: './lib',
+388 silly resolved     dependencies: { 'passport-strategy': '1.x.x' },
+388 silly resolved     devDependencies:
+388 silly resolved      { mocha: '1.x.x',
+388 silly resolved        chai: '1.x.x',
+388 silly resolved        'chai-passport-strategy': '0.1.x' },
+388 silly resolved     engines: { node: '>= 0.4.0' },
+388 silly resolved     scripts: { test: 'node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js' },
+388 silly resolved     readme: '# passport-local\n\n[![Build](https://travis-ci.org/jaredhanson/passport-local.png)](https://travis-ci.org/jaredhanson/passport-local)\n[![Coverage](https://coveralls.io/repos/jaredhanson/passport-local/badge.png)](https://coveralls.io/r/jaredhanson/passport-local)\n[![Quality](https://codeclimate.com/github/jaredhanson/passport-local.png)](https://codeclimate.com/github/jaredhanson/passport-local)\n[![Dependencies](https://david-dm.org/jaredhanson/passport-local.png)](https://david-dm.org/jaredhanson/passport-local)\n[![Tips](http://img.shields.io/gittip/jaredhanson.png)](https://www.gittip.com/jaredhanson/)\n\n\n[Passport](http://passportjs.org/) strategy for authenticating with a username\nand password.\n\nThis module lets you authenticate using a username and password in your Node.js\napplications.  By plugging into Passport, local authentication can be easily and\nunobtrusively integrated into any application or framework that supports\n[Connect](http://www.senchalabs.org/connect/)-style middleware, including\n[Express](http://expressjs.com/).\n\n## Install\n\n    $ npm install passport-local\n\n## Usage\n\n#### Configure Strategy\n\nThe local authentication strategy authenticates users using a username and\npassword.  The strategy requires a `verify` callback, which accepts these\ncredentials and calls `done` providing a user.\n\n    passport.use(new LocalStrategy(\n      function(username, password, done) {\n        User.findOne({ username: username }, function (err, user) {\n          if (err) { return done(err); }\n          if (!user) { return done(null, false); }\n          if (!user.verifyPassword(password)) { return done(null, false); }\n          return done(null, user);\n        });\n      }\n    ));\n\n#### Authenticate Requests\n\nUse `passport.authenticate()`, specifying the `\'local\'` strategy, to\nauthenticate requests.\n\nFor example, as route middleware in an [Express](http://expressjs.com/)\napplication:\n\n    app.post(\'/login\', \n      passport.authenticate(\'local\', { failureRedirect: \'/login\' }),\n      function(req, res) {\n        res.redirect(\'/\');\n      });\n\n## Examples\n\nFor complete, working examples, refer to the multiple [examples](https://github.com/jaredhanson/passport-local/tree/master/examples) included.\n\n## Tests\n\n    $ npm install\n    $ npm test\n\n## Credits\n\n  - [Jared Hanson](http://github.com/jaredhanson)\n\n## License\n\n[The MIT License](http://opensource.org/licenses/MIT)\n\nCopyright (c) 2011-2014 Jared Hanson <[http://jaredhanson.net/](http://jaredhanson.net/)>\n',
+388 silly resolved     readmeFilename: 'README.md',
+388 silly resolved     _id: 'passport-local@1.0.0',
+388 silly resolved     _from: 'passport-local@' },
+388 silly resolved   { name: 'method-override',
+388 silly resolved     description: 'Override HTTP verbs',
+388 silly resolved     version: '2.3.5',
+388 silly resolved     contributors: [ [Object], [Object] ],
+388 silly resolved     license: 'MIT',
+388 silly resolved     repository:
+388 silly resolved      { type: 'git',
+388 silly resolved        url: 'git://github.com/expressjs/method-override' },
+388 silly resolved     dependencies:
+388 silly resolved      { debug: '~2.2.0',
+388 silly resolved        methods: '~1.1.1',
+388 silly resolved        parseurl: '~1.3.0',
+388 silly resolved        vary: '~1.0.1' },
+388 silly resolved     devDependencies: { istanbul: '0.3.17', mocha: '2.2.5', supertest: '1.0.1' },
+388 silly resolved     files: [ 'LICENSE', 'HISTORY.md', 'index.js' ],
+388 silly resolved     engines: { node: '>= 0.8.0' },
+388 silly resolved     scripts:
+388 silly resolved      { test: 'mocha --check-leaks --reporter spec --bail test/',
+388 silly resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --check-leaks --reporter dot test/',
+388 silly resolved        'test-travis': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --check-leaks --reporter spec test/' },
+388 silly resolved     readme: '# method-override\n\n[![NPM Version][npm-image]][npm-url]\n[![NPM Downloads][downloads-image]][downloads-url]\n[![Build Status][travis-image]][travis-url]\n[![Test Coverage][coveralls-image]][coveralls-url]\n[![Gratipay][gratipay-image]][gratipay-url]\n\nLets you use HTTP verbs such as PUT or DELETE in places where the client doesn\'t support it.\n\n## Install\n\n```sh\n$ npm install method-override\n```\n\n## API\n\n**NOTE** It is very important that this module is used **before** any module that\nneeds to know the method of the request (for example, it _must_ be used prior to\nthe `csurf` module).\n\n### methodOverride(getter, options)\n\nCreate a new middleware function to override the `req.method` property with a new\nvalue. This value will be pulled from the provided `getter`.\n\n- `getter` - The getter to use to look up the overridden request method for the request. (default: `X-HTTP-Method-Override`)\n- `options.methods` - The allowed methods the original request must be in to check for a method override value. (default: `[\'POST\']`)\n\nIf the found method is supported by node.js core, then `req.method` will be set to\nthis value, as if it has originally been that value. The previous `req.method`\nvalue will be stored in `req.originalMethod`.\n\n#### getter\n\nThis is the method of getting the override value from the request. If a function is provided,\nthe `req` is passed as the first argument, the `res` as the second argument and the method is\nexpected to be returned. If a string is provided, the string is used to look up the method\nwith the following rules:\n\n- If the string starts with `X-`, then it is treated as the name of a header and that header\n  is used for the method override. If the request contains the same header multiple times, the\n  first occurrence is used.\n- All other strings are treated as a key in the URL query string.\n\n#### options.methods\n\nThis allows the specification of what methods(s) the request *MUST* be in in order to check for\nthe method override value. This defaults to only `POST` methods, which is the only method the\noverride should arrive in. More methods may be specified here, but it may introduce security\nissues and cause weird behavior when requests travel through caches. This value is an array\nof methods in upper-case. `null` can be specified to allow all methods.\n\n## Examples\n\n### override using a header\n\nTo use a header to override the method, specify the header name\nas a string argument to the `methodOverride` function. To then make\nthe call, send  a `POST` request to a URL with the overridden method\nas the value of that header. This method of using a header would\ntypically be used in conjunction with `XMLHttpRequest` on implementations\nthat do not support the method you are trying to use.\n\n```js\nvar connect        = require(\'connect\')\nvar methodOverride = require(\'method-override\')\n\n// override with the X-HTTP-Method-Override header in the request\napp.use(methodOverride(\'X-HTTP-Method-Override\'))\n```\n\nExample call with header override using `XMLHttpRequest`:\n\n```js\nvar xhr = new XMLHttpRequest()\nxhr.onload = onload\nxhr.open(\'post\', \'/resource\', true)\nxhr.setRequestHeader(\'X-HTTP-Method-Override\', \'DELETE\')\nxhr.send()\n\nfunction onload() {\n  alert(\'got response: \' + this.responseText)\n}\n```\n\n### override using a query value\n\nTo use a query string value to override the method, specify the query\nstring key as a string argument to the `methodOverride` function. To\nthen make the call, send  a `POST` request to a URL with the overridden\nmethod as the value of that query string key. This method of using a\nquery value would typically be used in conjunction with plain HTML\n`<form>` elements when trying to support legacy browsers but still use\nnewer methods.\n\n```js\nvar connect        = require(\'connect\')\nvar methodOverride = require(\'method-override\')\n\n// override with POST having ?_method=DELETE\napp.use(methodOverride(\'_method\'))\n```\n\nExample call with query override using HTML `<form>`:\n\n```html\n<form method="POST" action="/resource?_method=DELETE">\n  <button type="submit">Delete resource</button>\n</form>\n```\n\n### multiple format support\n\n```js\nvar connect        = require(\'connect\')\nvar methodOverride = require(\'method-override\')\n\n// override with different headers; last one takes precedence\napp.use(methodOverride(\'X-HTTP-Method\'))          // Microsoft\napp.use(methodOverride(\'X-HTTP-Method-Override\')) // Google/GData\napp.use(methodOverride(\'X-Method-Override\'))      // IBM\n```\n\n### custom logic\n\nYou can implement any kind of custom logic with a function for the `getter`. The following\nimplements the logic for looking in `req.body` that was in `method-override@1`:\n\n```js\nvar bodyParser     = require(\'body-parser\')\nvar connect        = require(\'connect\')\nvar methodOverride = require(\'method-override\')\n\n// NOTE: when using req.body, you must fully parse the request body\n//       before you call methodOverride() in your middleware stack,\n//       otherwise req.body will not be populated.\napp.use(bodyParser.urlencoded())\napp.use(methodOverride(function(req, res){\n  if (req.body && typeof req.body === \'object\' && \'_method\' in req.body) {\n    // look in urlencoded POST bodies and delete it\n    var method = req.body._method\n    delete req.body._method\n    return method\n  }\n}))\n```\n\nExample call with query override using HTML `<form>`:\n\n```html\n<!-- enctype must be set to the type you will parse before methodOverride() -->\n<form method="POST" action="/resource" enctype="application/x-www-form-urlencoded">\n  <input type="hidden" name="_method" value="DELETE">\n  <button type="submit">Delete resource</button>\n</form>\n```\n\n## License\n\n[MIT](LICENSE)\n\n[npm-image]: https://img.shields.io/npm/v/method-override.svg\n[npm-url]: https://npmjs.org/package/method-override\n[travis-image]: https://img.shields.io/travis/expressjs/method-override/master.svg\n[travis-url]: https://travis-ci.org/expressjs/method-override\n[coveralls-image]: https://img.shields.io/coveralls/expressjs/method-override/master.svg\n[coveralls-url]: https://coveralls.io/r/expressjs/method-override?branch=master\n[downloads-image]: https://img.shields.io/npm/dm/method-override.svg\n[downloads-url]: https://npmjs.org/package/method-override\n[gratipay-image]: https://img.shields.io/gratipay/dougwilson.svg\n[gratipay-url]: https://www.gratipay.com/dougwilson/\n',
+388 silly resolved     readmeFilename: 'README.md',
+388 silly resolved     bugs: { url: 'https://github.com/expressjs/method-override/issues' },
+388 silly resolved     _id: 'method-override@2.3.5',
+388 silly resolved     _from: 'method-override@~2.3.5' },
+388 silly resolved   { name: 'bcrypt-nodejs',
+388 silly resolved     description: 'A native JS bcrypt library for NodeJS.',
+388 silly resolved     main: './bCrypt',
+388 silly resolved     author: { name: 'Shane Girish', email: 'shaneGirish@gmail.com' },
+388 silly resolved     version: '0.0.3',
+388 silly resolved     repository:
+388 silly resolved      { type: 'git',
+388 silly resolved        url: 'https://github.com/shaneGirish/bcryptJS.git' },
+388 silly resolved     bugs: { url: 'https://github.com/shaneGirish/bcrypt-nodejs/issues' },
+388 silly resolved     contributors: [ [Object], [Object], [Object] ],
+388 silly resolved     keywords:
+388 silly resolved      [ 'bcrypt',
+388 silly resolved        'javascript',
+388 silly resolved        'js',
+388 silly resolved        'hash',
+388 silly resolved        'password',
+388 silly resolved        'auth',
+388 silly resolved        'authentication',
+388 silly resolved        'encryption',
+388 silly resolved        'crypt',
+388 silly resolved        'crypto' ],
+388 silly resolved     readme: 'bcrypt-nodejs\r\n===========================================\r\n\r\nWarning : A change was made in v0.0.3 to allow encoding of UTF-8 encoded strings. This causes strings encoded in v0.0.2 or earlier to not work in v0.0.3 anymore.\r\n\r\nNative JS implementation of BCrypt for Node.\r\nHas the same functionality as [node.bcrypt.js] expect for a few tiny differences.\r\nMainly, it doesn\'t let you set the seed length for creating the random byte array.\r\n\r\nI created this version due to a small [problem](https://github.com/ncb000gt/node.bcrypt.js/issues/102) I faced with [node.bcrypt.js].\r\nBasically, to deploy one of my apps which uses [node.bcrypt.js] on a winx64 platform, I have to force the user to download about 1.6gb of sdks, buildtools and other requirements of which some fail to install ! Microsoft :(\r\n\r\nThis code is based on [javascript-bcrypt] and uses [crypto] (http://nodejs.org/api/crypto.html) to create random byte arrays.\r\n\r\nBasic usage:\r\n-----------\r\nSynchronous\r\n```\r\nvar hash = bcrypt.hashSync("bacon");\r\n\r\nbcrypt.compareSync("bacon", hash); // true\r\nbcrypt.compareSync("veggies", hash); // false\r\n```\r\n\r\nAsynchronous\r\n```\r\nbcrypt.hash("bacon", null, null, function(err, hash) {\r\n\t// Store hash in your password DB.\r\n});\r\n\r\n// Load hash from your password DB.\r\nbcrypt.compare("bacon", hash, function(err, res) {\r\n    // res == true\r\n});\r\nbcrypt.compare("veggies", hash, function(err, res) {\r\n    // res = false\r\n});\r\n```\r\n\r\nIn the above examples, the salt is automatically generated and attached to the hash.\r\nThough you can use your custom salt and there is no need for salts to be persisted as it will always be included in the final hash result and can be retrieved.\r\n\r\nAPI\r\n-------------------------\r\n* `genSaltSync(rounds)`\r\n\t* `rounds` - [OPTIONAL] - the number of rounds to process the data for. (default - 10)\r\n* `genSalt(rounds, callback)`\r\n\t* `rounds` - [OPTIONAL] - the number of rounds to process the data for. (default - 10)\r\n\t* `callback` - [REQUIRED] - a callback to be fired once the salt has been generated.\r\n\t\t* `error` - First parameter to the callback detailing any errors.\r\n\t\t* `result` - Second parameter to the callback providing the generated salt.\r\n* `hashSync(data, salt)`\r\n\t* `data` - [REQUIRED] - the data to be encrypted.\r\n\t* `salt` - [REQUIRED] - the salt to be used in encryption.\r\n* `hash(data, salt, progress, cb)`\r\n\t* `data` - [REQUIRED] - the data to be encrypted.\r\n\t* `salt` - [REQUIRED] - the salt to be used to hash the password.\r\n\t* `progress` - a callback to be called during the hash calculation to signify progress\r\n\t* `callback` - [REQUIRED] - a callback to be fired once the data has been encrypted.\r\n\t\t* `error` - First parameter to the callback detailing any errors.\r\n\t\t* `result` - Second parameter to the callback providing the encrypted form.\r\n* `compareSync(data, encrypted)`\r\n\t* `data` - [REQUIRED] - data to compare.\r\n\t* `encrypted` - [REQUIRED] - data to be compared to.\r\n* `compare(data, encrypted, cb)`\r\n\t* `data` - [REQUIRED] - data to compare.\r\n\t* `encrypted` - [REQUIRED] - data to be compared to.\r\n\t* `callback` - [REQUIRED] - a callback to be fired once the data has been compared.\r\n\t\t* `error` - First parameter to the callback detailing any errors.\r\n\t\t* `result` - Second parameter to the callback providing whether the data and encrypted forms match [true | false].\r\n* `getRounds(encrypted)` - return the number of rounds used to encrypt a given hash\r\n\t* `encrypted` - [REQUIRED] - hash from which the number of rounds used should be extracted.\r\n\t\r\nContributors\r\n============\r\n\r\n* [Alex Murray][alexmurray]\r\n* [Nicolas Pelletier][NicolasPelletier]\r\n* [Josh Rogers][geekymole]\t\r\n\t\r\nCredits\r\n-------------------------\r\nI heavily reused code from [javascript-bcrypt]. Though "Clipperz Javascript Crypto Library" was removed and its functionality replaced with "crypto".\r\n\r\n[node.bcrypt.js]:https://github.com/ncb000gt/node.bcrypt.js.git\r\n[javascript-bcrypt]:http://code.google.com/p/javascript-bcrypt/\r\n\r\n[alexmurray]:https://github.com/alexmurray\r\n[NicolasPelletier]:https://github.com/NicolasPelletier\r\n[geekymole]:https://github.com/geekymole',
+388 silly resolved     readmeFilename: 'README.md',
+388 silly resolved     _id: 'bcrypt-nodejs@0.0.3',
+388 silly resolved     _from: 'bcrypt-nodejs@' },
+388 silly resolved   { name: 'passport-facebook',
+388 silly resolved     version: '2.1.0',
+388 silly resolved     description: 'Facebook authentication strategy for Passport.',
+388 silly resolved     keywords:
+388 silly resolved      [ 'passport',
+388 silly resolved        'facebook',
+388 silly resolved        'auth',
+388 silly resolved        'authn',
+388 silly resolved        'authentication',
+388 silly resolved        'identity' ],
+388 silly resolved     author:
+388 silly resolved      { name: 'Jared Hanson',
+388 silly resolved        email: 'jaredhanson@gmail.com',
+388 silly resolved        url: 'http://www.jaredhanson.net/' },
+388 silly resolved     repository:
+388 silly resolved      { type: 'git',
+388 silly resolved        url: 'git://github.com/jaredhanson/passport-facebook.git' },
+388 silly resolved     bugs: { url: 'http://github.com/jaredhanson/passport-facebook/issues' },
+388 silly resolved     license: 'MIT',
+388 silly resolved     licenses: [ [Object] ],
+388 silly resolved     main: './lib',
+388 silly resolved     dependencies: { 'passport-oauth2': '1.x.x' },
+388 silly resolved     devDependencies:
+388 silly resolved      { 'make-node': '0.3.x',
+388 silly resolved        mocha: '1.x.x',
+388 silly resolved        chai: '2.x.x',
+388 silly resolved        'chai-passport-strategy': '1.x.x' },
+388 silly resolved     engines: { node: '>= 0.4.0' },
+388 silly resolved     scripts: { test: 'node_modules/.bin/mocha --require test/bootstrap/node test/*.test.js' },
+388 silly resolved     readme: '# passport-facebook\n\n[![Build](https://img.shields.io/travis/jaredhanson/passport-facebook.svg)](https://travis-ci.org/jaredhanson/passport-facebook)\n[![Coverage](https://img.shields.io/coveralls/jaredhanson/passport-facebook.svg)](https://coveralls.io/r/jaredhanson/passport-facebook)\n[![Quality](https://img.shields.io/codeclimate/github/jaredhanson/passport-facebook.svg?label=quality)](https://codeclimate.com/github/jaredhanson/passport-facebook)\n[![Dependencies](https://img.shields.io/david/jaredhanson/passport-facebook.svg)](https://david-dm.org/jaredhanson/passport-facebook)\n\n\n[Passport](http://passportjs.org/) strategy for authenticating with [Facebook](http://www.facebook.com/)\nusing the OAuth 2.0 API.\n\nThis module lets you authenticate using Facebook in your Node.js applications.\nBy plugging into Passport, Facebook authentication can be easily and\nunobtrusively integrated into any application or framework that supports\n[Connect](http://www.senchalabs.org/connect/)-style middleware, including\n[Express](http://expressjs.com/).\n\n## Install\n\n    $ npm install passport-facebook\n\n## Usage\n\n#### Create an Application\n\nBefore using `passport-facebook`, you must register an application with\nFacebook.  If you have not already done so, a new application can be created at\n[Facebook Developers](https://developers.facebook.com/).  Your application will\nbe issued an app ID and app secret, which need to be provided to the strategy.\nYou will also need to configure a redirect URI which matches the route in your\napplication.\n\n#### Configure Strategy\n\nThe Facebook authentication strategy authenticates users using a Facebook\naccount and OAuth 2.0 tokens.  The app ID and secret obtained when creating an\napplication are supplied as options when creating the strategy.  The strategy\nalso requires a `verify` callback, which receives the access token and optional\nrefresh token, as well as `profile` which contains the authenticated user\'s\nFacebook profile.  The `verify` callback must call `cb` providing a user to\ncomplete authentication.\n\n```js\npassport.use(new FacebookStrategy({\n    clientID: FACEBOOK_APP_ID,\n    clientSecret: FACEBOOK_APP_SECRET,\n    callbackURL: "http://localhost:3000/auth/facebook/callback"\n  },\n  function(accessToken, refreshToken, profile, cb) {\n    User.findOrCreate({ facebookId: profile.id }, function (err, user) {\n      return cb(err, user);\n    });\n  }\n));\n```\n\n#### Authenticate Requests\n\nUse `passport.authenticate()`, specifying the `\'facebook\'` strategy, to\nauthenticate requests.\n\nFor example, as route middleware in an [Express](http://expressjs.com/)\napplication:\n\n```js\napp.get(\'/auth/facebook\',\n  passport.authenticate(\'facebook\'));\n\napp.get(\'/auth/facebook/callback\',\n  passport.authenticate(\'facebook\', { failureRedirect: \'/login\' }),\n  function(req, res) {\n    // Successful authentication, redirect home.\n    res.redirect(\'/\');\n  });\n```\n\n## Examples\n\nDevelopers using the popular [Express](http://expressjs.com/) web framework can\nrefer to an [example](https://github.com/passport/express-4.x-facebook-example)\nas a starting point for their own web applications.\n\n## FAQ\n\n##### How do I ask a user for additional permissions?\n\nIf you need additional permissions from the user, the permissions can be\nrequested via the `scope` option to `passport.authenticate()`.\n\n```js\napp.get(\'/auth/facebook\',\n  passport.authenticate(\'facebook\', { scope: [\'user_friends\', \'manage_pages\'] }));\n```\n\nRefer to [permissions with Facebook Login](https://developers.facebook.com/docs/facebook-login/permissions/overview)\nfor further details.\n\n##### How do I re-ask for for declined permissions?\n\nSet the `authType` option to `rerequest` when authenticating.\n\n```js\napp.get(\'/auth/facebook\',\n  passport.authenticate(\'facebook\', { authType: \'rerequest\', scope: [\'user_friends\', \'manage_pages\'] }));\n```\n\nRefer to [re-asking for declined permissions](https://developers.facebook.com/docs/facebook-login/web#re-asking-declined-permissions)\nfor further details.\n\n##### How do I obtain a user profile with specific fields?\n\nThe Facebook profile contains a lot of information about a user.  By default,\nnot all the fields in a profile are returned.  The fields need by an application\ncan be indicated by setting the `profileFields` option.\n\n```js\nnew FacebookStrategy({\n  clientID: FACEBOOK_APP_ID,\n  clientSecret: FACEBOOK_APP_SECRET,\n  callbackURL: "http://localhost:3000/auth/facebook/callback",\n  profileFields: [\'id\', \'displayName\', \'photos\', \'email\']\n}), ...)\n```\n\nRefer to the [User](https://developers.facebook.com/docs/graph-api/reference/v2.5/user)\nsection of the Graph API Reference for the complete set of available fields.\n\n##### How do I include app secret proof in API requests?\n\nSet the `enableProof` option when creating the strategy.\n\n```js\nnew FacebookStrategy({\n  clientID: FACEBOOK_APP_ID,\n  clientSecret: FACEBOOK_APP_SECRET,\n  callbackURL: "http://localhost:3000/auth/facebook/callback",\n  enableProof: true\n}, ...)\n```\n\nAs detailed in [securing graph API requests](https://developers.facebook.com/docs/graph-api/securing-requests#appsecret_proof),\nrequiring the app secret for server API requests helps prevent use of tokens\nstolen by malicous software or man in the middle attacks.\n\n##### Why is #\\_=\\_ appended to the redirect URI?\n\nThis behavior is "by design" according to Facebook\'s response to a [bug](https://developers.facebook.com/bugs/318390728250352)\nfiled regarding this issue.\n\nFragment identifiers are not supplied in requests made to a server, and as such\nthis strategy is not aware that this behavior is exhibited and is not affected\nby it.  If desired, this fragment can be removed on the client side.  Refer to\nthis [discussion](http://stackoverflow.com/questions/7131909/facebook-callback-appends-to-return-url) on\nStack Overflow for recommendations on how to accomplish such removal.\n\n\n## Contributing\n\n#### Tests\n\nThe test suite is located in the `test/` directory.  All new features are\nexpected to have corresponding test cases.  Ensure that the complete test suite\npasses by executing:\n\n```bash\n$ make test\n```\n\n#### Coverage\n\nThe test suite covers 100% of the code base.  All new feature development is\nexpected to maintain that level.  Coverage reports can be viewed by executing:\n\n```bash\n$ make test-cov\n$ make view-cov\n```\n\n## Support\n\n#### Funding\n\nThis software is provided to you as open source, free of charge.  The time and\neffort to develop and maintain this project is dedicated by [@jaredhanson](https://github.com/jaredhanson).\nIf you (or your employer) benefit from this project, please consider a financial\ncontribution.  Your contribution helps continue the efforts that produce this\nand other open source software.\n\nFunds are accepted via [PayPal](https://paypal.me/jaredhanson), [Venmo](https://venmo.com/jaredhanson),\nand [other](http://jaredhanson.net/pay) methods.  Any amount is appreciated.\n\n## License\n\n[The MIT License](http://opensource.org/licenses/MIT)\n\nCopyright (c) 2011-2016 Jared Hanson <[http://jaredhanson.net/](http://jaredhanson.net/)>\n',
+388 silly resolved     readmeFilename: 'README.md',
+388 silly resolved     _id: 'passport-facebook@2.1.0',
+388 silly resolved     _from: 'passport-facebook@' },
+388 silly resolved   { name: 'mongoose',
+388 silly resolved     description: 'Elegant MongoDB object modeling for Node.js',
+388 silly resolved     version: '3.6.20',
+388 silly resolved     author: { name: 'Guillermo Rauch', email: 'guillermo@learnboost.com' },
+388 silly resolved     keywords:
+388 silly resolved      [ 'mongodb',
+388 silly resolved        'document',
+388 silly resolved        'model',
+388 silly resolved        'schema',
+388 silly resolved        'database',
+388 silly resolved        'odm',
+388 silly resolved        'data',
+388 silly resolved        'datastore',
+388 silly resolved        'query',
+388 silly resolved        'nosql',
+388 silly resolved        'orm',
+388 silly resolved        'db' ],
+388 silly resolved     dependencies:
+388 silly resolved      { hooks: '0.2.1',
+388 silly resolved        mongodb: '1.3.19',
+388 silly resolved        ms: '0.1.0',
+388 silly resolved        sliced: '0.0.5',
+388 silly resolved        muri: '0.3.1',
+388 silly resolved        mpromise: '0.2.1',
+388 silly resolved        mpath: '0.1.1',
+388 silly resolved        'regexp-clone': '0.0.1' },
+388 silly resolved     devDependencies:
+388 silly resolved      { mocha: '1.12.0',
+388 silly resolved        'node-static': '0.5.9',
+388 silly resolved        dox: '0.3.1',
+388 silly resolved        jade: '0.26.3',
+388 silly resolved        'highlight.js': '7.0.1',
+388 silly resolved        markdown: '0.3.1',
+388 silly resolved        'promises-aplus-tests': '>= 1.0.2',
+388 silly resolved        tbd: '0.6.4',
+388 silly resolved        benchmark: '1.0.0',
+388 silly resolved        open: '0.0.3' },
+388 silly resolved     directories: { lib: './lib/mongoose' },
+388 silly resolved     scripts: { test: 'make test' },
+388 silly resolved     main: './index.js',
+388 silly resolved     engines: { node: '>=0.6.19' },
+388 silly resolved     bugs: { url: 'https://github.com/learnboost/mongoose/issues/new' },
+388 silly resolved     repository: { type: 'git', url: 'git://github.com/LearnBoost/mongoose.git' },
+388 silly resolved     homepage: 'http://mongoosejs.com',
+388 silly resolved     readme: '## What\'s Mongoose?\n\nMongoose is a [MongoDB](http://www.mongodb.org/) object modeling tool designed to work in an asynchronous environment.\n\n## Documentation\n\n[mongoosejs.com](http://mongoosejs.com/)\n\n## Try it live\n<a href="https://runnable.com/#learnboost/mongoose/code.js/launch" target="_blank"><img src="https://runnable.com/external/styles/assets/runnablebtn.png" style="width:67px;height:25px;"></a>\n\n## Support\n\n  - [Stack Overflow](http://stackoverflow.com/questions/tagged/mongoose)\n  - [bug reports](https://github.com/learnboost/mongoose/issues/)\n  - [help forum](http://groups.google.com/group/mongoose-orm)\n  - [MongoDB support](http://www.mongodb.org/display/DOCS/Technical+Support)\n  - (irc) #mongoosejs on freenode\n\n## Installation\n\nFirst install [node.js](http://nodejs.org/) and [mongodb](http://www.mongodb.org/downloads).\n\n    $ npm install mongoose\n\n## Plugins\n\nCheck out the [plugins search site](http://plugins.mongoosejs.com/) to see hundreds of related modules from the community.\n\n## Contributors\n\nView all 90+ [contributors](https://github.com/learnboost/mongoose/graphs/contributors).\n\n## Get Involved\n\nStand up and be counted as a [contributor](https://github.com/LearnBoost/mongoose/blob/master/CONTRIBUTING.md) too!\n\n## Overview\n\n### Connecting to MongoDB\n\nFirst, we need to define a connection. If your app uses only one database, you should use `mongose.connect`. If you need to create additional connections, use `mongoose.createConnection`.\n\nBoth `connect` and `createConnection` take a `mongodb://` URI, or the parameters `host, database, port, options`.\n\n    var mongoose = require(\'mongoose\');\n\n    mongoose.connect(\'mongodb://localhost/my_database\');\n\nOnce connected, the `open` event is fired on the `Connection` instance. If you\'re using `mongoose.connect`, the `Connection` is `mongoose.connection`. Otherwise, `mongoose.createConnection` return value is a `Connection`.\n\n**Important!** Mongoose buffers all the commands until it\'s connected to the database. This means that you don\'t have to wait until it connects to MongoDB in order to define models, run queries, etc.\n\n### Defining a Model\n\nModels are defined through the `Schema` interface. \n\n    var Schema = mongoose.Schema\n      , ObjectId = Schema.ObjectId;\n\n    var BlogPost = new Schema({\n        author    : ObjectId\n      , title     : String\n      , body      : String\n      , date      : Date\n    });\n\nAside from defining the structure of your documents and the types of data you\'re storing, a Schema handles the definition of:\n\n* [Validators](http://mongoosejs.com/docs/validation.html) (async and sync)\n* [Defaults](http://mongoosejs.com/docs/api.html#schematype_SchemaType-default)\n* [Getters](http://mongoosejs.com/docs/api.html#schematype_SchemaType-get)\n* [Setters](http://mongoosejs.com/docs/api.html#schematype_SchemaType-set)\n* [Indexes](http://mongoosejs.com/docs/guide.html#indexes)\n* [Middleware](http://mongoosejs.com/docs/middleware.html)\n* [Methods](http://mongoosejs.com/docs/guide.html#methods) definition\n* [Statics](http://mongoosejs.com/docs/guide.html#statics) definition\n* [Plugins](http://mongoosejs.com/docs/plugins.html)\n* [pseudo-JOINs](http://mongoosejs.com/docs/populate.html)\n\nThe following example shows some of these features:\n\n    var Comment = new Schema({\n        name  :  { type: String, default: \'hahaha\' }\n      , age   :  { type: Number, min: 18, index: true }\n      , bio   :  { type: String, match: /[a-z]/ }\n      , date  :  { type: Date, default: Date.now }\n      , buff  :  Buffer\n    });\n\n    // a setter\n    Comment.path(\'name\').set(function (v) {\n      return capitalize(v);\n    });\n\n    // middleware\n    Comment.pre(\'save\', function (next) {\n      notify(this.get(\'email\'));\n      next();\n    });\n\nTake a look at the example in `examples/schema.js` for an end-to-end example of a typical setup.\n\n### Accessing a Model\n\nOnce we define a model through `mongoose.model(\'ModelName\', mySchema)`, we can access it through the same function\n\n    var myModel = mongoose.model(\'ModelName\');\n\nOr just do it all at once\n\n    var MyModel = mongoose.model(\'ModelName\', mySchema);\n\nWe can then instantiate it, and save it:\n\n    var instance = new MyModel();\n    instance.my.key = \'hello\';\n    instance.save(function (err) {\n      //\n    });\n\nOr we can find documents from the same collection\n\n    MyModel.find({}, function (err, docs) {\n      // docs.forEach\n    });\n\nYou can also `findOne`, `findById`, `update`, etc. For more details check out [the docs](http://mongoosejs.com/docs/queries.html).\n\n**Important!** If you opened a separate connection using `mongoose.createConnection()` but attempt to access the model through `mongoose.model(\'ModelName\')` it will not work as expected since it is not hooked up to an active db connection. In this case access your model through the connection you created:\n\n    var conn = mongoose.createConnection(\'your connection string\');\n    var MyModel = conn.model(\'ModelName\', schema);\n    var m = new MyModel;\n    m.save() // works\n\n    vs\n\n    var conn = mongoose.createConnection(\'your connection string\');\n    var MyModel = mongoose.model(\'ModelName\', schema);\n    var m = new MyModel;\n    m.save() // does not work b/c the default connection object was never connected\n\n### Embedded Documents\n\nIn the first example snippet, we defined a key in the Schema that looks like:\n\n    comments: [Comments]\n\nWhere `Comments` is a `Schema` we created. This means that creating embedded documents is as simple as:\n\n    // retrieve my model\n    var BlogPost = mongoose.model(\'BlogPost\');\n\n    // create a blog post\n    var post = new BlogPost();\n\n    // create a comment\n    post.comments.push({ title: \'My comment\' });\n\n    post.save(function (err) {\n      if (!err) console.log(\'Success!\');\n    });\n\nThe same goes for removing them:\n\n    BlogPost.findById(myId, function (err, post) {\n      if (!err) {\n        post.comments[0].remove();\n        post.save(function (err) {\n          // do something\n        });\n      }\n    });\n\nEmbedded documents enjoy all the same features as your models. Defaults, validators, middleware. Whenever an error occurs, it\'s bubbled to the `save()` error callback, so error handling is a snap!\n\nMongoose interacts with your embedded documents in arrays _atomically_, out of the box.\n\n### Middleware\n\nSee the [docs](http://mongoosejs.com/docs/middleware.html) page.\n\n#### Intercepting and mutating method arguments\n\nYou can intercept method arguments via middleware.\n\nFor example, this would allow you to broadcast changes about your Documents every time someone `set`s a path in your Document to a new value:\n\n    schema.pre(\'set\', function (next, path, val, typel) {\n      // `this` is the current Document\n      this.emit(\'set\', path, val);\n\n      // Pass control to the next pre\n      next();\n    });\n\nMoreover, you can mutate the incoming `method` arguments so that subsequent middleware see different values for those arguments. To do so, just pass the new values to `next`:\n\n    .pre(method, function firstPre (next, methodArg1, methodArg2) {\n      // Mutate methodArg1\n      next("altered-" + methodArg1.toString(), methodArg2);\n    })\n\n    // pre declaration is chainable\n    .pre(method, function secondPre (next, methodArg1, methodArg2) {\n      console.log(methodArg1);\n      // => \'altered-originalValOfMethodArg1\' \n      \n      console.log(methodArg2);\n      // => \'originalValOfMethodArg2\' \n      \n      // Passing no arguments to `next` automatically passes along the current argument values\n      // i.e., the following `next()` is equivalent to `next(methodArg1, methodArg2)`\n      // and also equivalent to, with the example method arg \n      // values, `next(\'altered-originalValOfMethodArg1\', \'originalValOfMethodArg2\')`\n      next();\n    })\n\n#### Schema gotcha\n\n`type`, when used in a schema has special meaning within Mongoose. If your schema requires using `type` as a nested property you must use object notation:\n\n    new Schema({\n        broken: { type: Boolean }\n      , asset : {\n            name: String\n          , type: String // uh oh, it broke. asset will be interpreted as String\n        }\n    });\n\n    new Schema({\n        works: { type: Boolean }\n      , asset : {\n            name: String\n          , type: { type: String } // works. asset is an object with a type property\n        }\n    });\n\n### Driver access\n\nThe driver being used defaults to [node-mongodb-native](https://github.com/mongodb/node-mongodb-native) and is directly accessible through `YourModel.collection`. **Note**: using the driver directly bypasses all Mongoose power-tools like validation, getters, setters, hooks, etc.\n\n## API Docs\n\nFind the API docs [here](http://mongoosejs.com/docs/api.html), generated by [dox](http://github.com/visionmedia/dox).\n\n## License\n\nCopyright (c) 2010 LearnBoost &lt;dev@learnboost.com&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+388 silly resolved     readmeFilename: 'README.md',
+388 silly resolved     _id: 'mongoose@3.6.20',
+388 silly resolved     _from: 'mongoose@~3.6.2' } ]
+389 info install cookie-parser@1.3.5 into /home/jordan/Code/ArcShot
+390 info install express@4.12.4 into /home/jordan/Code/ArcShot
+391 info install body-parser@1.12.4 into /home/jordan/Code/ArcShot
+392 info install morgan@1.5.3 into /home/jordan/Code/ArcShot
+393 info install passport@0.3.2 into /home/jordan/Code/ArcShot
+394 info install serve-favicon@2.2.1 into /home/jordan/Code/ArcShot
+395 info install jade@1.9.2 into /home/jordan/Code/ArcShot
+396 info install debug@2.1.3 into /home/jordan/Code/ArcShot
+397 info install passport-local@1.0.0 into /home/jordan/Code/ArcShot
+398 info install method-override@2.3.5 into /home/jordan/Code/ArcShot
+399 info install bcrypt-nodejs@0.0.3 into /home/jordan/Code/ArcShot
+400 info install passport-facebook@2.1.0 into /home/jordan/Code/ArcShot
+401 info install mongoose@3.6.20 into /home/jordan/Code/ArcShot
+402 info installOne cookie-parser@1.3.5
+403 info installOne express@4.12.4
+404 info installOne body-parser@1.12.4
+405 info installOne morgan@1.5.3
+406 info installOne passport@0.3.2
+407 info installOne serve-favicon@2.2.1
+408 info installOne jade@1.9.2
+409 info installOne debug@2.1.3
+410 info installOne passport-local@1.0.0
+411 info installOne method-override@2.3.5
+412 info installOne bcrypt-nodejs@0.0.3
+413 info installOne passport-facebook@2.1.0
+414 info installOne mongoose@3.6.20
+415 info /home/jordan/Code/ArcShot/node_modules/cookie-parser unbuild
+416 info preuninstall cookie-parser@1.3.5
+417 info /home/jordan/Code/ArcShot/node_modules/express unbuild
+418 info preuninstall express@4.12.4
+419 info /home/jordan/Code/ArcShot/node_modules/body-parser unbuild
+420 info preuninstall body-parser@1.12.4
+421 info /home/jordan/Code/ArcShot/node_modules/morgan unbuild
+422 info preuninstall morgan@1.5.3
+423 info /home/jordan/Code/ArcShot/node_modules/passport unbuild
+424 info preuninstall passport@0.3.2
+425 info /home/jordan/Code/ArcShot/node_modules/serve-favicon unbuild
+426 info preuninstall serve-favicon@2.2.1
+427 info /home/jordan/Code/ArcShot/node_modules/jade unbuild
+428 info preuninstall jade@1.9.2
+429 info /home/jordan/Code/ArcShot/node_modules/debug unbuild
+430 info preuninstall debug@2.1.3
+431 info /home/jordan/Code/ArcShot/node_modules/passport-local unbuild
+432 info preuninstall passport-local@1.0.0
+433 info /home/jordan/Code/ArcShot/node_modules/method-override unbuild
+434 info preuninstall method-override@2.3.5
+435 info /home/jordan/Code/ArcShot/node_modules/bcrypt-nodejs unbuild
+436 info preuninstall bcrypt-nodejs@0.0.3
+437 info /home/jordan/Code/ArcShot/node_modules/passport-facebook unbuild
+438 info preuninstall passport-facebook@2.1.0
+439 info /home/jordan/Code/ArcShot/node_modules/mongoose unbuild
+440 info preuninstall mongoose@3.6.20
+441 info uninstall cookie-parser@1.3.5
+442 info uninstall express@4.12.4
+443 info uninstall body-parser@1.12.4
+444 info uninstall morgan@1.5.3
+445 info uninstall passport@0.3.2
+446 info uninstall serve-favicon@2.2.1
+447 info uninstall jade@1.9.2
+448 info uninstall debug@2.1.3
+449 info uninstall passport-local@1.0.0
+450 info uninstall method-override@2.3.5
+451 info uninstall bcrypt-nodejs@0.0.3
+452 info uninstall passport-facebook@2.1.0
+453 info uninstall mongoose@3.6.20
+454 verbose true,/home/jordan/Code/ArcShot/node_modules,/home/jordan/Code/ArcShot/node_modules unbuild cookie-parser@1.3.5
+455 info postuninstall cookie-parser@1.3.5
+456 verbose true,/home/jordan/Code/ArcShot/node_modules,/home/jordan/Code/ArcShot/node_modules unbuild express@4.12.4
+457 info postuninstall express@4.12.4
+458 verbose true,/home/jordan/Code/ArcShot/node_modules,/home/jordan/Code/ArcShot/node_modules unbuild body-parser@1.12.4
+459 info postuninstall body-parser@1.12.4
+460 verbose true,/home/jordan/Code/ArcShot/node_modules,/home/jordan/Code/ArcShot/node_modules unbuild morgan@1.5.3
+461 info postuninstall morgan@1.5.3
+462 verbose true,/home/jordan/Code/ArcShot/node_modules,/home/jordan/Code/ArcShot/node_modules unbuild passport@0.3.2
+463 info postuninstall passport@0.3.2
+464 verbose true,/home/jordan/Code/ArcShot/node_modules,/home/jordan/Code/ArcShot/node_modules unbuild serve-favicon@2.2.1
+465 info postuninstall serve-favicon@2.2.1
+466 verbose true,/home/jordan/Code/ArcShot/node_modules,/home/jordan/Code/ArcShot/node_modules unbuild jade@1.9.2
+467 verbose /home/jordan/Code/ArcShot/node_modules/.bin,[object Object] binRoot
+468 verbose true,/home/jordan/Code/ArcShot/node_modules,/home/jordan/Code/ArcShot/node_modules unbuild debug@2.1.3
+469 info postuninstall debug@2.1.3
+470 verbose true,/home/jordan/Code/ArcShot/node_modules,/home/jordan/Code/ArcShot/node_modules unbuild passport-local@1.0.0
+471 info postuninstall passport-local@1.0.0
+472 verbose true,/home/jordan/Code/ArcShot/node_modules,/home/jordan/Code/ArcShot/node_modules unbuild method-override@2.3.5
+473 info postuninstall method-override@2.3.5
+474 verbose true,/home/jordan/Code/ArcShot/node_modules,/home/jordan/Code/ArcShot/node_modules unbuild bcrypt-nodejs@0.0.3
+475 info postuninstall bcrypt-nodejs@0.0.3
+476 verbose true,/home/jordan/Code/ArcShot/node_modules,/home/jordan/Code/ArcShot/node_modules unbuild passport-facebook@2.1.0
+477 info postuninstall passport-facebook@2.1.0
+478 verbose true,/home/jordan/Code/ArcShot/node_modules,/home/jordan/Code/ArcShot/node_modules unbuild mongoose@3.6.20
+479 info postuninstall mongoose@3.6.20
+480 info postuninstall jade@1.9.2
+481 verbose tar unpack /home/jordan/.npm/bcrypt-nodejs/0.0.3/package.tgz
+482 silly lockFile 4272b9f9-cShot-node-modules-bcrypt-nodejs tar:///home/jordan/Code/ArcShot/node_modules/bcrypt-nodejs
+483 verbose lock tar:///home/jordan/Code/ArcShot/node_modules/bcrypt-nodejs /home/jordan/.npm/4272b9f9-cShot-node-modules-bcrypt-nodejs.lock
+484 silly lockFile f22b1f6f--bcrypt-nodejs-0-0-3-package-tgz tar:///home/jordan/.npm/bcrypt-nodejs/0.0.3/package.tgz
+485 verbose lock tar:///home/jordan/.npm/bcrypt-nodejs/0.0.3/package.tgz /home/jordan/.npm/f22b1f6f--bcrypt-nodejs-0-0-3-package-tgz.lock
+486 silly gunzTarPerm modes [ '755', '644' ]
+487 verbose tar unpack /home/jordan/.npm/cookie-parser/1.3.5/package.tgz
+488 silly lockFile c67340bd-cShot-node-modules-cookie-parser tar:///home/jordan/Code/ArcShot/node_modules/cookie-parser
+489 verbose lock tar:///home/jordan/Code/ArcShot/node_modules/cookie-parser /home/jordan/.npm/c67340bd-cShot-node-modules-cookie-parser.lock
+490 silly lockFile eb37ee58--cookie-parser-1-3-5-package-tgz tar:///home/jordan/.npm/cookie-parser/1.3.5/package.tgz
+491 verbose lock tar:///home/jordan/.npm/cookie-parser/1.3.5/package.tgz /home/jordan/.npm/eb37ee58--cookie-parser-1-3-5-package-tgz.lock
+492 verbose tar unpack /home/jordan/.npm/debug/2.1.3/package.tgz
+493 silly lockFile 62de7b79--Code-ArcShot-node-modules-debug tar:///home/jordan/Code/ArcShot/node_modules/debug
+494 verbose lock tar:///home/jordan/Code/ArcShot/node_modules/debug /home/jordan/.npm/62de7b79--Code-ArcShot-node-modules-debug.lock
+495 silly lockFile 9e711712-rdan-npm-debug-2-1-3-package-tgz tar:///home/jordan/.npm/debug/2.1.3/package.tgz
+496 verbose lock tar:///home/jordan/.npm/debug/2.1.3/package.tgz /home/jordan/.npm/9e711712-rdan-npm-debug-2-1-3-package-tgz.lock
+497 silly gunzTarPerm extractEntry package.json
+498 silly gunzTarPerm modes [ '755', '644' ]
+499 silly gunzTarPerm modes [ '755', '644' ]
+500 verbose tar unpack /home/jordan/.npm/passport/0.3.2/package.tgz
+501 silly lockFile 98b831fe-de-ArcShot-node-modules-passport tar:///home/jordan/Code/ArcShot/node_modules/passport
+502 verbose lock tar:///home/jordan/Code/ArcShot/node_modules/passport /home/jordan/.npm/98b831fe-de-ArcShot-node-modules-passport.lock
+503 silly lockFile d9ce7fc2-n-npm-passport-0-3-2-package-tgz tar:///home/jordan/.npm/passport/0.3.2/package.tgz
+504 verbose lock tar:///home/jordan/.npm/passport/0.3.2/package.tgz /home/jordan/.npm/d9ce7fc2-n-npm-passport-0-3-2-package-tgz.lock
+505 verbose tar unpack /home/jordan/.npm/passport-local/1.0.0/package.tgz
+506 silly lockFile 690aa889-Shot-node-modules-passport-local tar:///home/jordan/Code/ArcShot/node_modules/passport-local
+507 verbose lock tar:///home/jordan/Code/ArcShot/node_modules/passport-local /home/jordan/.npm/690aa889-Shot-node-modules-passport-local.lock
+508 silly lockFile 6231d37e-passport-local-1-0-0-package-tgz tar:///home/jordan/.npm/passport-local/1.0.0/package.tgz
+509 verbose lock tar:///home/jordan/.npm/passport-local/1.0.0/package.tgz /home/jordan/.npm/6231d37e-passport-local-1-0-0-package-tgz.lock
+510 silly gunzTarPerm extractEntry .npmignore
+511 silly gunzTarPerm extractEntry README.md
+512 info /home/jordan/Code/ArcShot/node_modules/mongoose unbuild
+513 silly gunzTarPerm modes [ '755', '644' ]
+514 silly gunzTarPerm modes [ '755', '644' ]
+515 verbose tar unpack /home/jordan/.npm/method-override/2.3.5/package.tgz
+516 silly lockFile c06c56f8-hot-node-modules-method-override tar:///home/jordan/Code/ArcShot/node_modules/method-override
+517 verbose lock tar:///home/jordan/Code/ArcShot/node_modules/method-override /home/jordan/.npm/c06c56f8-hot-node-modules-method-override.lock
+518 silly lockFile e1bfbaa6-ethod-override-2-3-5-package-tgz tar:///home/jordan/.npm/method-override/2.3.5/package.tgz
+519 verbose lock tar:///home/jordan/.npm/method-override/2.3.5/package.tgz /home/jordan/.npm/e1bfbaa6-ethod-override-2-3-5-package-tgz.lock
+520 verbose tar unpack /home/jordan/.npm/morgan/1.5.3/package.tgz
+521 silly lockFile 3452e273-Code-ArcShot-node-modules-morgan tar:///home/jordan/Code/ArcShot/node_modules/morgan
+522 verbose lock tar:///home/jordan/Code/ArcShot/node_modules/morgan /home/jordan/.npm/3452e273-Code-ArcShot-node-modules-morgan.lock
+523 silly lockFile 8031d298-dan-npm-morgan-1-5-3-package-tgz tar:///home/jordan/.npm/morgan/1.5.3/package.tgz
+524 verbose lock tar:///home/jordan/.npm/morgan/1.5.3/package.tgz /home/jordan/.npm/8031d298-dan-npm-morgan-1-5-3-package-tgz.lock
+525 silly gunzTarPerm extractEntry package.json
+526 silly gunzTarPerm modes [ '755', '644' ]
+527 silly gunzTarPerm modes [ '755', '644' ]
+528 verbose tar unpack /home/jordan/.npm/serve-favicon/2.2.1/package.tgz
+529 silly lockFile dd2ec990-cShot-node-modules-serve-favicon tar:///home/jordan/Code/ArcShot/node_modules/serve-favicon
+530 verbose lock tar:///home/jordan/Code/ArcShot/node_modules/serve-favicon /home/jordan/.npm/dd2ec990-cShot-node-modules-serve-favicon.lock
+531 silly lockFile d755178f--serve-favicon-2-2-1-package-tgz tar:///home/jordan/.npm/serve-favicon/2.2.1/package.tgz
+532 verbose lock tar:///home/jordan/.npm/serve-favicon/2.2.1/package.tgz /home/jordan/.npm/d755178f--serve-favicon-2-2-1-package-tgz.lock
+533 silly gunzTarPerm extractEntry README.md
+534 silly gunzTarPerm extractEntry LICENSE
+535 silly gunzTarPerm extractEntry package.json
+536 silly gunzTarPerm extractEntry package.json
+537 silly gunzTarPerm extractEntry LICENSE
+538 silly gunzTarPerm extractEntry bCrypt.js
+539 silly gunzTarPerm modes [ '755', '644' ]
+540 verbose tar unpack /home/jordan/.npm/express/4.12.4/package.tgz
+541 silly lockFile 1e955cd8-ode-ArcShot-node-modules-express tar:///home/jordan/Code/ArcShot/node_modules/express
+542 verbose lock tar:///home/jordan/Code/ArcShot/node_modules/express /home/jordan/.npm/1e955cd8-ode-ArcShot-node-modules-express.lock
+543 silly lockFile d5640971-n-npm-express-4-12-4-package-tgz tar:///home/jordan/.npm/express/4.12.4/package.tgz
+544 verbose lock tar:///home/jordan/.npm/express/4.12.4/package.tgz /home/jordan/.npm/d5640971-n-npm-express-4-12-4-package-tgz.lock
+545 verbose tar unpack /home/jordan/.npm/body-parser/1.12.4/package.tgz
+546 silly lockFile c27b4d2d-ArcShot-node-modules-body-parser tar:///home/jordan/Code/ArcShot/node_modules/body-parser
+547 verbose lock tar:///home/jordan/Code/ArcShot/node_modules/body-parser /home/jordan/.npm/c27b4d2d-ArcShot-node-modules-body-parser.lock
+548 silly lockFile 8e85902e-m-body-parser-1-12-4-package-tgz tar:///home/jordan/.npm/body-parser/1.12.4/package.tgz
+549 verbose lock tar:///home/jordan/.npm/body-parser/1.12.4/package.tgz /home/jordan/.npm/8e85902e-m-body-parser-1-12-4-package-tgz.lock
+550 silly gunzTarPerm extractEntry LICENSE
+551 silly gunzTarPerm extractEntry lib/authenticator.js
+552 silly gunzTarPerm extractEntry README.md
+553 silly gunzTarPerm extractEntry LICENSE
+554 silly gunzTarPerm extractEntry package.json
+555 silly gunzTarPerm modes [ '755', '644' ]
+556 silly gunzTarPerm modes [ '755', '644' ]
+557 verbose tar unpack /home/jordan/.npm/passport-facebook/2.1.0/package.tgz
+558 silly lockFile 652b236a-t-node-modules-passport-facebook tar:///home/jordan/Code/ArcShot/node_modules/passport-facebook
+559 verbose lock tar:///home/jordan/Code/ArcShot/node_modules/passport-facebook /home/jordan/.npm/652b236a-t-node-modules-passport-facebook.lock
+560 silly lockFile db861692-sport-facebook-2-1-0-package-tgz tar:///home/jordan/.npm/passport-facebook/2.1.0/package.tgz
+561 verbose lock tar:///home/jordan/.npm/passport-facebook/2.1.0/package.tgz /home/jordan/.npm/db861692-sport-facebook-2-1-0-package-tgz.lock
+562 silly gunzTarPerm extractEntry README.md
+563 silly gunzTarPerm extractEntry LICENSE
+564 silly gunzTarPerm extractEntry package.json
+565 silly gunzTarPerm extractEntry index.js
+566 silly gunzTarPerm extractEntry HISTORY.md
+567 silly gunzTarPerm modes [ '755', '644' ]
+568 silly gunzTarPerm extractEntry package.json
+569 silly gunzTarPerm extractEntry README.md
+570 silly gunzTarPerm extractEntry LICENSE
+571 silly gunzTarPerm extractEntry test-async.js
+572 silly gunzTarPerm extractEntry lib/index.js
+573 silly gunzTarPerm extractEntry lib/index.js
+574 silly gunzTarPerm extractEntry lib/strategy.js
+575 error error rolling back Error: EACCES, unlink '/home/jordan/Code/ArcShot/node_modules/mongoose/node_modules/mongodb/node_modules/bson/build/Makefile'
+575 error error rolling back  mongoose@3.6.20 { [Error: EACCES, unlink '/home/jordan/Code/ArcShot/node_modules/mongoose/node_modules/mongodb/node_modules/bson/build/Makefile']
+575 error error rolling back   errno: 3,
+575 error error rolling back   code: 'EACCES',
+575 error error rolling back   path: '/home/jordan/Code/ArcShot/node_modules/mongoose/node_modules/mongodb/node_modules/bson/build/Makefile' }
+576 error Error: EACCES, unlink '/home/jordan/Code/ArcShot/node_modules/mongoose/node_modules/mongodb/node_modules/bson/build/Makefile'
+576 error  { [Error: EACCES, unlink '/home/jordan/Code/ArcShot/node_modules/mongoose/node_modules/mongodb/node_modules/bson/build/Makefile']
+576 error   errno: 3,
+576 error   code: 'EACCES',
+576 error   path: '/home/jordan/Code/ArcShot/node_modules/mongoose/node_modules/mongodb/node_modules/bson/build/Makefile' }
+577 error Please try running this command again as root/Administrator.
+578 error System Linux 3.13.0-37-generic
+579 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "--save" "bcrypt-nodejs" "body-parser" "cookie-parser" "debug" "express" "jade" "method-override" "mongoose" "morgan" "passport" "passport-facebook" "passport-local" "serve-favicon"
+580 error cwd /home/jordan/Code/ArcShot
+581 error node -v v0.10.25
+582 error npm -v 1.3.10
+583 error path /home/jordan/Code/ArcShot/node_modules/mongoose/node_modules/mongodb/node_modules/bson/build/Makefile
+584 error code EACCES
+585 error errno 3
+586 error stack Error: EACCES, unlink '/home/jordan/Code/ArcShot/node_modules/mongoose/node_modules/mongodb/node_modules/bson/build/Makefile'
+587 verbose exit [ 3, true ]
